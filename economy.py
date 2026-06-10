@@ -124,7 +124,7 @@ class MacroManager:
                     paths = find_reachable_paths(
                         cartographer, (factory["col"], factory["row"]),
                         step, obs.southBound, scroll_counter,
-                        getattr(config, "factoryMovePeriod", 2), config, max_depth=15,
+                        getattr(config, "factoryMovePeriod", 2), config, max_depth=10,
                         initial_jump_cd=factory["jump_cd"]
                     )
                     # If no reachable cell has a row strictly higher than current row, we are blocked
@@ -135,11 +135,17 @@ class MacroManager:
         # --- C. Miner ROI Utility ---
         miner_utility = 0.0
         if can_afford(miner_cost):
+            if active_miners == 0:
+                miner_utility = 0.7
             scroll_counter = getattr(obs, "scrollCounter", 4)
             factory_pos = (factory["col"], factory["row"])
             
             # Check all known nodes and evaluate if any are viable and untargeted
             for node in self.remembered_nodes:
+                # Only target nodes on our side of the mirror axis
+                our_side = (node[0] < config.width // 2) if obs.player == 0 else (node[0] >= config.width // 2)
+                if not our_side:
+                    continue
                 # Only target nodes strictly north of the Factory plus a buffer of 3
                 if node[1] < factory_pos[1] + 3:
                     continue

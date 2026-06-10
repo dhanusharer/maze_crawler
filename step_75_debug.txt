@@ -1,0 +1,1334 @@
+--- [Step 73 | Player 0] ---
+southBound: 7
+Robots:
+  Factory 0-0 at (1,10) owner: 0 energy: 471 move_cd: 1 jump_cd: 0
+  Miner 37-6 at (3,7) owner: 0 energy: 265 move_cd: 2 jump_cd: 0
+  Scout 48-8 at (0,7) owner: 0 energy: 26 move_cd: 1 jump_cd: 0
+  Scout 61-1 at (1,9) owner: 0 energy: 39 move_cd: 0 jump_cd: 0
+Factory action: IDLE
+All actions: {'61-10': 'SOUTH'}
+DEBUG_FACTORY: Step 73 pos: (19,10) target: (15, 11) path: [(18, 9), (18, 8), (17, 8), (15, 8), (15, 9), (15, 10), (15, 11)] jump_cd: 0 action: JUMP_NORTH
+DEBUG_MINER: Step 73 uid: 37-7 pos: (16,7) energy: 265 target: None path: None action: None
+DEBUG_SCOUT: Step 73 uid: 48-9 pos: (19,7) energy: 26 target: None path: None
+DEBUG_SCOUT: Step 73 uid: 61-1 pos: (19,11) energy: 39 target: (17, 8) path: [(19, 9), (18, 9), (18, 8), (17, 8)]
+
+--- [Step 73 | Player 1] ---
+southBound: 7
+Robots:
+  Factory 0-1 at (19,10) owner: 1 energy: 471 move_cd: 0 jump_cd: 0
+  Miner 37-7 at (16,7) owner: 1 energy: 265 move_cd: 2 jump_cd: 0
+  Scout 48-9 at (19,7) owner: 1 energy: 26 move_cd: 1 jump_cd: 0
+  Scout 61-1 at (19,11) owner: 1 energy: 39 move_cd: 0 jump_cd: 0
+Factory action: JUMP_NORTH
+All actions: {'0-1': 'JUMP_NORTH', '61-11': 'SOUTH'}
+DEBUG_FACTORY: Step 74 pos: (1,10) target: (3, 22) path: [(2, 10), (2, 11), (3, 11), (3, 12), (3, 13), (3, 14), (3, 15), (3, 16), (3, 17), (3, 18), (3, 19), (3, 20), (3, 22)] jump_cd: 0 action: JUMP_EAST
+DEBUG_MINER: Step 74 uid: 37-6 pos: (3,7) energy: 264 target: None path: None action: None
+DEBUG_SCOUT: Step 74 uid: 48-8 pos: (0,7) energy: 25 target: None path: None
+DEBUG_SCOUT: Step 74 uid: 61-1 pos: (1,8) energy: 38 target: (9, 9) path: [(2, 8), (3, 8), (3, 9), (2, 9), (2, 10), (2, 11), (3, 11), (3, 12), (4, 12), (5, 12), (5, 11), (6, 11), (6, 10), (6, 9), (7, 9), (8, 9), (9, 9)]
+
+--- [Step 74 | Player 0] ---
+southBound: 7
+Robots:
+  Factory 0-0 at (1,10) owner: 0 energy: 470 move_cd: 0 jump_cd: 0
+  Miner 37-6 at (3,7) owner: 0 energy: 264 move_cd: 1 jump_cd: 0
+  Scout 48-8 at (0,7) owner: 0 energy: 25 move_cd: 0 jump_cd: 0
+  Scout 61-1 at (1,8) owner: 0 energy: 38 move_cd: 1 jump_cd: 0
+Factory action: JUMP_EAST
+All actions: {'0-0': 'JUMP_EAST', '48-8': 'EAST'}
+DEBUG_FACTORY: Step 74 pos: (19,12) target: (15, 11) path: [(18, 9), (18, 8), (17, 8), (15, 8), (15, 9), (15, 10), (15, 11)] jump_cd: 20 action: None
+DEBUG_MINER: Step 74 uid: 37-7 pos: (16,7) energy: 264 target: None path: None action: None
+DEBUG_SCOUT: Step 74 uid: 48-9 pos: (19,7) energy: 25 target: None path: None
+DEBUG_SCOUT: Step 74 uid: 61-1 pos: (19,10) energy: 38 target: (17, 8) path: [(19, 9), (18, 9), (18, 8), (17, 8)]
+
+--- [Step 74 | Player 1] ---
+southBound: 7
+Robots:
+  Factory 0-1 at (19,12) owner: 1 energy: 470 move_cd: 2 jump_cd: 20
+  Miner 37-7 at (16,7) owner: 1 energy: 264 move_cd: 1 jump_cd: 0
+  Scout 48-9 at (19,7) owner: 1 energy: 25 move_cd: 0 jump_cd: 0
+  Scout 61-1 at (19,10) owner: 1 energy: 38 move_cd: 1 jump_cd: 0
+Factory action: IDLE
+All actions: {'48-9': 'WEST'}
+DEBUG_FACTORY: Step 75 pos: (3,10) target: (3, 22) path: [(2, 10), (2, 11), (3, 11), (3, 12), (3, 13), (3, 14), (3, 15), (3, 16), (3, 17), (3, 18), (3, 19), (3, 20), (3, 22)] jump_cd: 20 action: None
+DEBUG_SCOUT: Step 75 uid: 61-1 pos: (1,8) energy: 37 target: (9, 9) path: [(3, 8), (3, 9), (2, 9), (2, 10), (2, 11), (3, 11), (3, 12), (4, 12), (5, 12), (5, 11), (6, 11), (6, 10), (6, 9), (7, 9), (8, 9), (9, 9)]
+
+--- [Step 75 | Player 0] ---
+southBound: 8
+Robots:
+  Factory 0-0 at (3,10) owner: 0 energy: 469 move_cd: 2 jump_cd: 20
+  Scout 61-1 at (1,8) owner: 0 energy: 37 move_cd: 0 jump_cd: 0
+Factory action: IDLE
+All actions: {'61-10': 'EAST'}
+DEBUG_FACTORY: Step 75 pos: (19,12) target: (15, 11) path: [(18, 9), (18, 8), (17, 8), (15, 8), (15, 9), (15, 10), (15, 11)] jump_cd: 19 action: None
+DEBUG_SCOUT: Step 75 uid: 61-1 pos: (19,10) energy: 37 target: (17, 8) path: [(18, 9), (18, 8), (17, 8)]
+
+--- [Step 75 | Player 1] ---
+southBound: 8
+Robots:
+  Factory 0-1 at (19,12) owner: 1 energy: 469 move_cd: 1 jump_cd: 19
+  Scout 61-1 at (19,10) owner: 1 energy: 37 move_cd: 0 jump_cd: 0
+Factory action: IDLE
+All actions: {'61-11': 'SOUTH'}
+DEBUG_FACTORY: Step 76 pos: (3,10) target: (3, 22) path: [(2, 10), (2, 11), (3, 11), (3, 12), (3, 13), (3, 14), (3, 15), (3, 16), (3, 17), (3, 18), (3, 19), (3, 20), (3, 22)] jump_cd: 19 action: None
+DEBUG_SCOUT: Step 76 uid: 61-1 pos: (2,8) energy: 71 target: (9, 9) path: [(3, 8), (3, 9), (2, 9), (2, 10), (2, 11), (3, 11), (3, 12), (4, 12), (5, 12), (5, 11), (6, 11), (6, 10), (6, 9), (7, 9), (8, 9), (9, 9)]
+DEBUG_FACTORY: Step 76 pos: (19,12) target: (15, 11) path: [(18, 9), (18, 8), (17, 8), (15, 8), (15, 9), (15, 10), (15, 11)] jump_cd: 18 action: BUILD_SCOUT_SOUTH
+DEBUG_SCOUT: Step 76 uid: 61-1 pos: (19,9) energy: 36 target: (17, 8) path: [(18, 9), (18, 8), (17, 8)]
+DEBUG_FACTORY: Step 77 pos: (3,10) target: (3, 22) path: [(2, 10), (2, 11), (3, 11), (3, 12), (3, 13), (3, 14), (3, 15), (3, 16), (3, 17), (3, 18), (3, 19), (3, 20), (3, 22)] jump_cd: 18 action: BUILD_SCOUT_WEST
+DEBUG_SCOUT: Step 77 uid: 61-1 pos: (2,8) energy: 70 target: (9, 9) path: [(3, 9), (2, 9), (2, 10), (2, 11), (3, 11), (3, 12), (4, 12), (5, 12), (5, 11), (6, 11), (6, 10), (6, 9), (7, 9), (8, 9), (9, 9)]
+DEBUG_FACTORY: Step 77 pos: (19,12) target: (15, 11) path: None jump_cd: 17 action: IDLE
+DEBUG_SCOUT: Step 77 uid: 61-1 pos: (19,9) energy: 35 target: (17, 8) path: [(18, 8), (17, 8)]
+DEBUG_SCOUT: Step 77 uid: 76-1 pos: (19,11) energy: 50 target: None path: None
+DEBUG_FACTORY: Step 78 pos: (3,10) target: (3, 22) path: None jump_cd: 17 action: IDLE
+DEBUG_SCOUT: Step 78 uid: 61-1 pos: (3,8) energy: 69 target: (9, 9) path: [(3, 9), (2, 9), (2, 10), (2, 11), (3, 11), (3, 12), (4, 12), (5, 12), (5, 11), (6, 11), (6, 10), (6, 9), (7, 9), (8, 9), (9, 9)]
+DEBUG_SCOUT: Step 78 uid: 77-1 pos: (2,10) energy: 50 target: None path: None
+DEBUG_FACTORY: Step 78 pos: (19,12) target: (15, 11) path: None jump_cd: 16 action: IDLE
+DEBUG_SCOUT: Step 78 uid: 61-1 pos: (18,9) energy: 34 target: (17, 8) path: [(18, 8), (17, 8)]
+DEBUG_SCOUT: Step 78 uid: 76-1 pos: (19,11) energy: 49 target: (18, 12) path: [(18, 12)]
+DEBUG_FACTORY: Step 79 pos: (3,10) target: (3, 22) path: None jump_cd: 16 action: IDLE
+DEBUG_SCOUT: Step 79 uid: 61-1 pos: (3,8) energy: 68 target: (9, 9) path: [(2, 9), (2, 10), (2, 11), (3, 11), (3, 12), (4, 12), (5, 12), (5, 11), (6, 11), (6, 10), (6, 9), (7, 9), (8, 9), (9, 9)]
+DEBUG_SCOUT: Step 79 uid: 77-1 pos: (2,10) energy: 49 target: (9, 10) path: [(3, 11), (3, 12), (4, 12), (4, 13), (5, 13), (6, 13), (6, 12), (7, 12), (7, 11), (7, 10), (8, 10), (9, 10)]
+DEBUG_FACTORY: Step 79 pos: (19,12) target: (18, 19) path: [(19, 12), (19, 11), (19, 12), (19, 11), (19, 12), (19, 11), (19, 12), (19, 14), (19, 15), (18, 15), (18, 16), (18, 17), (18, 18), (18, 19)] jump_cd: 15 action: SOUTH
+DEBUG_SCOUT: Step 79 uid: 61-1 pos: (18,9) energy: 33 target: (17, 8) path: [(17, 8)]
+DEBUG_SCOUT: Step 79 uid: 76-1 pos: (18,11) energy: 48 target: (18, 12) path: [(18, 12)]
+DEBUG_FACTORY: Step 80 pos: (3,10) target: (2, 23) path: [(2, 11), (2, 12), (2, 13), (1, 13), (1, 14), (2, 14), (2, 15), (2, 16), (2, 17), (2, 18), (2, 19), (2, 20), (2, 21), (2, 23)] jump_cd: 15 action: WEST
+DEBUG_SCOUT: Step 80 uid: 61-1 pos: (3,9) energy: 67 target: (9, 9) path: [(2, 9), (2, 10), (2, 11), (3, 11), (3, 12), (4, 12), (5, 12), (5, 11), (6, 11), (6, 10), (6, 9), (7, 9), (8, 9), (9, 9)]
+DEBUG_SCOUT: Step 80 uid: 77-1 pos: (2,11) energy: 48 target: (9, 10) path: [(3, 11), (3, 12), (4, 12), (4, 13), (5, 13), (6, 13), (6, 12), (7, 12), (7, 11), (7, 10), (8, 10), (9, 10)]
+DEBUG_FACTORY: Step 80 pos: (19,11) target: (18, 19) path: [(19, 12), (19, 11), (19, 12), (19, 11), (19, 12), (19, 11), (19, 12), (19, 14), (19, 15), (18, 15), (18, 16), (18, 17), (18, 18), (18, 19)] jump_cd: 14 action: None
+DEBUG_SCOUT: Step 80 uid: 61-1 pos: (18,8) energy: 32 target: (17, 8) path: [(17, 8)]
+DEBUG_SCOUT: Step 80 uid: 76-1 pos: (18,11) energy: 47 target: (18, 12) path: []
+DEBUG_FACTORY: Step 81 pos: (2,10) target: (2, 23) path: [(2, 11), (2, 12), (2, 13), (1, 13), (1, 14), (2, 14), (2, 15), (2, 16), (2, 17), (2, 18), (2, 19), (2, 20), (2, 21), (2, 23)] jump_cd: 14 action: None
+DEBUG_SCOUT: Step 81 uid: 61-1 pos: (3,9) energy: 66 target: (9, 9) path: [(2, 10), (2, 11), (3, 11), (3, 12), (4, 12), (5, 12), (5, 11), (6, 11), (6, 10), (6, 9), (7, 9), (8, 9), (9, 9)]
+DEBUG_SCOUT: Step 81 uid: 77-1 pos: (2,11) energy: 47 target: (9, 10) path: [(3, 12), (4, 12), (4, 13), (5, 13), (6, 13), (6, 12), (7, 12), (7, 11), (7, 10), (8, 10), (9, 10)]
+DEBUG_FACTORY: Step 81 pos: (19,11) target: (18, 19) path: [(19, 12), (19, 11), (19, 12), (19, 11), (19, 12), (19, 11), (19, 12), (19, 14), (19, 15), (18, 15), (18, 16), (18, 17), (18, 18), (18, 19)] jump_cd: 13 action: None
+DEBUG_SCOUT: Step 81 uid: 61-1 pos: (18,8) energy: 31 target: (17, 8) path: []
+DEBUG_SCOUT: Step 81 uid: 76-1 pos: (18,12) energy: 46 target: (18, 12) path: []
+DEBUG_FACTORY: Step 82 pos: (2,10) target: (2, 23) path: [(2, 11), (2, 12), (2, 13), (1, 13), (1, 14), (2, 14), (2, 15), (2, 16), (2, 17), (2, 18), (2, 19), (2, 20), (2, 21), (2, 23)] jump_cd: 13 action: None
+DEBUG_SCOUT: Step 82 uid: 61-1 pos: (2,9) energy: 65 target: (9, 9) path: [(2, 10), (2, 11), (3, 11), (3, 12), (4, 12), (5, 12), (5, 11), (6, 11), (6, 10), (6, 9), (7, 9), (8, 9), (9, 9)]
+DEBUG_SCOUT: Step 82 uid: 77-1 pos: (3,11) energy: 46 target: (9, 10) path: [(3, 12), (4, 12), (4, 13), (5, 13), (6, 13), (6, 12), (7, 12), (7, 11), (7, 10), (8, 10), (9, 10)]
+DEBUG_FACTORY: Step 82 pos: (19,11) target: (18, 19) path: [(19, 11), (19, 12), (19, 11), (19, 12), (19, 11), (19, 12), (19, 14), (19, 15), (18, 15), (18, 16), (18, 17), (18, 18), (18, 19)] jump_cd: 12 action: NORTH
+DEBUG_SCOUT: Step 82 uid: 61-1 pos: (17,8) energy: 65 target: (17, 8) path: []
+DEBUG_SCOUT: Step 82 uid: 76-1 pos: (18,12) energy: 45 target: (18, 12) path: None
+DEBUG_FACTORY: Step 83 pos: (2,10) target: (2, 23) path: [(2, 12), (2, 13), (1, 13), (1, 14), (2, 14), (2, 15), (2, 16), (2, 17), (2, 18), (2, 19), (2, 20), (2, 21), (2, 23)] jump_cd: 12 action: NORTH
+DEBUG_SCOUT: Step 83 uid: 61-1 pos: (2,9) energy: 64 target: (9, 9) path: [(2, 11), (3, 11), (3, 12), (4, 12), (5, 12), (5, 11), (6, 11), (6, 10), (6, 9), (7, 9), (8, 9), (9, 9)]
+DEBUG_SCOUT: Step 83 uid: 77-1 pos: (3,11) energy: 45 target: (9, 10) path: [(4, 12), (4, 13), (5, 13), (6, 13), (6, 12), (7, 12), (7, 11), (7, 10), (8, 10), (9, 10)]
+DEBUG_FACTORY: Step 83 pos: (19,12) target: (18, 19) path: [(19, 11), (19, 12), (19, 11), (19, 12), (19, 11), (19, 12), (19, 14), (19, 15), (18, 15), (18, 16), (18, 17), (18, 18), (18, 19)] jump_cd: 11 action: None
+DEBUG_SCOUT: Step 83 uid: 61-1 pos: (17,8) energy: 64 target: (17, 19) path: [(16, 9), (17, 9), (17, 10), (17, 11), (17, 12), (17, 13), (18, 13), (18, 14), (17, 14), (17, 15), (17, 16), (17, 17), (17, 18), (17, 19)]
+DEBUG_SCOUT: Step 83 uid: 76-1 pos: (18,12) energy: 44 target: (18, 12) path: None
+DEBUG_FACTORY: Step 84 pos: (2,11) target: (2, 23) path: [(2, 12), (2, 13), (1, 13), (1, 14), (2, 14), (2, 15), (2, 16), (2, 17), (2, 18), (2, 19), (2, 20), (2, 21), (2, 23)] jump_cd: 11 action: None
+DEBUG_SCOUT: Step 84 uid: 61-1 pos: (2,10) energy: 63 target: (9, 9) path: [(2, 11), (3, 11), (3, 12), (4, 12), (5, 12), (5, 11), (6, 11), (6, 10), (6, 9), (7, 9), (8, 9), (9, 9)]
+DEBUG_SCOUT: Step 84 uid: 77-1 pos: (3,12) energy: 44 target: (9, 10) path: [(4, 12), (4, 13), (5, 13), (6, 13), (6, 12), (7, 12), (7, 11), (7, 10), (8, 10), (9, 10)]
+DEBUG_FACTORY: Step 84 pos: (19,12) target: (18, 19) path: [(19, 11), (19, 12), (19, 11), (19, 12), (19, 11), (19, 12), (19, 14), (19, 15), (18, 15), (18, 16), (18, 17), (18, 18), (18, 19)] jump_cd: 10 action: None
+DEBUG_SCOUT: Step 84 uid: 76-1 pos: (18,12) energy: 43 target: (18, 12) path: None
+DEBUG_FACTORY: Step 85 pos: (2,11) target: (2, 23) path: [(2, 12), (2, 13), (1, 13), (1, 14), (2, 14), (2, 15), (2, 16), (2, 17), (2, 18), (2, 19), (2, 20), (2, 21), (2, 23)] jump_cd: 10 action: None
+DEBUG_SCOUT: Step 85 uid: 61-1 pos: (2,10) energy: 62 target: (9, 9) path: None
+DEBUG_SCOUT: Step 85 uid: 77-1 pos: (3,12) energy: 43 target: (9, 10) path: [(4, 13), (5, 13), (6, 13), (6, 12), (7, 12), (7, 11), (7, 10), (8, 10), (9, 10)]
+DEBUG_FACTORY: Step 85 pos: (19,12) target: (17, 22) path: [(19, 11), (19, 12), (19, 11), (18, 11), (18, 12), (18, 14), (17, 14), (17, 15), (17, 16), (17, 17), (17, 18), (17, 19), (17, 20), (17, 21), (17, 22)] jump_cd: 9 action: None
+DEBUG_SCOUT: Step 85 uid: 76-1 pos: (18,12) energy: 42 target: (18, 12) path: None
+DEBUG_FACTORY: Step 86 pos: (2,11) target: (2, 23) path: [(2, 13), (1, 13), (1, 14), (2, 14), (2, 15), (2, 16), (2, 17), (2, 18), (2, 19), (2, 20), (2, 21), (2, 23)] jump_cd: 9 action: NORTH
+DEBUG_SCOUT: Step 86 uid: 61-1 pos: (3,10) energy: 61 target: (9, 9) path: None
+DEBUG_SCOUT: Step 86 uid: 77-1 pos: (4,12) energy: 42 target: (9, 10) path: [(4, 13), (5, 13), (6, 13), (6, 12), (7, 12), (7, 11), (7, 10), (8, 10), (9, 10)]
+DEBUG_FACTORY: Step 86 pos: (19,12) target: (18, 23) path: [(19, 11), (19, 12), (19, 11), (19, 12), (19, 14), (19, 15), (18, 15), (18, 16), (18, 17), (18, 18), (18, 19), (18, 20), (18, 21), (18, 22), (18, 23)] jump_cd: 8 action: None
+DEBUG_SCOUT: Step 86 uid: 76-1 pos: (18,12) energy: 41 target: (18, 12) path: None
+DEBUG_FACTORY: Step 87 pos: (2,12) target: (2, 23) path: [(2, 13), (1, 13), (1, 14), (2, 14), (2, 15), (2, 16), (2, 17), (2, 18), (2, 19), (2, 20), (2, 21), (2, 23)] jump_cd: 8 action: None
+DEBUG_SCOUT: Step 87 uid: 61-1 pos: (3,10) energy: 60 target: (9, 28) path: [(2, 11), (3, 11), (3, 12), (4, 12), (4, 13), (5, 13), (5, 14), (5, 15), (6, 15), (6, 16), (6, 17), (6, 18), (6, 19), (6, 20), (6, 21), (6, 22), (6, 23), (6, 24), (6, 25), (6, 26), (6, 27), (6, 28), (7, 28), (8, 28), (9, 28)]
+DEBUG_SCOUT: Step 87 uid: 77-1 pos: (4,12) energy: 41 target: (9, 10) path: [(5, 13), (6, 13), (6, 12), (7, 12), (7, 11), (7, 10), (8, 10), (9, 10)]
+DEBUG_FACTORY: Step 87 pos: (19,12) target: (18, 23) path: [(19, 11), (19, 12), (19, 11), (19, 12), (19, 14), (19, 15), (18, 15), (18, 16), (18, 17), (18, 18), (18, 19), (18, 20), (18, 21), (18, 22), (18, 23)] jump_cd: 7 action: BUILD_SCOUT_SOUTH
+DEBUG_SCOUT: Step 87 uid: 76-1 pos: (18,12) energy: 40 target: (18, 12) path: None
+DEBUG_FACTORY: Step 88 pos: (2,12) target: (2, 23) path: [(2, 13), (1, 13), (1, 14), (2, 14), (2, 15), (2, 16), (2, 17), (2, 18), (2, 19), (2, 20), (2, 21), (2, 23)] jump_cd: 7 action: None
+DEBUG_SCOUT: Step 88 uid: 61-1 pos: (2,10) energy: 59 target: (9, 28) path: [(2, 11), (3, 11), (3, 12), (4, 12), (4, 13), (5, 13), (5, 14), (5, 15), (6, 15), (6, 16), (6, 17), (6, 18), (6, 19), (6, 20), (6, 21), (6, 22), (6, 23), (6, 24), (6, 25), (6, 26), (6, 27), (6, 28), (7, 28), (8, 28), (9, 28)]
+DEBUG_SCOUT: Step 88 uid: 77-1 pos: (4,13) energy: 40 target: (9, 10) path: [(5, 13), (6, 13), (6, 12), (7, 12), (7, 11), (7, 10), (8, 10), (9, 10)]
+DEBUG_FACTORY: Step 88 pos: (19,12) target: (18, 23) path: None jump_cd: 6 action: IDLE
+DEBUG_SCOUT: Step 88 uid: 76-1 pos: (18,12) energy: 39 target: (18, 12) path: None
+DEBUG_SCOUT: Step 88 uid: 87-1 pos: (19,11) energy: 50 target: None path: None
+DEBUG_FACTORY: Step 89 pos: (2,12) target: (2, 23) path: [(1, 13), (1, 14), (2, 14), (2, 15), (2, 16), (2, 17), (2, 18), (2, 19), (2, 20), (2, 21), (2, 23)] jump_cd: 6 action: NORTH
+DEBUG_SCOUT: Step 89 uid: 61-1 pos: (2,10) energy: 58 target: (9, 28) path: [(3, 11), (3, 12), (4, 12), (4, 13), (5, 13), (5, 14), (5, 15), (6, 15), (6, 16), (6, 17), (6, 18), (6, 19), (6, 20), (6, 21), (6, 22), (6, 23), (6, 24), (6, 25), (6, 26), (6, 27), (6, 28), (7, 28), (8, 28), (9, 28)]
+DEBUG_SCOUT: Step 89 uid: 77-1 pos: (4,13) energy: 39 target: (9, 10) path: [(6, 13), (6, 12), (7, 12), (7, 11), (7, 10), (8, 10), (9, 10)]
+DEBUG_FACTORY: Step 89 pos: (19,12) target: (18, 23) path: None jump_cd: 5 action: IDLE
+DEBUG_SCOUT: Step 89 uid: 76-1 pos: (18,12) energy: 38 target: (18, 12) path: None
+DEBUG_SCOUT: Step 89 uid: 87-1 pos: (19,11) energy: 49 target: (18, 12) path: [(18, 12)]
+DEBUG_FACTORY: Step 90 pos: (2,13) target: (2, 23) path: [(1, 13), (1, 14), (2, 14), (2, 15), (2, 16), (2, 17), (2, 18), (2, 19), (2, 20), (2, 21), (2, 23)] jump_cd: 5 action: None
+DEBUG_SCOUT: Step 90 uid: 61-1 pos: (2,11) energy: 57 target: (9, 28) path: [(3, 11), (3, 12), (4, 12), (4, 13), (5, 13), (5, 14), (5, 15), (6, 15), (6, 16), (6, 17), (6, 18), (6, 19), (6, 20), (6, 21), (6, 22), (6, 23), (6, 24), (6, 25), (6, 26), (6, 27), (6, 28), (7, 28), (8, 28), (9, 28)]
+DEBUG_SCOUT: Step 90 uid: 77-1 pos: (5,13) energy: 38 target: (9, 10) path: [(6, 13), (6, 12), (7, 12), (7, 11), (7, 10), (8, 10), (9, 10)]
+DEBUG_FACTORY: Step 90 pos: (19,12) target: (18, 26) path: [(19, 11), (19, 12), (19, 14), (19, 15), (18, 15), (18, 16), (18, 17), (18, 18), (18, 19), (18, 20), (18, 21), (18, 22), (18, 23), (18, 24), (18, 26)] jump_cd: 4 action: None
+DEBUG_SCOUT: Step 90 uid: 76-1 pos: (18,12) energy: 37 target: (18, 12) path: None
+DEBUG_SCOUT: Step 90 uid: 87-1 pos: (18,11) energy: 48 target: (18, 12) path: [(18, 12)]
+DEBUG_FACTORY: Step 91 pos: (2,13) target: (2, 23) path: [(1, 13), (1, 14), (2, 14), (2, 15), (2, 16), (2, 17), (2, 18), (2, 19), (2, 20), (2, 21), (2, 23)] jump_cd: 4 action: None
+DEBUG_SCOUT: Step 91 uid: 61-1 pos: (2,11) energy: 56 target: (9, 28) path: [(3, 12), (4, 12), (4, 13), (5, 13), (5, 14), (5, 15), (6, 15), (6, 16), (6, 17), (6, 18), (6, 19), (6, 20), (6, 21), (6, 22), (6, 23), (6, 24), (6, 25), (6, 26), (6, 27), (6, 28), (7, 28), (8, 28), (9, 28)]
+DEBUG_SCOUT: Step 91 uid: 77-1 pos: (5,13) energy: 37 target: (9, 10) path: [(6, 12), (7, 12), (7, 11), (7, 10), (8, 10), (9, 10)]
+DEBUG_FACTORY: Step 91 pos: (19,12) target: (18, 26) path: [(19, 11), (19, 12), (19, 14), (19, 15), (18, 15), (18, 16), (18, 17), (18, 18), (18, 19), (18, 20), (18, 21), (18, 22), (18, 23), (18, 24), (18, 26)] jump_cd: 3 action: None
+DEBUG_SCOUT: Step 91 uid: 76-1 pos: (18,12) energy: 36 target: (18, 12) path: None
+DEBUG_SCOUT: Step 91 uid: 87-1 pos: (18,11) energy: 47 target: (19, 12) path: [(19, 12)]
+DEBUG_FACTORY: Step 92 pos: (2,13) target: (2, 23) path: [(1, 13), (1, 14), (2, 14), (2, 15), (2, 16), (2, 17), (2, 18), (2, 19), (2, 20), (2, 21), (2, 23)] jump_cd: 3 action: BUILD_MINER_WEST
+DEBUG_SCOUT: Step 92 uid: 61-1 pos: (3,11) energy: 55 target: (9, 28) path: [(3, 12), (4, 12), (4, 13), (5, 13), (5, 14), (5, 15), (6, 15), (6, 16), (6, 17), (6, 18), (6, 19), (6, 20), (6, 21), (6, 22), (6, 23), (6, 24), (6, 25), (6, 26), (6, 27), (6, 28), (7, 28), (8, 28), (9, 28)]
+DEBUG_SCOUT: Step 92 uid: 77-1 pos: (6,13) energy: 72 target: (9, 10) path: [(6, 12), (7, 12), (7, 11), (7, 10), (8, 10), (9, 10)]
+DEBUG_FACTORY: Step 92 pos: (19,12) target: (18, 26) path: None jump_cd: 2 action: IDLE
+DEBUG_SCOUT: Step 92 uid: 76-1 pos: (18,12) energy: 35 target: (18, 12) path: None
+DEBUG_SCOUT: Step 92 uid: 87-1 pos: (19,11) energy: 46 target: (19, 12) path: [(19, 12)]
+DEBUG_FACTORY: Step 93 pos: (2,13) target: (8, 14) path: [(2, 12), (2, 13), (4, 13), (5, 13), (5, 14), (5, 15), (6, 15), (7, 15), (8, 15), (8, 14)] jump_cd: 2 action: None
+DEBUG_SCOUT: Step 93 uid: 61-1 pos: (3,11) energy: 54 target: (9, 28) path: [(4, 12), (4, 13), (5, 13), (5, 14), (5, 15), (6, 15), (6, 16), (6, 17), (6, 18), (6, 19), (6, 20), (6, 21), (6, 22), (6, 23), (6, 24), (6, 25), (6, 26), (6, 27), (6, 28), (7, 28), (8, 28), (9, 28)]
+DEBUG_SCOUT: Step 93 uid: 77-1 pos: (6,13) energy: 71 target: (9, 28) path: [(5, 14), (5, 15), (6, 15), (6, 16), (7, 16), (7, 17), (7, 18), (7, 19), (7, 20), (7, 21), (7, 22), (7, 23), (7, 24), (7, 25), (7, 26), (7, 27), (7, 28), (8, 28), (9, 28)]
+DEBUG_MINER: Step 93 uid: 92-1 pos: (1,13) energy: 300 target: None path: None action: None
+DEBUG_FACTORY: Step 93 pos: (19,12) target: (18, 26) path: None jump_cd: 1 action: IDLE
+DEBUG_SCOUT: Step 93 uid: 76-1 pos: (18,12) energy: 34 target: (18, 12) path: None
+DEBUG_SCOUT: Step 93 uid: 87-1 pos: (19,11) energy: 45 target: (18, 12) path: [(18, 12)]
+DEBUG_FACTORY: Step 94 pos: (2,13) target: (8, 14) path: [(2, 12), (2, 13), (4, 13), (5, 13), (5, 14), (5, 15), (6, 15), (7, 15), (8, 15), (8, 14)] jump_cd: 1 action: None
+DEBUG_SCOUT: Step 94 uid: 61-1 pos: (3,12) energy: 53 target: (9, 28) path: [(4, 12), (4, 13), (5, 13), (5, 14), (5, 15), (6, 15), (6, 16), (6, 17), (6, 18), (6, 19), (6, 20), (6, 21), (6, 22), (6, 23), (6, 24), (6, 25), (6, 26), (6, 27), (6, 28), (7, 28), (8, 28), (9, 28)]
+DEBUG_SCOUT: Step 94 uid: 77-1 pos: (5,13) energy: 70 target: (9, 28) path: [(5, 14), (5, 15), (6, 15), (6, 16), (7, 16), (7, 17), (7, 18), (7, 19), (7, 20), (7, 21), (7, 22), (7, 23), (7, 24), (7, 25), (7, 26), (7, 27), (7, 28), (8, 28), (9, 28)]
+DEBUG_MINER: Step 94 uid: 92-1 pos: (1,13) energy: 299 target: None path: None action: None
+DEBUG_FACTORY: Step 94 pos: (19,12) target: (18, 28) path: [(19, 15), (18, 15), (18, 16), (18, 17), (18, 18), (18, 19), (18, 20), (18, 21), (18, 22), (18, 23), (18, 24), (18, 25), (18, 26), (18, 28)] jump_cd: 0 action: JUMP_NORTH
+DEBUG_SCOUT: Step 94 uid: 76-1 pos: (18,12) energy: 33 target: (18, 12) path: None
+DEBUG_SCOUT: Step 94 uid: 87-1 pos: (18,11) energy: 44 target: (18, 12) path: [(18, 12)]
+DEBUG_FACTORY: Step 95 pos: (2,13) target: (8, 14) path: [(2, 13), (4, 13), (5, 13), (5, 14), (5, 15), (6, 15), (7, 15), (8, 15), (8, 14)] jump_cd: 0 action: JUMP_NORTH
+DEBUG_SCOUT: Step 95 uid: 61-1 pos: (3,12) energy: 52 target: (9, 28) path: [(4, 13), (5, 13), (5, 14), (5, 15), (6, 15), (6, 16), (6, 17), (6, 18), (6, 19), (6, 20), (6, 21), (6, 22), (6, 23), (6, 24), (6, 25), (6, 26), (6, 27), (6, 28), (7, 28), (8, 28), (9, 28)]
+DEBUG_SCOUT: Step 95 uid: 77-1 pos: (5,13) energy: 69 target: (9, 28) path: [(5, 15), (6, 15), (6, 16), (7, 16), (7, 17), (7, 18), (7, 19), (7, 20), (7, 21), (7, 22), (7, 23), (7, 24), (7, 25), (7, 26), (7, 27), (7, 28), (8, 28), (9, 28)]
+DEBUG_MINER: Step 95 uid: 92-1 pos: (1,13) energy: 298 target: None path: [(0, 14), (0, 15), (0, 16), (0, 17), (0, 18), (1, 18), (2, 18), (3, 18), (4, 18), (4, 17), (5, 17), (5, 18)] action: WEST
+DEBUG_FACTORY: Step 95 pos: (19,14) target: (18, 28) path: [(19, 15), (18, 15), (18, 16), (18, 17), (18, 18), (18, 19), (18, 20), (18, 21), (18, 22), (18, 23), (18, 24), (18, 25), (18, 26), (18, 28)] jump_cd: 20 action: None
+DEBUG_SCOUT: Step 95 uid: 76-1 pos: (18,12) energy: 32 target: (18, 12) path: None
+DEBUG_SCOUT: Step 95 uid: 87-1 pos: (18,11) energy: 43 target: (19, 12) path: [(19, 12)]
+DEBUG_FACTORY: Step 96 pos: (2,15) target: (8, 14) path: [(2, 13), (4, 13), (5, 13), (5, 14), (5, 15), (6, 15), (7, 15), (8, 15), (8, 14)] jump_cd: 20 action: None
+DEBUG_SCOUT: Step 96 uid: 61-1 pos: (4,12) energy: 51 target: (9, 28) path: [(4, 13), (5, 13), (5, 14), (5, 15), (6, 15), (6, 16), (6, 17), (6, 18), (6, 19), (6, 20), (6, 21), (6, 22), (6, 23), (6, 24), (6, 25), (6, 26), (6, 27), (6, 28), (7, 28), (8, 28), (9, 28)]
+DEBUG_SCOUT: Step 96 uid: 77-1 pos: (5,14) energy: 68 target: (9, 28) path: [(5, 15), (6, 15), (6, 16), (7, 16), (7, 17), (7, 18), (7, 19), (7, 20), (7, 21), (7, 22), (7, 23), (7, 24), (7, 25), (7, 26), (7, 27), (7, 28), (8, 28), (9, 28)]
+DEBUG_MINER: Step 96 uid: 92-1 pos: (0,13) energy: 297 target: None path: [(0, 14), (0, 15), (0, 16), (0, 17), (0, 18), (1, 18), (2, 18), (3, 18), (4, 18), (4, 17), (5, 17), (5, 18)] action: None
+DEBUG_FACTORY: Step 96 pos: (19,14) target: (18, 28) path: [(19, 15), (18, 15), (18, 16), (18, 17), (18, 18), (18, 19), (18, 20), (18, 21), (18, 22), (18, 23), (18, 24), (18, 25), (18, 26), (18, 28)] jump_cd: 19 action: None
+DEBUG_SCOUT: Step 96 uid: 76-1 pos: (18,12) energy: 31 target: (18, 12) path: None
+DEBUG_SCOUT: Step 96 uid: 87-1 pos: (19,11) energy: 42 target: (19, 12) path: [(19, 12)]
+DEBUG_FACTORY: Step 97 pos: (2,15) target: (8, 14) path: [(2, 13), (4, 13), (5, 13), (5, 14), (5, 15), (6, 15), (7, 15), (8, 15), (8, 14)] jump_cd: 19 action: None
+DEBUG_SCOUT: Step 97 uid: 61-1 pos: (4,12) energy: 50 target: (9, 28) path: [(5, 13), (5, 14), (5, 15), (6, 15), (6, 16), (6, 17), (6, 18), (6, 19), (6, 20), (6, 21), (6, 22), (6, 23), (6, 24), (6, 25), (6, 26), (6, 27), (6, 28), (7, 28), (8, 28), (9, 28)]
+DEBUG_SCOUT: Step 97 uid: 77-1 pos: (5,14) energy: 67 target: (9, 28) path: [(6, 15), (6, 16), (7, 16), (7, 17), (7, 18), (7, 19), (7, 20), (7, 21), (7, 22), (7, 23), (7, 24), (7, 25), (7, 26), (7, 27), (7, 28), (8, 28), (9, 28)]
+DEBUG_MINER: Step 97 uid: 92-1 pos: (0,13) energy: 296 target: None path: [(0, 14), (0, 15), (0, 16), (0, 17), (0, 18), (1, 18), (2, 18), (3, 18), (4, 18), (4, 17), (5, 17), (5, 18)] action: None
+DEBUG_FACTORY: Step 97 pos: (19,14) target: (18, 28) path: [(18, 15), (18, 16), (18, 17), (18, 18), (18, 19), (18, 20), (18, 21), (18, 22), (18, 23), (18, 24), (18, 25), (18, 26), (18, 28)] jump_cd: 18 action: NORTH
+DEBUG_SCOUT: Step 97 uid: 76-1 pos: (18,12) energy: 30 target: (18, 12) path: None
+DEBUG_SCOUT: Step 97 uid: 87-1 pos: (19,11) energy: 41 target: (19, 12) path: []
+DEBUG_FACTORY: Step 98 pos: (2,15) target: (8, 14) path: [(4, 13), (5, 13), (5, 14), (5, 15), (6, 15), (7, 15), (8, 15), (8, 14)] jump_cd: 18 action: JUMP_SOUTH
+DEBUG_SCOUT: Step 98 uid: 61-1 pos: (4,13) energy: 49 target: (9, 28) path: [(5, 13), (5, 14), (5, 15), (6, 15), (6, 16), (6, 17), (6, 18), (6, 19), (6, 20), (6, 21), (6, 22), (6, 23), (6, 24), (6, 25), (6, 26), (6, 27), (6, 28), (7, 28), (8, 28), (9, 28)]
+DEBUG_SCOUT: Step 98 uid: 77-1 pos: (5,15) energy: 66 target: (9, 28) path: [(6, 15), (6, 16), (7, 16), (7, 17), (7, 18), (7, 19), (7, 20), (7, 21), (7, 22), (7, 23), (7, 24), (7, 25), (7, 26), (7, 27), (7, 28), (8, 28), (9, 28)]
+DEBUG_MINER: Step 98 uid: 92-1 pos: (0,13) energy: 295 target: None path: [(0, 15), (1, 15), (1, 16), (1, 17), (1, 18), (1, 19), (1, 20), (2, 20), (2, 19), (2, 18), (3, 18), (4, 18), (4, 17), (5, 17), (5, 18)] action: NORTH
+DEBUG_FACTORY: Step 98 pos: (19,15) target: (18, 28) path: [(18, 15), (18, 16), (18, 17), (18, 18), (18, 19), (18, 20), (18, 21), (18, 22), (18, 23), (18, 24), (18, 25), (18, 26), (18, 28)] jump_cd: 17 action: None
+DEBUG_SCOUT: Step 98 uid: 76-1 pos: (18,12) energy: 29 target: (18, 12) path: None
+DEBUG_SCOUT: Step 98 uid: 87-1 pos: (19,12) energy: 40 target: (19, 12) path: []
+DEBUG_FACTORY: Step 99 pos: (2,15) target: (1, 18) path: [(2, 17), (1, 17), (1, 18)] jump_cd: 17 action: NORTH
+DEBUG_SCOUT: Step 99 uid: 61-1 pos: (4,13) energy: 48 target: (9, 28) path: [(5, 14), (5, 15), (6, 15), (6, 16), (6, 17), (6, 18), (6, 19), (6, 20), (6, 21), (6, 22), (6, 23), (6, 24), (6, 25), (6, 26), (6, 27), (6, 28), (7, 28), (8, 28), (9, 28)]
+DEBUG_SCOUT: Step 99 uid: 77-1 pos: (5,15) energy: 65 target: (9, 28) path: [(6, 16), (7, 16), (7, 17), (7, 18), (7, 19), (7, 20), (7, 21), (7, 22), (7, 23), (7, 24), (7, 25), (7, 26), (7, 27), (7, 28), (8, 28), (9, 28)]
+DEBUG_MINER: Step 99 uid: 92-1 pos: (0,14) energy: 294 target: None path: [(0, 15), (1, 15), (1, 16), (1, 17), (1, 18), (1, 19), (1, 20), (2, 20), (2, 19), (2, 18), (3, 18), (4, 18), (4, 17), (5, 17), (5, 18)] action: None
+DEBUG_FACTORY: Step 99 pos: (19,15) target: (18, 28) path: [(18, 15), (18, 16), (18, 17), (18, 18), (18, 19), (18, 20), (18, 21), (18, 22), (18, 23), (18, 24), (18, 25), (18, 26), (18, 28)] jump_cd: 16 action: None
+DEBUG_SCOUT: Step 99 uid: 76-1 pos: (18,12) energy: 28 target: (18, 12) path: None
+DEBUG_SCOUT: Step 99 uid: 87-1 pos: (19,12) energy: 39 target: (19, 12) path: None
+DEBUG_FACTORY: Step 100 pos: (2,16) target: (1, 18) path: [(2, 17), (1, 17), (1, 18)] jump_cd: 16 action: None
+DEBUG_SCOUT: Step 100 uid: 61-1 pos: (5,13) energy: 47 target: (9, 28) path: [(5, 14), (5, 15), (6, 15), (6, 16), (6, 17), (6, 18), (6, 19), (6, 20), (6, 21), (6, 22), (6, 23), (6, 24), (6, 25), (6, 26), (6, 27), (6, 28), (7, 28), (8, 28), (9, 28)]
+DEBUG_SCOUT: Step 100 uid: 77-1 pos: (6,15) energy: 64 target: (9, 28) path: [(6, 16), (7, 16), (7, 17), (7, 18), (7, 19), (7, 20), (7, 21), (7, 22), (7, 23), (7, 24), (7, 25), (7, 26), (7, 27), (7, 28), (8, 28), (9, 28)]
+DEBUG_MINER: Step 100 uid: 92-1 pos: (0,14) energy: 293 target: None path: [(0, 15), (1, 15), (1, 16), (1, 17), (1, 18), (1, 19), (1, 20), (2, 20), (2, 19), (2, 18), (3, 18), (4, 18), (4, 17), (5, 17), (5, 18)] action: None
+DEBUG_FACTORY: Step 100 pos: (19,15) target: (18, 28) path: [(18, 16), (18, 17), (18, 18), (18, 19), (18, 20), (18, 21), (18, 22), (18, 23), (18, 24), (18, 25), (18, 26), (18, 28)] jump_cd: 15 action: WEST
+DEBUG_SCOUT: Step 100 uid: 76-1 pos: (18,12) energy: 27 target: (18, 12) path: None
+DEBUG_SCOUT: Step 100 uid: 87-1 pos: (19,12) energy: 38 target: (19, 12) path: None
+DEBUG_FACTORY: Step 101 pos: (2,16) target: (1, 18) path: [(2, 17), (1, 17), (1, 18)] jump_cd: 15 action: None
+DEBUG_SCOUT: Step 101 uid: 61-1 pos: (5,13) energy: 46 target: (9, 28) path: [(5, 15), (6, 15), (6, 16), (6, 17), (6, 18), (6, 19), (6, 20), (6, 21), (6, 22), (6, 23), (6, 24), (6, 25), (6, 26), (6, 27), (6, 28), (7, 28), (8, 28), (9, 28)]
+DEBUG_SCOUT: Step 101 uid: 77-1 pos: (6,15) energy: 63 target: (9, 28) path: [(7, 16), (7, 17), (7, 18), (7, 19), (7, 20), (7, 21), (7, 22), (7, 23), (7, 24), (7, 25), (7, 26), (7, 27), (7, 28), (8, 28), (9, 28)]
+DEBUG_MINER: Step 101 uid: 92-1 pos: (0,14) energy: 292 target: None path: [(1, 15), (1, 16), (1, 17), (1, 18), (1, 19), (1, 20), (2, 20), (2, 19), (2, 18), (3, 18), (4, 18), (4, 17), (5, 17), (5, 18)] action: NORTH
+DEBUG_FACTORY: Step 101 pos: (18,15) target: (18, 28) path: [(18, 16), (18, 17), (18, 18), (18, 19), (18, 20), (18, 21), (18, 22), (18, 23), (18, 24), (18, 25), (18, 26), (18, 28)] jump_cd: 14 action: None
+DEBUG_SCOUT: Step 101 uid: 76-1 pos: (18,12) energy: 26 target: (18, 12) path: None
+DEBUG_SCOUT: Step 101 uid: 87-1 pos: (19,12) energy: 37 target: (19, 12) path: None
+DEBUG_FACTORY: Step 102 pos: (2,16) target: (1, 18) path: [(1, 17), (1, 18)] jump_cd: 14 action: NORTH
+DEBUG_SCOUT: Step 102 uid: 61-1 pos: (5,14) energy: 45 target: (9, 28) path: [(5, 15), (6, 15), (6, 16), (6, 17), (6, 18), (6, 19), (6, 20), (6, 21), (6, 22), (6, 23), (6, 24), (6, 25), (6, 26), (6, 27), (6, 28), (7, 28), (8, 28), (9, 28)]
+DEBUG_SCOUT: Step 102 uid: 77-1 pos: (6,16) energy: 62 target: (9, 28) path: [(7, 16), (7, 17), (7, 18), (7, 19), (7, 20), (7, 21), (7, 22), (7, 23), (7, 24), (7, 25), (7, 26), (7, 27), (7, 28), (8, 28), (9, 28)]
+DEBUG_MINER: Step 102 uid: 92-1 pos: (0,15) energy: 291 target: None path: [(1, 15), (1, 16), (1, 17), (1, 18), (1, 19), (1, 20), (2, 20), (2, 19), (2, 18), (3, 18), (4, 18), (4, 17), (5, 17), (5, 18)] action: None
+DEBUG_FACTORY: Step 102 pos: (18,15) target: (18, 28) path: [(18, 16), (18, 17), (18, 18), (18, 19), (18, 20), (18, 21), (18, 22), (18, 23), (18, 24), (18, 25), (18, 26), (18, 28)] jump_cd: 13 action: None
+DEBUG_SCOUT: Step 102 uid: 76-1 pos: (18,12) energy: 25 target: (18, 12) path: None
+DEBUG_SCOUT: Step 102 uid: 87-1 pos: (19,12) energy: 36 target: (19, 12) path: None
+DEBUG_FACTORY: Step 103 pos: (2,17) target: (1, 18) path: [(1, 17), (1, 18)] jump_cd: 13 action: None
+DEBUG_SCOUT: Step 103 uid: 61-1 pos: (5,14) energy: 44 target: (9, 28) path: [(6, 15), (6, 16), (6, 17), (6, 18), (6, 19), (6, 20), (6, 21), (6, 22), (6, 23), (6, 24), (6, 25), (6, 26), (6, 27), (6, 28), (7, 28), (8, 28), (9, 28)]
+DEBUG_SCOUT: Step 103 uid: 77-1 pos: (6,16) energy: 61 target: (9, 28) path: [(7, 17), (7, 18), (7, 19), (7, 20), (7, 21), (7, 22), (7, 23), (7, 24), (7, 25), (7, 26), (7, 27), (7, 28), (8, 28), (9, 28)]
+DEBUG_MINER: Step 103 uid: 92-1 pos: (0,15) energy: 290 target: None path: [(1, 15), (1, 16), (1, 17), (1, 18), (1, 19), (1, 20), (2, 20), (2, 19), (2, 18), (3, 18), (4, 18), (4, 17), (5, 17), (5, 18)] action: None
+DEBUG_FACTORY: Step 103 pos: (18,15) target: (18, 28) path: [(18, 17), (18, 18), (18, 19), (18, 20), (18, 21), (18, 22), (18, 23), (18, 24), (18, 25), (18, 26), (18, 28)] jump_cd: 12 action: NORTH
+DEBUG_SCOUT: Step 103 uid: 76-1 pos: (18,12) energy: 24 target: (18, 12) path: None
+DEBUG_SCOUT: Step 103 uid: 87-1 pos: (19,12) energy: 35 target: (19, 12) path: None
+DEBUG_FACTORY: Step 104 pos: (2,17) target: (1, 18) path: [(1, 17), (1, 18)] jump_cd: 12 action: None
+DEBUG_SCOUT: Step 104 uid: 61-1 pos: (5,15) energy: 43 target: (9, 28) path: [(6, 15), (6, 16), (6, 17), (6, 18), (6, 19), (6, 20), (6, 21), (6, 22), (6, 23), (6, 24), (6, 25), (6, 26), (6, 27), (6, 28), (7, 28), (8, 28), (9, 28)]
+DEBUG_SCOUT: Step 104 uid: 77-1 pos: (7,16) energy: 60 target: (9, 28) path: [(7, 17), (7, 18), (7, 19), (7, 20), (7, 21), (7, 22), (7, 23), (7, 24), (7, 25), (7, 26), (7, 27), (7, 28), (8, 28), (9, 28)]
+DEBUG_MINER: Step 104 uid: 92-1 pos: (0,15) energy: 289 target: None path: [(1, 16), (1, 17), (1, 18), (1, 19), (1, 20), (2, 20), (2, 19), (2, 18), (3, 18), (4, 18), (4, 17), (5, 17), (5, 18)] action: EAST
+DEBUG_FACTORY: Step 104 pos: (18,16) target: (18, 28) path: [(18, 17), (18, 18), (18, 19), (18, 20), (18, 21), (18, 22), (18, 23), (18, 24), (18, 25), (18, 26), (18, 28)] jump_cd: 11 action: None
+DEBUG_SCOUT: Step 104 uid: 76-1 pos: (18,12) energy: 23 target: (18, 12) path: None
+DEBUG_SCOUT: Step 104 uid: 87-1 pos: (19,12) energy: 34 target: (19, 12) path: None
+DEBUG_FACTORY: Step 105 pos: (2,17) target: (1, 18) path: [(1, 18)] jump_cd: 11 action: WEST
+DEBUG_SCOUT: Step 105 uid: 61-1 pos: (5,15) energy: 42 target: (9, 28) path: [(6, 16), (6, 17), (6, 18), (6, 19), (6, 20), (6, 21), (6, 22), (6, 23), (6, 24), (6, 25), (6, 26), (6, 27), (6, 28), (7, 28), (8, 28), (9, 28)]
+DEBUG_SCOUT: Step 105 uid: 77-1 pos: (7,16) energy: 59 target: (9, 28) path: [(7, 18), (7, 19), (7, 20), (7, 21), (7, 22), (7, 23), (7, 24), (7, 25), (7, 26), (7, 27), (7, 28), (8, 28), (9, 28)]
+DEBUG_MINER: Step 105 uid: 92-1 pos: (1,15) energy: 288 target: None path: [(1, 16), (1, 17), (1, 18), (1, 19), (1, 20), (2, 20), (2, 19), (2, 18), (3, 18), (4, 18), (4, 17), (5, 17), (5, 18)] action: None
+DEBUG_FACTORY: Step 105 pos: (18,16) target: (18, 28) path: [(18, 17), (18, 18), (18, 19), (18, 20), (18, 21), (18, 22), (18, 23), (18, 24), (18, 25), (18, 26), (18, 28)] jump_cd: 10 action: None
+DEBUG_SCOUT: Step 105 uid: 76-1 pos: (18,12) energy: 22 target: (18, 12) path: None
+DEBUG_SCOUT: Step 105 uid: 87-1 pos: (19,12) energy: 33 target: (19, 12) path: None
+DEBUG_FACTORY: Step 106 pos: (1,17) target: (1, 18) path: [(1, 18)] jump_cd: 10 action: None
+DEBUG_SCOUT: Step 106 uid: 61-1 pos: (6,15) energy: 41 target: (9, 28) path: [(6, 16), (6, 17), (6, 18), (6, 19), (6, 20), (6, 21), (6, 22), (6, 23), (6, 24), (6, 25), (6, 26), (6, 27), (6, 28), (7, 28), (8, 28), (9, 28)]
+DEBUG_SCOUT: Step 106 uid: 77-1 pos: (7,17) energy: 58 target: (9, 28) path: [(7, 18), (7, 19), (7, 20), (7, 21), (7, 22), (7, 23), (7, 24), (7, 25), (7, 26), (7, 27), (7, 28), (8, 28), (9, 28)]
+DEBUG_MINER: Step 106 uid: 92-1 pos: (1,15) energy: 287 target: None path: [(1, 16), (1, 17), (1, 18), (1, 19), (1, 20), (2, 20), (2, 19), (2, 18), (3, 18), (4, 18), (4, 17), (5, 17), (5, 18)] action: None
+DEBUG_FACTORY: Step 106 pos: (18,16) target: (18, 28) path: [(18, 18), (18, 19), (18, 20), (18, 21), (18, 22), (18, 23), (18, 24), (18, 25), (18, 26), (18, 28)] jump_cd: 9 action: NORTH
+DEBUG_SCOUT: Step 106 uid: 76-1 pos: (18,12) energy: 21 target: (18, 12) path: None
+DEBUG_SCOUT: Step 106 uid: 87-1 pos: (19,12) energy: 32 target: (19, 12) path: None
+DEBUG_FACTORY: Step 107 pos: (1,17) target: (1, 18) path: [(1, 18)] jump_cd: 9 action: None
+DEBUG_SCOUT: Step 107 uid: 61-1 pos: (6,15) energy: 40 target: (9, 28) path: [(6, 17), (6, 18), (6, 19), (6, 20), (6, 21), (6, 22), (6, 23), (6, 24), (6, 25), (6, 26), (6, 27), (6, 28), (7, 28), (8, 28), (9, 28)]
+DEBUG_SCOUT: Step 107 uid: 77-1 pos: (7,17) energy: 57 target: (9, 28) path: [(7, 19), (7, 20), (7, 21), (7, 22), (7, 23), (7, 24), (7, 25), (7, 26), (7, 27), (7, 28), (8, 28), (9, 28)]
+DEBUG_MINER: Step 107 uid: 92-1 pos: (1,15) energy: 286 target: None path: [(1, 17), (1, 18), (1, 19), (1, 20), (2, 20), (2, 19), (2, 18), (3, 18), (4, 18), (4, 17), (5, 17), (5, 18)] action: NORTH
+DEBUG_FACTORY: Step 107 pos: (18,17) target: (18, 28) path: [(18, 18), (18, 19), (18, 20), (18, 21), (18, 22), (18, 23), (18, 24), (18, 25), (18, 26), (18, 28)] jump_cd: 8 action: None
+DEBUG_SCOUT: Step 107 uid: 76-1 pos: (18,12) energy: 20 target: (18, 12) path: None
+DEBUG_SCOUT: Step 107 uid: 87-1 pos: (19,12) energy: 31 target: (19, 12) path: None
+DEBUG_FACTORY: Step 108 pos: (1,17) target: (1, 18) path: [] jump_cd: 8 action: NORTH
+DEBUG_SCOUT: Step 108 uid: 61-1 pos: (6,16) energy: 39 target: (9, 28) path: [(6, 17), (6, 18), (6, 19), (6, 20), (6, 21), (6, 22), (6, 23), (6, 24), (6, 25), (6, 26), (6, 27), (6, 28), (7, 28), (8, 28), (9, 28)]
+DEBUG_SCOUT: Step 108 uid: 77-1 pos: (7,18) energy: 70 target: (9, 28) path: [(7, 19), (7, 20), (7, 21), (7, 22), (7, 23), (7, 24), (7, 25), (7, 26), (7, 27), (7, 28), (8, 28), (9, 28)]
+DEBUG_MINER: Step 108 uid: 92-1 pos: (1,16) energy: 285 target: None path: [(1, 17), (1, 18), (1, 19), (1, 20), (2, 20), (2, 19), (2, 18), (3, 18), (4, 18), (4, 17), (5, 17), (5, 18)] action: None
+DEBUG_FACTORY: Step 108 pos: (18,17) target: (18, 28) path: [(18, 18), (18, 19), (18, 20), (18, 21), (18, 22), (18, 23), (18, 24), (18, 25), (18, 26), (18, 28)] jump_cd: 7 action: None
+DEBUG_SCOUT: Step 108 uid: 76-1 pos: (18,12) energy: 19 target: (18, 12) path: None
+DEBUG_SCOUT: Step 108 uid: 87-1 pos: (19,12) energy: 30 target: (19, 12) path: None
+DEBUG_FACTORY: Step 109 pos: (1,18) target: (1, 18) path: [] jump_cd: 7 action: None
+DEBUG_SCOUT: Step 109 uid: 61-1 pos: (6,16) energy: 38 target: (9, 30) path: [(7, 17), (7, 18), (6, 18), (6, 19), (6, 20), (6, 21), (6, 22), (7, 22), (7, 23), (7, 24), (7, 25), (7, 26), (7, 27), (7, 28), (7, 29), (7, 30), (8, 30), (9, 30)]
+DEBUG_SCOUT: Step 109 uid: 77-1 pos: (7,18) energy: 69 target: (9, 28) path: [(7, 20), (7, 21), (7, 22), (7, 23), (7, 24), (7, 25), (7, 26), (7, 27), (7, 28), (8, 28), (9, 28)]
+DEBUG_MINER: Step 109 uid: 92-1 pos: (1,16) energy: 284 target: None path: [(1, 17), (1, 18), (1, 19), (1, 20), (2, 20), (2, 19), (2, 18), (3, 18), (4, 18), (4, 17), (5, 17), (5, 18)] action: None
+DEBUG_FACTORY: Step 109 pos: (18,17) target: (18, 28) path: [(18, 19), (18, 20), (18, 21), (18, 22), (18, 23), (18, 24), (18, 25), (18, 26), (18, 28)] jump_cd: 6 action: NORTH
+DEBUG_SCOUT: Step 109 uid: 76-1 pos: (18,12) energy: 18 target: (18, 12) path: None
+DEBUG_SCOUT: Step 109 uid: 87-1 pos: (19,12) energy: 29 target: (19, 12) path: None
+DEBUG_FACTORY: Step 110 pos: (1,18) target: (1, 18) path: [] jump_cd: 6 action: None
+DEBUG_SCOUT: Step 110 uid: 61-1 pos: (7,16) energy: 37 target: (9, 30) path: [(7, 17), (7, 18), (6, 18), (6, 19), (6, 20), (6, 21), (6, 22), (7, 22), (7, 23), (7, 24), (7, 25), (7, 26), (7, 27), (7, 28), (7, 29), (7, 30), (8, 30), (9, 30)]
+DEBUG_SCOUT: Step 110 uid: 77-1 pos: (7,19) energy: 68 target: (9, 28) path: [(7, 20), (7, 21), (7, 22), (7, 23), (7, 24), (7, 25), (7, 26), (7, 27), (7, 28), (8, 28), (9, 28)]
+DEBUG_MINER: Step 110 uid: 92-1 pos: (1,16) energy: 283 target: None path: [(1, 18), (1, 19), (1, 20), (2, 20), (2, 19), (2, 18), (3, 18), (4, 18), (4, 17), (5, 17), (5, 18)] action: NORTH
+DEBUG_FACTORY: Step 110 pos: (18,18) target: (18, 28) path: [(18, 19), (18, 20), (18, 21), (18, 22), (18, 23), (18, 24), (18, 25), (18, 26), (18, 28)] jump_cd: 5 action: None
+DEBUG_SCOUT: Step 110 uid: 76-1 pos: (18,12) energy: 17 target: (18, 12) path: None
+DEBUG_SCOUT: Step 110 uid: 87-1 pos: (19,12) energy: 28 target: (19, 12) path: None
+DEBUG_FACTORY: Step 111 pos: (1,18) target: (3, 19) path: [(1, 20), (1, 19), (3, 19)] jump_cd: 5 action: NORTH
+DEBUG_SCOUT: Step 111 uid: 61-1 pos: (7,16) energy: 36 target: (9, 30) path: [(7, 18), (6, 18), (6, 19), (6, 20), (6, 21), (6, 22), (7, 22), (7, 23), (7, 24), (7, 25), (7, 26), (7, 27), (7, 28), (7, 29), (7, 30), (8, 30), (9, 30)]
+DEBUG_SCOUT: Step 111 uid: 77-1 pos: (7,19) energy: 67 target: (9, 31) path: [(6, 18), (6, 19), (6, 20), (6, 21), (6, 22), (7, 22), (7, 23), (7, 24), (8, 24), (8, 25), (8, 26), (8, 27), (8, 28), (8, 29), (8, 30), (8, 31), (9, 31)]
+DEBUG_MINER: Step 111 uid: 92-1 pos: (1,17) energy: 282 target: None path: [(1, 18), (1, 19), (1, 20), (2, 20), (2, 19), (2, 18), (3, 18), (4, 18), (4, 17), (5, 17), (5, 18)] action: None
+DEBUG_FACTORY: Step 111 pos: (18,18) target: (18, 28) path: [(18, 19), (18, 20), (18, 21), (18, 22), (18, 23), (18, 24), (18, 25), (18, 26), (18, 28)] jump_cd: 4 action: None
+DEBUG_SCOUT: Step 111 uid: 76-1 pos: (18,12) energy: 16 target: (18, 12) path: None
+DEBUG_SCOUT: Step 111 uid: 87-1 pos: (19,12) energy: 27 target: (19, 12) path: None
+DEBUG_FACTORY: Step 112 pos: (1,19) target: (3, 19) path: [(1, 20), (1, 19), (3, 19)] jump_cd: 4 action: None
+DEBUG_SCOUT: Step 112 uid: 61-1 pos: (7,17) energy: 35 target: (9, 30) path: [(7, 18), (6, 18), (6, 19), (6, 20), (6, 21), (6, 22), (7, 22), (7, 23), (7, 24), (7, 25), (7, 26), (7, 27), (7, 28), (7, 29), (7, 30), (8, 30), (9, 30)]
+DEBUG_SCOUT: Step 112 uid: 77-1 pos: (7,18) energy: 66 target: (9, 31) path: [(6, 18), (6, 19), (6, 20), (6, 21), (6, 22), (7, 22), (7, 23), (7, 24), (8, 24), (8, 25), (8, 26), (8, 27), (8, 28), (8, 29), (8, 30), (8, 31), (9, 31)]
+DEBUG_MINER: Step 112 uid: 92-1 pos: (1,17) energy: 281 target: None path: [(1, 18), (1, 19), (1, 20), (2, 20), (2, 19), (2, 18), (3, 18), (4, 18), (4, 17), (5, 17), (5, 18)] action: None
+DEBUG_FACTORY: Step 112 pos: (18,18) target: (18, 28) path: [(18, 20), (18, 21), (18, 22), (18, 23), (18, 24), (18, 25), (18, 26), (18, 28)] jump_cd: 3 action: NORTH
+DEBUG_SCOUT: Step 112 uid: 76-1 pos: (18,12) energy: 15 target: (18, 12) path: None
+DEBUG_SCOUT: Step 112 uid: 87-1 pos: (19,12) energy: 26 target: (19, 12) path: None
+DEBUG_FACTORY: Step 113 pos: (1,19) target: (3, 19) path: [(1, 20), (1, 19), (3, 19)] jump_cd: 3 action: None
+DEBUG_SCOUT: Step 113 uid: 61-1 pos: (7,17) energy: 34 target: (9, 31) path: [(7, 18), (6, 18), (6, 19), (6, 20), (6, 21), (6, 22), (7, 22), (7, 23), (7, 24), (8, 24), (8, 25), (8, 26), (8, 27), (8, 28), (8, 29), (8, 30), (8, 31), (9, 31)]
+DEBUG_SCOUT: Step 113 uid: 77-1 pos: (7,18) energy: 65 target: (9, 31) path: [(6, 19), (6, 20), (6, 21), (6, 22), (7, 22), (7, 23), (7, 24), (8, 24), (8, 25), (8, 26), (8, 27), (8, 28), (8, 29), (8, 30), (8, 31), (9, 31)]
+DEBUG_MINER: Step 113 uid: 92-1 pos: (1,17) energy: 280 target: None path: [(1, 19), (1, 20), (2, 20), (2, 19), (2, 18), (3, 18), (4, 18), (4, 17), (5, 17), (5, 18)] action: NORTH
+DEBUG_FACTORY: Step 113 pos: (18,19) target: (18, 28) path: [(18, 20), (18, 21), (18, 22), (18, 23), (18, 24), (18, 25), (18, 26), (18, 28)] jump_cd: 2 action: None
+DEBUG_SCOUT: Step 113 uid: 76-1 pos: (18,12) energy: 14 target: (18, 12) path: None
+DEBUG_SCOUT: Step 113 uid: 87-1 pos: (19,12) energy: 25 target: (19, 12) path: None
+DEBUG_FACTORY: Step 114 pos: (1,19) target: (3, 19) path: [(1, 19), (3, 19)] jump_cd: 2 action: NORTH
+DEBUG_SCOUT: Step 114 uid: 61-1 pos: (7,17) energy: 33 target: (9, 31) path: [(6, 18), (6, 19), (6, 20), (6, 21), (6, 22), (7, 22), (7, 23), (7, 24), (8, 24), (8, 25), (8, 26), (8, 27), (8, 28), (8, 29), (8, 30), (8, 31), (9, 31)]
+DEBUG_SCOUT: Step 114 uid: 77-1 pos: (6,18) energy: 64 target: (9, 31) path: [(6, 19), (6, 20), (6, 21), (6, 22), (7, 22), (7, 23), (7, 24), (8, 24), (8, 25), (8, 26), (8, 27), (8, 28), (8, 29), (8, 30), (8, 31), (9, 31)]
+DEBUG_MINER: Step 114 uid: 92-1 pos: (1,18) energy: 279 target: None path: [(1, 19), (1, 20), (2, 20), (2, 19), (2, 18), (3, 18), (4, 18), (4, 17), (5, 17), (5, 18)] action: None
+DEBUG_FACTORY: Step 114 pos: (18,19) target: (18, 28) path: [(18, 20), (18, 21), (18, 22), (18, 23), (18, 24), (18, 25), (18, 26), (18, 28)] jump_cd: 1 action: None
+DEBUG_SCOUT: Step 114 uid: 76-1 pos: (18,12) energy: 13 target: (18, 12) path: None
+DEBUG_SCOUT: Step 114 uid: 87-1 pos: (19,12) energy: 24 target: (19, 12) path: None
+DEBUG_FACTORY: Step 115 pos: (1,20) target: (3, 19) path: [(1, 19), (3, 19)] jump_cd: 1 action: None
+DEBUG_SCOUT: Step 115 uid: 61-1 pos: (7,18) energy: 32 target: (9, 31) path: [(6, 18), (6, 19), (6, 20), (6, 21), (6, 22), (7, 22), (7, 23), (7, 24), (8, 24), (8, 25), (8, 26), (8, 27), (8, 28), (8, 29), (8, 30), (8, 31), (9, 31)]
+DEBUG_SCOUT: Step 115 uid: 77-1 pos: (6,18) energy: 63 target: (9, 31) path: [(6, 20), (6, 21), (6, 22), (7, 22), (7, 23), (7, 24), (8, 24), (8, 25), (8, 26), (8, 27), (8, 28), (8, 29), (8, 30), (8, 31), (9, 31)]
+DEBUG_MINER: Step 115 uid: 92-1 pos: (1,18) energy: 278 target: None path: [(1, 19), (1, 20), (2, 20), (2, 19), (2, 18), (3, 18), (4, 18), (4, 17), (5, 17), (5, 18)] action: None
+DEBUG_FACTORY: Step 115 pos: (18,19) target: (18, 28) path: [(18, 21), (18, 22), (18, 23), (18, 24), (18, 25), (18, 26), (18, 28)] jump_cd: 0 action: NORTH
+DEBUG_SCOUT: Step 115 uid: 76-1 pos: (18,12) energy: 12 target: (18, 12) path: None
+DEBUG_SCOUT: Step 115 uid: 87-1 pos: (19,12) energy: 23 target: (19, 12) path: None
+DEBUG_FACTORY: Step 116 pos: (1,20) target: (3, 19) path: [(1, 19), (3, 19)] jump_cd: 0 action: None
+DEBUG_SCOUT: Step 116 uid: 61-1 pos: (7,18) energy: 31 target: (9, 31) path: [(6, 19), (6, 20), (6, 21), (6, 22), (7, 22), (7, 23), (7, 24), (8, 24), (8, 25), (8, 26), (8, 27), (8, 28), (8, 29), (8, 30), (8, 31), (9, 31)]
+DEBUG_SCOUT: Step 116 uid: 77-1 pos: (6,19) energy: 62 target: (9, 31) path: [(6, 20), (6, 21), (6, 22), (7, 22), (7, 23), (7, 24), (8, 24), (8, 25), (8, 26), (8, 27), (8, 28), (8, 29), (8, 30), (8, 31), (9, 31)]
+DEBUG_MINER: Step 116 uid: 92-1 pos: (1,18) energy: 277 target: None path: [(1, 20), (2, 20), (2, 19), (2, 18), (3, 18), (4, 18), (4, 17), (5, 17), (5, 18)] action: NORTH
+DEBUG_FACTORY: Step 116 pos: (18,20) target: (18, 28) path: [(18, 21), (18, 22), (18, 23), (18, 24), (18, 25), (18, 26), (18, 28)] jump_cd: 0 action: None
+DEBUG_SCOUT: Step 116 uid: 76-1 pos: (18,12) energy: 11 target: (18, 12) path: None
+DEBUG_SCOUT: Step 116 uid: 87-1 pos: (19,12) energy: 22 target: (19, 12) path: None
+DEBUG_FACTORY: Step 117 pos: (1,20) target: (1, 22) path: [] jump_cd: 0 action: JUMP_NORTH
+DEBUG_SCOUT: Step 117 uid: 61-1 pos: (6,18) energy: 30 target: (9, 31) path: [(6, 19), (6, 20), (6, 21), (6, 22), (7, 22), (7, 23), (7, 24), (8, 24), (8, 25), (8, 26), (8, 27), (8, 28), (8, 29), (8, 30), (8, 31), (9, 31)]
+DEBUG_SCOUT: Step 117 uid: 77-1 pos: (6,19) energy: 61 target: (9, 31) path: [(6, 21), (6, 22), (7, 22), (7, 23), (7, 24), (8, 24), (8, 25), (8, 26), (8, 27), (8, 28), (8, 29), (8, 30), (8, 31), (9, 31)]
+DEBUG_MINER: Step 117 uid: 92-1 pos: (1,19) energy: 276 target: None path: [(1, 20), (2, 20), (2, 19), (2, 18), (3, 18), (4, 18), (4, 17), (5, 17), (5, 18)] action: None
+DEBUG_FACTORY: Step 117 pos: (18,20) target: (18, 28) path: [(18, 21), (18, 22), (18, 23), (18, 24), (18, 25), (18, 26), (18, 28)] jump_cd: 0 action: None
+DEBUG_FACTORY: Step 118 pos: (1,22) target: (1, 22) path: [] jump_cd: 20 action: None
+DEBUG_SCOUT: Step 118 uid: 61-1 pos: (6,18) energy: 29 target: (9, 31) path: [(6, 20), (6, 21), (6, 22), (7, 22), (7, 23), (7, 24), (8, 24), (8, 25), (8, 26), (8, 27), (8, 28), (8, 29), (8, 30), (8, 31), (9, 31)]
+DEBUG_SCOUT: Step 118 uid: 77-1 pos: (6,20) energy: 60 target: (9, 31) path: [(6, 21), (6, 22), (7, 22), (7, 23), (7, 24), (8, 24), (8, 25), (8, 26), (8, 27), (8, 28), (8, 29), (8, 30), (8, 31), (9, 31)]
+DEBUG_MINER: Step 118 uid: 92-1 pos: (1,19) energy: 275 target: None path: [(1, 20), (2, 20), (2, 19), (2, 18), (3, 18), (4, 18), (4, 17), (5, 17), (5, 18)] action: None
+DEBUG_FACTORY: Step 118 pos: (18,20) target: (18, 28) path: [(18, 21), (18, 22), (18, 23), (18, 24), (18, 25), (18, 26), (18, 28)] jump_cd: 0 action: BUILD_SCOUT_NORTH
+DEBUG_FACTORY: Step 119 pos: (1,22) target: (1, 22) path: [] jump_cd: 19 action: None
+DEBUG_SCOUT: Step 119 uid: 61-1 pos: (6,19) energy: 28 target: (9, 31) path: [(6, 20), (6, 21), (6, 22), (7, 22), (7, 23), (7, 24), (8, 24), (8, 25), (8, 26), (8, 27), (8, 28), (8, 29), (8, 30), (8, 31), (9, 31)]
+DEBUG_SCOUT: Step 119 uid: 77-1 pos: (6,20) energy: 59 target: (9, 31) path: [(6, 22), (7, 22), (7, 23), (7, 24), (8, 24), (8, 25), (8, 26), (8, 27), (8, 28), (8, 29), (8, 30), (8, 31), (9, 31)]
+DEBUG_MINER: Step 119 uid: 92-1 pos: (1,19) energy: 274 target: None path: [(2, 20), (2, 19), (2, 18), (3, 18), (4, 18), (4, 17), (5, 17), (5, 18)] action: NORTH
+DEBUG_FACTORY: Step 119 pos: (18,20) target: (18, 22) path: [] jump_cd: 0 action: JUMP_NORTH
+DEBUG_SCOUT: Step 119 uid: 118- pos: (18,21) energy: 50 target: None path: None
+DEBUG_FACTORY: Step 120 pos: (1,22) target: (3, 30) path: [(1, 22), (1, 23), (1, 22), (1, 21), (2, 21), (3, 21), (3, 22), (3, 23), (3, 24), (3, 26), (3, 27), (3, 28), (3, 29), (3, 30)] jump_cd: 18 action: NORTH
+DEBUG_SCOUT: Step 120 uid: 61-1 pos: (6,19) energy: 27 target: (9, 31) path: [(6, 21), (6, 22), (7, 22), (7, 23), (7, 24), (8, 24), (8, 25), (8, 26), (8, 27), (8, 28), (8, 29), (8, 30), (8, 31), (9, 31)]
+DEBUG_SCOUT: Step 120 uid: 77-1 pos: (6,21) energy: 58 target: (9, 31) path: [(6, 22), (7, 22), (7, 23), (7, 24), (8, 24), (8, 25), (8, 26), (8, 27), (8, 28), (8, 29), (8, 30), (8, 31), (9, 31)]
+DEBUG_MINER: Step 120 uid: 92-1 pos: (1,20) energy: 273 target: None path: [(2, 20), (2, 19), (2, 18), (3, 18), (4, 18), (4, 17), (5, 17), (5, 18)] action: None
+DEBUG_FACTORY: Step 120 pos: (18,22) target: (18, 22) path: [] jump_cd: 20 action: None
+DEBUG_SCOUT: Step 120 uid: 118- pos: (18,21) energy: 49 target: (13, 29) path: [(17, 20), (16, 20), (15, 20), (15, 21), (14, 21), (14, 22), (13, 22), (13, 23), (13, 24), (13, 25), (13, 26), (13, 27), (13, 28), (13, 29)]
+DEBUG_FACTORY: Step 121 pos: (1,23) target: (3, 30) path: [(1, 22), (1, 23), (1, 22), (1, 21), (2, 21), (3, 21), (3, 22), (3, 23), (3, 24), (3, 26), (3, 27), (3, 28), (3, 29), (3, 30)] jump_cd: 17 action: None
+DEBUG_SCOUT: Step 121 uid: 61-1 pos: (6,20) energy: 26 target: (9, 31) path: [(6, 21), (6, 22), (7, 22), (7, 23), (7, 24), (8, 24), (8, 25), (8, 26), (8, 27), (8, 28), (8, 29), (8, 30), (8, 31), (9, 31)]
+DEBUG_SCOUT: Step 121 uid: 77-1 pos: (6,21) energy: 57 target: (9, 31) path: [(7, 22), (7, 23), (7, 24), (8, 24), (8, 25), (8, 26), (8, 27), (8, 28), (8, 29), (8, 30), (8, 31), (9, 31)]
+DEBUG_MINER: Step 121 uid: 92-1 pos: (1,20) energy: 272 target: None path: [(2, 20), (2, 19), (2, 18), (3, 18), (4, 18), (4, 17), (5, 17), (5, 18)] action: None
+DEBUG_FACTORY: Step 121 pos: (18,22) target: (18, 22) path: [] jump_cd: 19 action: None
+DEBUG_SCOUT: Step 121 uid: 118- pos: (17,21) energy: 48 target: (13, 29) path: [(17, 20), (16, 20), (15, 20), (15, 21), (14, 21), (14, 22), (13, 22), (13, 23), (13, 24), (13, 25), (13, 26), (13, 27), (13, 28), (13, 29)]
+DEBUG_FACTORY: Step 122 pos: (1,23) target: (3, 30) path: [(1, 22), (1, 23), (1, 22), (1, 21), (2, 21), (3, 21), (3, 22), (3, 23), (3, 24), (3, 26), (3, 27), (3, 28), (3, 29), (3, 30)] jump_cd: 16 action: None
+DEBUG_SCOUT: Step 122 uid: 61-1 pos: (6,20) energy: 25 target: (9, 31) path: [(6, 22), (7, 22), (7, 23), (7, 24), (8, 24), (8, 25), (8, 26), (8, 27), (8, 28), (8, 29), (8, 30), (8, 31), (9, 31)]
+DEBUG_SCOUT: Step 122 uid: 77-1 pos: (6,22) energy: 56 target: (9, 31) path: [(7, 22), (7, 23), (7, 24), (8, 24), (8, 25), (8, 26), (8, 27), (8, 28), (8, 29), (8, 30), (8, 31), (9, 31)]
+DEBUG_MINER: Step 122 uid: 92-1 pos: (1,20) energy: 271 target: (8, 25) path: [(2, 21), (2, 20), (3, 20), (4, 20), (4, 21), (5, 21), (5, 22), (6, 22), (7, 22), (7, 23), (7, 24), (8, 24), (8, 25)] action: NORTH
+DEBUG_FACTORY: Step 122 pos: (18,22) target: (16, 30) path: [(18, 22), (18, 23), (18, 22), (18, 21), (17, 21), (16, 21), (16, 22), (16, 23), (16, 24), (16, 26), (16, 27), (16, 28), (16, 29), (16, 30)] jump_cd: 18 action: NORTH
+DEBUG_SCOUT: Step 122 uid: 118- pos: (17,21) energy: 47 target: (13, 29) path: [(16, 20), (15, 20), (15, 21), (14, 21), (14, 22), (13, 22), (13, 23), (13, 24), (13, 25), (13, 26), (13, 27), (13, 28), (13, 29)]
+DEBUG_FACTORY: Step 123 pos: (1,23) target: (3, 30) path: [(1, 23), (1, 22), (1, 21), (2, 21), (3, 21), (3, 22), (3, 23), (3, 24), (3, 26), (3, 27), (3, 28), (3, 29), (3, 30)] jump_cd: 15 action: SOUTH
+DEBUG_SCOUT: Step 123 uid: 61-1 pos: (6,21) energy: 24 target: (9, 31) path: [(6, 22), (7, 22), (7, 23), (7, 24), (8, 24), (8, 25), (8, 26), (8, 27), (8, 28), (8, 29), (8, 30), (8, 31), (9, 31)]
+DEBUG_SCOUT: Step 123 uid: 77-1 pos: (6,22) energy: 55 target: (9, 31) path: [(7, 23), (7, 24), (8, 24), (8, 25), (8, 26), (8, 27), (8, 28), (8, 29), (8, 30), (8, 31), (9, 31)]
+DEBUG_MINER: Step 123 uid: 92-1 pos: (1,21) energy: 270 target: (8, 25) path: [(2, 21), (2, 20), (3, 20), (4, 20), (4, 21), (5, 21), (5, 22), (6, 22), (7, 22), (7, 23), (7, 24), (8, 24), (8, 25)] action: None
+DEBUG_FACTORY: Step 123 pos: (18,23) target: (16, 30) path: [(18, 22), (18, 23), (18, 22), (18, 21), (17, 21), (16, 21), (16, 22), (16, 23), (16, 24), (16, 26), (16, 27), (16, 28), (16, 29), (16, 30)] jump_cd: 17 action: None
+DEBUG_SCOUT: Step 123 uid: 118- pos: (17,20) energy: 46 target: (13, 29) path: [(16, 20), (15, 20), (15, 21), (14, 21), (14, 22), (13, 22), (13, 23), (13, 24), (13, 25), (13, 26), (13, 27), (13, 28), (13, 29)]
+DEBUG_FACTORY: Step 124 pos: (1,22) target: (3, 30) path: [(1, 23), (1, 22), (1, 21), (2, 21), (3, 21), (3, 22), (3, 23), (3, 24), (3, 26), (3, 27), (3, 28), (3, 29), (3, 30)] jump_cd: 14 action: None
+DEBUG_SCOUT: Step 124 uid: 61-1 pos: (6,21) energy: 23 target: (9, 31) path: [(7, 22), (7, 23), (7, 24), (8, 24), (8, 25), (8, 26), (8, 27), (8, 28), (8, 29), (8, 30), (8, 31), (9, 31)]
+DEBUG_SCOUT: Step 124 uid: 77-1 pos: (7,22) energy: 54 target: (9, 31) path: [(7, 23), (7, 24), (8, 24), (8, 25), (8, 26), (8, 27), (8, 28), (8, 29), (8, 30), (8, 31), (9, 31)]
+DEBUG_MINER: Step 124 uid: 92-1 pos: (1,21) energy: 269 target: (8, 25) path: [(2, 21), (2, 20), (3, 20), (4, 20), (4, 21), (5, 21), (5, 22), (6, 22), (7, 22), (7, 23), (7, 24), (8, 24), (8, 25)] action: None
+DEBUG_FACTORY: Step 124 pos: (18,23) target: (16, 30) path: [(18, 22), (18, 23), (18, 22), (18, 21), (17, 21), (16, 21), (16, 22), (16, 23), (16, 24), (16, 26), (16, 27), (16, 28), (16, 29), (16, 30)] jump_cd: 16 action: None
+DEBUG_SCOUT: Step 124 uid: 118- pos: (17,20) energy: 45 target: (13, 29) path: [(15, 20), (15, 21), (14, 21), (14, 22), (13, 22), (13, 23), (13, 24), (13, 25), (13, 26), (13, 27), (13, 28), (13, 29)]
+DEBUG_FACTORY: Step 125 pos: (1,22) target: (3, 30) path: [(1, 23), (1, 22), (1, 21), (2, 21), (3, 21), (3, 22), (3, 23), (3, 24), (3, 26), (3, 27), (3, 28), (3, 29), (3, 30)] jump_cd: 13 action: None
+DEBUG_SCOUT: Step 125 uid: 61-1 pos: (6,22) energy: 22 target: (9, 31) path: [(7, 22), (7, 23), (7, 24), (8, 24), (8, 25), (8, 26), (8, 27), (8, 28), (8, 29), (8, 30), (8, 31), (9, 31)]
+DEBUG_SCOUT: Step 125 uid: 77-1 pos: (7,22) energy: 53 target: (9, 31) path: [(7, 24), (8, 24), (8, 25), (8, 26), (8, 27), (8, 28), (8, 29), (8, 30), (8, 31), (9, 31)]
+DEBUG_MINER: Step 125 uid: 92-1 pos: (1,21) energy: 268 target: (8, 25) path: [(2, 20), (3, 20), (4, 20), (4, 21), (5, 21), (5, 22), (6, 22), (7, 22), (7, 23), (7, 24), (8, 24), (9, 24), (9, 25)] action: EAST
+DEBUG_FACTORY: Step 125 pos: (18,23) target: (16, 30) path: [(18, 23), (18, 22), (18, 21), (17, 21), (16, 21), (16, 22), (16, 23), (16, 24), (16, 26), (16, 27), (16, 28), (16, 29), (16, 30)] jump_cd: 15 action: SOUTH
+DEBUG_SCOUT: Step 125 uid: 118- pos: (16,20) energy: 44 target: (13, 29) path: [(15, 20), (15, 21), (14, 21), (14, 22), (13, 22), (13, 23), (13, 24), (13, 25), (13, 26), (13, 27), (13, 28), (13, 29)]
+DEBUG_FACTORY: Step 126 pos: (1,22) target: (3, 30) path: [(1, 22), (1, 21), (2, 21), (3, 21), (3, 22), (3, 23), (3, 24), (3, 26), (3, 27), (3, 28), (3, 29), (3, 30)] jump_cd: 12 action: NORTH
+DEBUG_SCOUT: Step 126 uid: 61-1 pos: (6,22) energy: 21 target: (9, 31) path: [(7, 23), (7, 24), (8, 24), (8, 25), (8, 26), (8, 27), (8, 28), (8, 29), (8, 30), (8, 31), (9, 31)]
+DEBUG_SCOUT: Step 126 uid: 77-1 pos: (7,23) energy: 52 target: (9, 31) path: [(7, 24), (8, 24), (8, 25), (8, 26), (8, 27), (8, 28), (8, 29), (8, 30), (8, 31), (9, 31)]
+DEBUG_MINER: Step 126 uid: 92-1 pos: (2,21) energy: 267 target: (8, 25) path: [(2, 20), (3, 20), (4, 20), (4, 21), (5, 21), (5, 22), (6, 22), (7, 22), (7, 23), (7, 24), (8, 24), (9, 24), (9, 25)] action: None
+DEBUG_FACTORY: Step 126 pos: (18,22) target: (16, 30) path: [(18, 23), (18, 22), (18, 21), (17, 21), (16, 21), (16, 22), (16, 23), (16, 24), (16, 26), (16, 27), (16, 28), (16, 29), (16, 30)] jump_cd: 14 action: None
+DEBUG_SCOUT: Step 126 uid: 118- pos: (16,20) energy: 43 target: (13, 29) path: [(15, 21), (14, 21), (14, 22), (13, 22), (13, 23), (13, 24), (13, 25), (13, 26), (13, 27), (13, 28), (13, 29)]
+DEBUG_FACTORY: Step 127 pos: (1,23) target: (3, 30) path: [(1, 22), (1, 21), (2, 21), (3, 21), (3, 22), (3, 23), (3, 24), (3, 26), (3, 27), (3, 28), (3, 29), (3, 30)] jump_cd: 11 action: None
+DEBUG_SCOUT: Step 127 uid: 61-1 pos: (7,22) energy: 20 target: (9, 31) path: [(7, 23), (7, 24), (8, 24), (8, 25), (8, 26), (8, 27), (8, 28), (8, 29), (8, 30), (8, 31), (9, 31)]
+DEBUG_SCOUT: Step 127 uid: 77-1 pos: (7,23) energy: 51 target: (9, 31) path: [(8, 24), (8, 25), (8, 26), (8, 27), (8, 28), (8, 29), (8, 30), (8, 31), (9, 31)]
+DEBUG_MINER: Step 127 uid: 92-1 pos: (2,21) energy: 266 target: (8, 25) path: [(2, 20), (3, 20), (4, 20), (4, 21), (5, 21), (5, 22), (6, 22), (7, 22), (7, 23), (7, 24), (8, 24), (9, 24), (9, 25)] action: None
+DEBUG_FACTORY: Step 127 pos: (18,22) target: (16, 30) path: [(18, 23), (18, 22), (18, 21), (17, 21), (16, 21), (16, 22), (16, 23), (16, 24), (16, 26), (16, 27), (16, 28), (16, 29), (16, 30)] jump_cd: 13 action: None
+DEBUG_SCOUT: Step 127 uid: 118- pos: (15,20) energy: 42 target: (13, 29) path: [(15, 21), (14, 21), (14, 22), (13, 22), (13, 23), (13, 24), (13, 25), (13, 26), (13, 27), (13, 28), (13, 29)]
+DEBUG_FACTORY: Step 128 pos: (1,23) target: (3, 30) path: [(1, 22), (1, 21), (2, 21), (3, 21), (3, 22), (3, 23), (3, 24), (3, 26), (3, 27), (3, 28), (3, 29), (3, 30)] jump_cd: 10 action: None
+DEBUG_SCOUT: Step 128 uid: 61-1 pos: (7,22) energy: 19 target: (9, 31) path: [(7, 24), (8, 24), (8, 25), (8, 26), (8, 27), (8, 28), (8, 29), (8, 30), (8, 31), (9, 31)]
+DEBUG_SCOUT: Step 128 uid: 77-1 pos: (7,24) energy: 50 target: (9, 31) path: [(8, 24), (8, 25), (8, 26), (8, 27), (8, 28), (8, 29), (8, 30), (8, 31), (9, 31)]
+DEBUG_MINER: Step 128 uid: 92-1 pos: (2,21) energy: 265 target: (8, 25) path: [(3, 20), (4, 20), (4, 21), (5, 21), (5, 22), (6, 22), (7, 22), (7, 23), (7, 24), (8, 24), (9, 24), (9, 25)] action: SOUTH
+DEBUG_FACTORY: Step 128 pos: (18,22) target: (16, 30) path: [(18, 22), (18, 21), (17, 21), (16, 21), (16, 22), (16, 23), (16, 24), (16, 26), (16, 27), (16, 28), (16, 29), (16, 30)] jump_cd: 12 action: NORTH
+DEBUG_SCOUT: Step 128 uid: 118- pos: (15,20) energy: 41 target: (13, 29) path: [(14, 21), (14, 22), (13, 22), (13, 23), (13, 24), (13, 25), (13, 26), (13, 27), (13, 28), (13, 29)]
+DEBUG_FACTORY: Step 129 pos: (1,23) target: (3, 30) path: [(1, 21), (2, 21), (3, 21), (3, 22), (3, 23), (3, 24), (3, 26), (3, 27), (3, 28), (3, 29), (3, 30)] jump_cd: 9 action: SOUTH
+DEBUG_SCOUT: Step 129 uid: 61-1 pos: (7,23) energy: 18 target: (9, 31) path: [(7, 24), (8, 24), (8, 25), (8, 26), (8, 27), (8, 28), (8, 29), (8, 30), (8, 31), (9, 31)]
+DEBUG_SCOUT: Step 129 uid: 77-1 pos: (7,24) energy: 49 target: (9, 31) path: [(8, 25), (8, 26), (8, 27), (8, 28), (8, 29), (8, 30), (8, 31), (9, 31)]
+DEBUG_MINER: Step 129 uid: 92-1 pos: (2,20) energy: 264 target: (8, 25) path: [(3, 20), (4, 20), (4, 21), (5, 21), (5, 22), (6, 22), (7, 22), (7, 23), (7, 24), (8, 24), (9, 24), (9, 25)] action: None
+DEBUG_FACTORY: Step 129 pos: (18,23) target: (16, 30) path: [(18, 22), (18, 21), (17, 21), (16, 21), (16, 22), (16, 23), (16, 24), (16, 26), (16, 27), (16, 28), (16, 29), (16, 30)] jump_cd: 11 action: None
+DEBUG_SCOUT: Step 129 uid: 118- pos: (15,21) energy: 40 target: (13, 29) path: [(14, 21), (14, 22), (13, 22), (13, 23), (13, 24), (13, 25), (13, 26), (13, 27), (13, 28), (13, 29)]
+DEBUG_FACTORY: Step 130 pos: (1,22) target: (3, 30) path: [(1, 21), (2, 21), (3, 21), (3, 22), (3, 23), (3, 24), (3, 26), (3, 27), (3, 28), (3, 29), (3, 30)] jump_cd: 8 action: None
+DEBUG_SCOUT: Step 130 uid: 61-1 pos: (7,23) energy: 17 target: (9, 31) path: [(8, 24), (8, 25), (8, 26), (8, 27), (8, 28), (8, 29), (8, 30), (8, 31), (9, 31)]
+DEBUG_SCOUT: Step 130 uid: 77-1 pos: (8,24) energy: 48 target: (9, 31) path: [(8, 25), (8, 26), (8, 27), (8, 28), (8, 29), (8, 30), (8, 31), (9, 31)]
+DEBUG_MINER: Step 130 uid: 92-1 pos: (2,20) energy: 263 target: (8, 25) path: [(3, 20), (4, 20), (4, 21), (5, 21), (5, 22), (6, 22), (7, 22), (7, 23), (7, 24), (8, 24), (9, 24), (9, 25)] action: None
+DEBUG_FACTORY: Step 130 pos: (18,23) target: (16, 30) path: [(18, 22), (18, 21), (17, 21), (16, 21), (16, 22), (16, 23), (16, 24), (16, 26), (16, 27), (16, 28), (16, 29), (16, 30)] jump_cd: 10 action: None
+DEBUG_SCOUT: Step 130 uid: 118- pos: (15,21) energy: 39 target: (13, 29) path: [(14, 22), (13, 22), (13, 23), (13, 24), (13, 25), (13, 26), (13, 27), (13, 28), (13, 29)]
+DEBUG_FACTORY: Step 131 pos: (1,22) target: (3, 30) path: [(1, 21), (2, 21), (3, 21), (3, 22), (3, 23), (3, 24), (3, 26), (3, 27), (3, 28), (3, 29), (3, 30)] jump_cd: 7 action: None
+DEBUG_SCOUT: Step 131 uid: 61-1 pos: (7,24) energy: 16 target: (9, 31) path: [(8, 24), (8, 25), (8, 26), (8, 27), (8, 28), (8, 29), (8, 30), (8, 31), (9, 31)]
+DEBUG_SCOUT: Step 131 uid: 77-1 pos: (8,24) energy: 47 target: (9, 31) path: [(8, 26), (8, 27), (8, 28), (8, 29), (8, 30), (8, 31), (9, 31)]
+DEBUG_MINER: Step 131 uid: 92-1 pos: (2,20) energy: 262 target: (8, 25) path: [(4, 20), (4, 21), (5, 21), (5, 22), (6, 22), (7, 22), (7, 23), (7, 24), (8, 24), (9, 24), (9, 25)] action: EAST
+DEBUG_FACTORY: Step 131 pos: (18,23) target: (16, 30) path: [(18, 22), (18, 21), (17, 21), (16, 21), (16, 22), (16, 23), (16, 24), (16, 26), (16, 27), (16, 28), (16, 29), (16, 30)] jump_cd: 9 action: BUILD_SCOUT_SOUTH
+DEBUG_SCOUT: Step 131 uid: 118- pos: (14,21) energy: 38 target: (13, 29) path: [(14, 22), (13, 22), (13, 23), (13, 24), (13, 25), (13, 26), (13, 27), (13, 28), (13, 29)]
+DEBUG_FACTORY: Step 132 pos: (1,22) target: (3, 30) path: [(2, 21), (3, 21), (3, 22), (3, 23), (3, 24), (3, 26), (3, 27), (3, 28), (3, 29), (3, 30)] jump_cd: 6 action: SOUTH
+DEBUG_SCOUT: Step 132 uid: 61-1 pos: (7,24) energy: 15 target: (9, 31) path: [(8, 25), (8, 26), (8, 27), (8, 28), (8, 29), (8, 30), (8, 31), (9, 31)]
+DEBUG_SCOUT: Step 132 uid: 77-1 pos: (8,25) energy: 46 target: (9, 31) path: [(8, 26), (8, 27), (8, 28), (8, 29), (8, 30), (8, 31), (9, 31)]
+DEBUG_MINER: Step 132 uid: 92-1 pos: (3,20) energy: 261 target: (8, 25) path: [(4, 20), (4, 21), (5, 21), (5, 22), (6, 22), (7, 22), (7, 23), (7, 24), (8, 24), (9, 24), (9, 25)] action: None
+DEBUG_FACTORY: Step 132 pos: (18,23) target: (16, 30) path: None jump_cd: 8 action: IDLE
+DEBUG_SCOUT: Step 132 uid: 118- pos: (14,21) energy: 37 target: (13, 29) path: [(13, 22), (13, 23), (13, 24), (13, 25), (13, 26), (13, 27), (13, 28), (13, 29)]
+DEBUG_SCOUT: Step 132 uid: 131- pos: (18,22) energy: 50 target: None path: None
+DEBUG_FACTORY: Step 133 pos: (1,21) target: (3, 30) path: [(2, 21), (3, 21), (3, 22), (3, 23), (3, 24), (3, 26), (3, 27), (3, 28), (3, 29), (3, 30)] jump_cd: 5 action: None
+DEBUG_SCOUT: Step 133 uid: 61-1 pos: (8,24) energy: 14 target: (9, 31) path: [(8, 25), (8, 26), (8, 27), (8, 28), (8, 29), (8, 30), (8, 31), (9, 31)]
+DEBUG_SCOUT: Step 133 uid: 77-1 pos: (8,25) energy: 45 target: (9, 33) path: [(8, 24), (9, 24), (9, 25), (10, 25), (10, 24), (11, 24), (11, 23), (11, 22), (12, 22), (13, 22), (13, 23), (14, 23), (14, 24), (14, 25), (13, 25), (13, 26), (13, 27), (12, 27), (12, 28), (11, 28), (11, 29), (10, 29), (10, 30), (9, 30), (9, 31), (9, 32), (9, 33)]
+DEBUG_MINER: Step 133 uid: 92-1 pos: (3,20) energy: 260 target: (8, 25) path: [(4, 20), (4, 21), (5, 21), (5, 22), (6, 22), (7, 22), (7, 23), (7, 24), (8, 24), (9, 24), (9, 25)] action: None
+DEBUG_FACTORY: Step 133 pos: (18,23) target: (16, 30) path: None jump_cd: 7 action: IDLE
+DEBUG_SCOUT: Step 133 uid: 118- pos: (14,22) energy: 36 target: (13, 29) path: [(13, 22), (13, 23), (13, 24), (13, 25), (13, 26), (13, 27), (13, 28), (13, 29)]
+DEBUG_SCOUT: Step 133 uid: 131- pos: (18,22) energy: 49 target: (11, 26) path: [(17, 21), (17, 20), (16, 20), (15, 20), (15, 21), (14, 21), (14, 22), (13, 22), (12, 22), (12, 23), (12, 24), (11, 24), (11, 25), (11, 26)]
+DEBUG_FACTORY: Step 134 pos: (1,21) target: (3, 30) path: [(2, 21), (3, 21), (3, 22), (3, 23), (3, 24), (3, 26), (3, 27), (3, 28), (3, 29), (3, 30)] jump_cd: 4 action: None
+DEBUG_SCOUT: Step 134 uid: 61-1 pos: (8,24) energy: 13 target: (9, 34) path: [(9, 25), (10, 25), (10, 24), (11, 24), (11, 23), (11, 22), (12, 22), (13, 22), (13, 23), (14, 23), (14, 24), (14, 25), (13, 25), (13, 26), (13, 27), (12, 27), (12, 28), (11, 28), (11, 29), (10, 29), (10, 30), (9, 30), (9, 31), (9, 32), (9, 33), (9, 34)]
+DEBUG_SCOUT: Step 134 uid: 77-1 pos: (8,25) energy: 44 target: (9, 33) path: [(9, 24), (9, 25), (10, 25), (10, 24), (11, 24), (11, 23), (11, 22), (12, 22), (13, 22), (13, 23), (14, 23), (14, 24), (14, 25), (13, 25), (13, 26), (13, 27), (12, 27), (12, 28), (11, 28), (11, 29), (10, 29), (10, 30), (9, 30), (9, 31), (9, 32), (9, 33)]
+DEBUG_MINER: Step 134 uid: 92-1 pos: (3,20) energy: 259 target: (8, 25) path: [(4, 21), (5, 21), (5, 22), (6, 22), (7, 22), (7, 23), (7, 24), (8, 24), (9, 24), (9, 25)] action: EAST
+DEBUG_FACTORY: Step 134 pos: (18,23) target: (16, 34) path: [(18, 23), (18, 22), (18, 24), (18, 25), (18, 26), (17, 26), (16, 26), (16, 27), (16, 28), (16, 29), (16, 30), (16, 31), (16, 32), (16, 34)] jump_cd: 6 action: SOUTH
+DEBUG_SCOUT: Step 134 uid: 118- pos: (14,22) energy: 35 target: (13, 29) path: [(13, 23), (13, 24), (13, 25), (13, 26), (13, 27), (13, 28), (13, 29)]
+DEBUG_SCOUT: Step 134 uid: 131- pos: (18,21) energy: 48 target: (11, 26) path: [(17, 21), (17, 20), (16, 20), (15, 20), (15, 21), (14, 21), (14, 22), (13, 22), (12, 22), (12, 23), (12, 24), (11, 24), (11, 25), (11, 26)]
+DEBUG_FACTORY: Step 135 pos: (1,21) target: (3, 30) path: [(3, 21), (3, 22), (3, 23), (3, 24), (3, 26), (3, 27), (3, 28), (3, 29), (3, 30)] jump_cd: 3 action: EAST
+DEBUG_SCOUT: Step 135 uid: 61-1 pos: (9,24) energy: 12 target: (9, 34) path: [(9, 25), (10, 25), (10, 24), (11, 24), (11, 23), (11, 22), (12, 22), (13, 22), (13, 23), (14, 23), (14, 24), (14, 25), (13, 25), (13, 26), (13, 27), (12, 27), (12, 28), (11, 28), (11, 29), (10, 29), (10, 30), (9, 30), (9, 31), (9, 32), (9, 33), (9, 34)]
+DEBUG_SCOUT: Step 135 uid: 77-1 pos: (8,24) energy: 43 target: (9, 33) path: [(9, 24), (9, 25), (10, 25), (10, 24), (11, 24), (11, 23), (11, 22), (12, 22), (13, 22), (13, 23), (14, 23), (14, 24), (14, 25), (13, 25), (13, 26), (13, 27), (12, 27), (12, 28), (11, 28), (11, 29), (10, 29), (10, 30), (9, 30), (9, 31), (9, 32), (9, 33)]
+DEBUG_MINER: Step 135 uid: 92-1 pos: (4,20) energy: 258 target: (8, 25) path: [(4, 21), (5, 21), (5, 22), (6, 22), (7, 22), (7, 23), (7, 24), (8, 24), (9, 24), (9, 25)] action: None
+DEBUG_FACTORY: Step 135 pos: (18,22) target: (16, 34) path: [(18, 23), (18, 22), (18, 24), (18, 25), (18, 26), (17, 26), (16, 26), (16, 27), (16, 28), (16, 29), (16, 30), (16, 31), (16, 32), (16, 34)] jump_cd: 5 action: None
+DEBUG_SCOUT: Step 135 uid: 118- pos: (13,22) energy: 34 target: (13, 29) path: [(13, 23), (13, 24), (13, 25), (13, 26), (13, 27), (13, 28), (13, 29)]
+DEBUG_SCOUT: Step 135 uid: 131- pos: (18,21) energy: 47 target: (11, 26) path: [(17, 20), (16, 20), (15, 20), (15, 21), (14, 21), (14, 22), (13, 22), (12, 22), (12, 23), (12, 24), (11, 24), (11, 25), (11, 26)]
+DEBUG_FACTORY: Step 136 pos: (2,21) target: (3, 30) path: [(3, 21), (3, 22), (3, 23), (3, 24), (3, 26), (3, 27), (3, 28), (3, 29), (3, 30)] jump_cd: 2 action: None
+DEBUG_SCOUT: Step 136 uid: 61-1 pos: (9,24) energy: 11 target: (9, 34) path: [(10, 25), (10, 24), (11, 24), (11, 23), (11, 22), (12, 22), (13, 22), (13, 23), (14, 23), (14, 24), (14, 25), (13, 25), (13, 26), (13, 27), (12, 27), (12, 28), (11, 28), (11, 29), (10, 29), (10, 30), (9, 30), (9, 31), (9, 32), (9, 33), (9, 34)]
+DEBUG_SCOUT: Step 136 uid: 77-1 pos: (8,24) energy: 42 target: (9, 33) path: [(9, 25), (10, 25), (10, 24), (11, 24), (11, 23), (11, 22), (12, 22), (13, 22), (13, 23), (14, 23), (14, 24), (14, 25), (13, 25), (13, 26), (13, 27), (12, 27), (12, 28), (11, 28), (11, 29), (10, 29), (10, 30), (9, 30), (9, 31), (9, 32), (9, 33)]
+DEBUG_MINER: Step 136 uid: 92-1 pos: (4,20) energy: 257 target: (8, 25) path: [(4, 21), (5, 21), (5, 22), (6, 22), (7, 22), (7, 23), (7, 24), (8, 24), (9, 24), (9, 25)] action: None
+DEBUG_FACTORY: Step 136 pos: (18,22) target: (16, 34) path: [(18, 23), (18, 22), (18, 24), (18, 25), (18, 26), (17, 26), (16, 26), (16, 27), (16, 28), (16, 29), (16, 30), (16, 31), (16, 32), (16, 34)] jump_cd: 4 action: None
+DEBUG_SCOUT: Step 136 uid: 118- pos: (13,22) energy: 33 target: (12, 18) path: [(13, 20), (13, 19), (13, 18), (12, 18)]
+DEBUG_SCOUT: Step 136 uid: 131- pos: (17,21) energy: 46 target: (11, 26) path: [(17, 20), (16, 20), (15, 20), (15, 21), (14, 21), (14, 22), (13, 22), (12, 22), (12, 23), (12, 24), (11, 24), (11, 25), (11, 26)]
+DEBUG_FACTORY: Step 137 pos: (2,21) target: (3, 30) path: [(3, 21), (3, 22), (3, 23), (3, 24), (3, 26), (3, 27), (3, 28), (3, 29), (3, 30)] jump_cd: 1 action: None
+DEBUG_SCOUT: Step 137 uid: 61-1 pos: (9,25) energy: 10 target: (9, 34) path: [(10, 25), (10, 24), (11, 24), (11, 23), (11, 22), (12, 22), (13, 22), (13, 23), (14, 23), (14, 24), (14, 25), (13, 25), (13, 26), (13, 27), (12, 27), (12, 28), (11, 28), (11, 29), (10, 29), (10, 30), (9, 30), (9, 31), (9, 32), (9, 33), (9, 34)]
+DEBUG_SCOUT: Step 137 uid: 77-1 pos: (9,24) energy: 41 target: (9, 33) path: [(9, 25), (10, 25), (10, 24), (11, 24), (11, 23), (11, 22), (12, 22), (13, 22), (13, 23), (14, 23), (14, 24), (14, 25), (13, 25), (13, 26), (13, 27), (12, 27), (12, 28), (11, 28), (11, 29), (10, 29), (10, 30), (9, 30), (9, 31), (9, 32), (9, 33)]
+DEBUG_MINER: Step 137 uid: 92-1 pos: (4,20) energy: 256 target: (8, 25) path: [(5, 21), (5, 22), (6, 22), (7, 22), (7, 23), (7, 24), (8, 24), (9, 24), (9, 25)] action: NORTH
+DEBUG_FACTORY: Step 137 pos: (18,22) target: (16, 34) path: [(18, 22), (18, 24), (18, 25), (18, 26), (17, 26), (16, 26), (16, 27), (16, 28), (16, 29), (16, 30), (16, 31), (16, 32), (16, 34)] jump_cd: 3 action: NORTH
+DEBUG_SCOUT: Step 137 uid: 118- pos: (13,21) energy: 32 target: (12, 18) path: [(13, 20), (13, 19), (13, 18), (12, 18)]
+DEBUG_SCOUT: Step 137 uid: 131- pos: (17,21) energy: 45 target: (11, 26) path: [(16, 20), (15, 20), (15, 21), (14, 21), (14, 22), (13, 22), (12, 22), (12, 23), (12, 24), (11, 24), (11, 25), (11, 26)]
+DEBUG_FACTORY: Step 138 pos: (2,21) target: (3, 30) path: [(3, 22), (3, 23), (3, 24), (3, 26), (3, 27), (3, 28), (3, 29), (3, 30)] jump_cd: 0 action: EAST
+DEBUG_SCOUT: Step 138 uid: 61-1 pos: (9,25) energy: 9 target: (9, 34) path: [(10, 24), (11, 24), (11, 23), (11, 22), (12, 22), (13, 22), (13, 23), (14, 23), (14, 24), (14, 25), (13, 25), (13, 26), (13, 27), (12, 27), (12, 28), (11, 28), (11, 29), (10, 29), (10, 30), (9, 30), (9, 31), (9, 32), (9, 33), (9, 34)]
+DEBUG_SCOUT: Step 138 uid: 77-1 pos: (9,24) energy: 40 target: (9, 33) path: [(10, 25), (10, 24), (11, 24), (11, 23), (11, 22), (12, 22), (13, 22), (13, 23), (14, 23), (14, 24), (14, 25), (13, 25), (13, 26), (13, 27), (12, 27), (12, 28), (11, 28), (11, 29), (10, 29), (10, 30), (9, 30), (9, 31), (9, 32), (9, 33)]
+DEBUG_MINER: Step 138 uid: 92-1 pos: (4,21) energy: 255 target: (8, 25) path: [(5, 21), (5, 22), (6, 22), (7, 22), (7, 23), (7, 24), (8, 24), (9, 24), (9, 25)] action: None
+DEBUG_FACTORY: Step 138 pos: (18,23) target: (16, 34) path: [(18, 22), (18, 24), (18, 25), (18, 26), (17, 26), (16, 26), (16, 27), (16, 28), (16, 29), (16, 30), (16, 31), (16, 32), (16, 34)] jump_cd: 2 action: None
+DEBUG_SCOUT: Step 138 uid: 118- pos: (13,21) energy: 31 target: (12, 18) path: [(13, 19), (13, 18), (12, 18)]
+DEBUG_SCOUT: Step 138 uid: 131- pos: (17,20) energy: 44 target: (11, 26) path: [(16, 20), (15, 20), (15, 21), (14, 21), (14, 22), (13, 22), (12, 22), (12, 23), (12, 24), (11, 24), (11, 25), (11, 26)]
+DEBUG_FACTORY: Step 139 pos: (3,21) target: (3, 30) path: [(3, 22), (3, 23), (3, 24), (3, 26), (3, 27), (3, 28), (3, 29), (3, 30)] jump_cd: 0 action: None
+DEBUG_SCOUT: Step 139 uid: 61-1 pos: (10,25) energy: 8 target: (9, 34) path: [(10, 24), (11, 24), (11, 23), (11, 22), (12, 22), (13, 22), (13, 23), (14, 23), (14, 24), (14, 25), (13, 25), (13, 26), (13, 27), (12, 27), (12, 28), (11, 28), (11, 29), (10, 29), (10, 30), (9, 30), (9, 31), (9, 32), (9, 33), (9, 34)]
+DEBUG_SCOUT: Step 139 uid: 77-1 pos: (9,25) energy: 39 target: (9, 33) path: [(10, 25), (10, 24), (11, 24), (11, 23), (11, 22), (12, 22), (13, 22), (13, 23), (14, 23), (14, 24), (14, 25), (13, 25), (13, 26), (13, 27), (12, 27), (12, 28), (11, 28), (11, 29), (10, 29), (10, 30), (9, 30), (9, 31), (9, 32), (9, 33)]
+DEBUG_MINER: Step 139 uid: 92-1 pos: (4,21) energy: 254 target: (8, 25) path: [(5, 21), (5, 22), (6, 22), (7, 22), (7, 23), (7, 24), (8, 24), (9, 24), (9, 25)] action: None
+DEBUG_FACTORY: Step 139 pos: (18,23) target: (16, 34) path: [(18, 22), (18, 24), (18, 25), (18, 26), (17, 26), (16, 26), (16, 27), (16, 28), (16, 29), (16, 30), (16, 31), (16, 32), (16, 34)] jump_cd: 1 action: None
+DEBUG_SCOUT: Step 139 uid: 118- pos: (13,20) energy: 30 target: (12, 18) path: [(13, 19), (13, 18), (12, 18)]
+DEBUG_SCOUT: Step 139 uid: 131- pos: (17,20) energy: 43 target: (11, 26) path: [(15, 20), (15, 21), (14, 21), (14, 22), (13, 22), (12, 22), (12, 23), (12, 24), (11, 24), (11, 25), (11, 26)]
+DEBUG_FACTORY: Step 140 pos: (3,21) target: (3, 30) path: [(3, 22), (3, 23), (3, 24), (3, 26), (3, 27), (3, 28), (3, 29), (3, 30)] jump_cd: 0 action: None
+DEBUG_SCOUT: Step 140 uid: 61-1 pos: (10,25) energy: 7 target: (9, 34) path: [(11, 24), (11, 23), (11, 22), (12, 22), (13, 22), (13, 23), (14, 23), (14, 24), (14, 25), (13, 25), (13, 26), (13, 27), (12, 27), (12, 28), (11, 28), (11, 29), (10, 29), (10, 30), (9, 30), (9, 31), (9, 32), (9, 33), (9, 34)]
+DEBUG_SCOUT: Step 140 uid: 77-1 pos: (9,25) energy: 38 target: (9, 33) path: [(10, 24), (11, 24), (11, 23), (11, 22), (12, 22), (13, 22), (13, 23), (14, 23), (14, 24), (14, 25), (13, 25), (13, 26), (13, 27), (12, 27), (12, 28), (11, 28), (11, 29), (10, 29), (10, 30), (9, 30), (9, 31), (9, 32), (9, 33)]
+DEBUG_MINER: Step 140 uid: 92-1 pos: (4,21) energy: 253 target: (8, 25) path: [(5, 22), (6, 22), (7, 22), (7, 23), (7, 24), (8, 24), (9, 24), (9, 25)] action: EAST
+DEBUG_FACTORY: Step 140 pos: (18,23) target: (16, 34) path: [(18, 24), (18, 25), (18, 26), (17, 26), (16, 26), (16, 27), (16, 28), (16, 29), (16, 30), (16, 31), (16, 32), (16, 34)] jump_cd: 0 action: JUMP_NORTH
+DEBUG_SCOUT: Step 140 uid: 118- pos: (13,20) energy: 29 target: (12, 18) path: [(13, 18), (12, 18)]
+DEBUG_SCOUT: Step 140 uid: 131- pos: (16,20) energy: 42 target: (11, 26) path: [(15, 20), (15, 21), (14, 21), (14, 22), (13, 22), (12, 22), (12, 23), (12, 24), (11, 24), (11, 25), (11, 26)]
+DEBUG_FACTORY: Step 141 pos: (3,21) target: (3, 30) path: [(3, 23), (3, 24), (3, 26), (3, 27), (3, 28), (3, 29), (3, 30)] jump_cd: 0 action: NORTH
+DEBUG_SCOUT: Step 141 uid: 61-1 pos: (10,24) energy: 6 target: (9, 34) path: [(11, 24), (11, 23), (11, 22), (12, 22), (13, 22), (13, 23), (14, 23), (14, 24), (14, 25), (13, 25), (13, 26), (13, 27), (12, 27), (12, 28), (11, 28), (11, 29), (10, 29), (10, 30), (9, 30), (9, 31), (9, 32), (9, 33), (9, 34)]
+DEBUG_SCOUT: Step 141 uid: 77-1 pos: (10,25) energy: 37 target: (9, 33) path: [(10, 24), (11, 24), (11, 23), (11, 22), (12, 22), (13, 22), (13, 23), (14, 23), (14, 24), (14, 25), (13, 25), (13, 26), (13, 27), (12, 27), (12, 28), (11, 28), (11, 29), (10, 29), (10, 30), (9, 30), (9, 31), (9, 32), (9, 33)]
+DEBUG_MINER: Step 141 uid: 92-1 pos: (5,21) energy: 252 target: (8, 25) path: [(5, 22), (6, 22), (7, 22), (7, 23), (7, 24), (8, 24), (9, 24), (9, 25)] action: None
+DEBUG_FACTORY: Step 141 pos: (18,25) target: (16, 34) path: [(18, 24), (18, 25), (18, 26), (17, 26), (16, 26), (16, 27), (16, 28), (16, 29), (16, 30), (16, 31), (16, 32), (16, 34)] jump_cd: 20 action: None
+DEBUG_SCOUT: Step 141 uid: 118- pos: (13,19) energy: 28 target: (12, 18) path: [(13, 18), (12, 18)]
+DEBUG_SCOUT: Step 141 uid: 131- pos: (16,20) energy: 41 target: (11, 26) path: [(15, 21), (14, 21), (14, 22), (13, 22), (12, 22), (12, 23), (12, 24), (11, 24), (11, 25), (11, 26)]
+DEBUG_FACTORY: Step 142 pos: (3,22) target: (3, 30) path: [(3, 23), (3, 24), (3, 26), (3, 27), (3, 28), (3, 29), (3, 30)] jump_cd: 0 action: None
+DEBUG_SCOUT: Step 142 uid: 61-1 pos: (10,24) energy: 5 target: (9, 34) path: [(11, 23), (11, 22), (12, 22), (13, 22), (13, 23), (14, 23), (14, 24), (14, 25), (13, 25), (13, 26), (13, 27), (12, 27), (12, 28), (11, 28), (11, 29), (10, 29), (10, 30), (9, 30), (9, 31), (9, 32), (9, 33), (9, 34)]
+DEBUG_SCOUT: Step 142 uid: 77-1 pos: (10,25) energy: 36 target: (9, 33) path: [(11, 24), (11, 23), (11, 22), (12, 22), (13, 22), (13, 23), (14, 23), (14, 24), (14, 25), (13, 25), (13, 26), (13, 27), (12, 27), (12, 28), (11, 28), (11, 29), (10, 29), (10, 30), (9, 30), (9, 31), (9, 32), (9, 33)]
+DEBUG_MINER: Step 142 uid: 92-1 pos: (5,21) energy: 251 target: (8, 25) path: [(5, 22), (6, 22), (7, 22), (7, 23), (7, 24), (8, 24), (9, 24), (9, 25)] action: None
+DEBUG_FACTORY: Step 142 pos: (18,25) target: (16, 34) path: [(18, 24), (18, 25), (18, 26), (17, 26), (16, 26), (16, 27), (16, 28), (16, 29), (16, 30), (16, 31), (16, 32), (16, 34)] jump_cd: 19 action: None
+DEBUG_SCOUT: Step 142 uid: 118- pos: (13,19) energy: 27 target: (12, 18) path: [(12, 18)]
+DEBUG_SCOUT: Step 142 uid: 131- pos: (15,20) energy: 40 target: (11, 26) path: [(15, 21), (14, 21), (14, 22), (13, 22), (12, 22), (12, 23), (12, 24), (11, 24), (11, 25), (11, 26)]
+DEBUG_FACTORY: Step 143 pos: (3,22) target: (3, 30) path: [(3, 23), (3, 24), (3, 26), (3, 27), (3, 28), (3, 29), (3, 30)] jump_cd: 0 action: None
+DEBUG_SCOUT: Step 143 uid: 61-1 pos: (11,24) energy: 4 target: (9, 34) path: [(11, 23), (11, 22), (12, 22), (13, 22), (13, 23), (14, 23), (14, 24), (14, 25), (13, 25), (13, 26), (13, 27), (12, 27), (12, 28), (11, 28), (11, 29), (10, 29), (10, 30), (9, 30), (9, 31), (9, 32), (9, 33), (9, 34)]
+DEBUG_SCOUT: Step 143 uid: 77-1 pos: (10,24) energy: 35 target: (9, 33) path: [(11, 24), (11, 23), (11, 22), (12, 22), (13, 22), (13, 23), (14, 23), (14, 24), (14, 25), (13, 25), (13, 26), (13, 27), (12, 27), (12, 28), (11, 28), (11, 29), (10, 29), (10, 30), (9, 30), (9, 31), (9, 32), (9, 33)]
+DEBUG_MINER: Step 143 uid: 92-1 pos: (5,21) energy: 250 target: (8, 25) path: [(6, 22), (7, 22), (7, 23), (7, 24), (8, 24), (9, 24), (9, 25)] action: NORTH
+DEBUG_FACTORY: Step 143 pos: (18,25) target: (16, 34) path: [(18, 25), (18, 26), (17, 26), (16, 26), (16, 27), (16, 28), (16, 29), (16, 30), (16, 31), (16, 32), (16, 34)] jump_cd: 18 action: SOUTH
+DEBUG_SCOUT: Step 143 uid: 118- pos: (13,18) energy: 26 target: (12, 18) path: [(12, 18)]
+DEBUG_SCOUT: Step 143 uid: 131- pos: (15,20) energy: 39 target: (11, 26) path: [(14, 21), (14, 22), (13, 22), (12, 22), (12, 23), (12, 24), (11, 24), (11, 25), (11, 26)]
+DEBUG_FACTORY: Step 144 pos: (3,22) target: (3, 30) path: [(3, 24), (3, 26), (3, 27), (3, 28), (3, 29), (3, 30)] jump_cd: 0 action: NORTH
+DEBUG_SCOUT: Step 144 uid: 61-1 pos: (11,24) energy: 3 target: (9, 34) path: [(11, 22), (12, 22), (13, 22), (13, 23), (14, 23), (14, 24), (14, 25), (13, 25), (13, 26), (13, 27), (12, 27), (12, 28), (11, 28), (11, 29), (10, 29), (10, 30), (9, 30), (9, 31), (9, 32), (9, 33), (9, 34)]
+DEBUG_SCOUT: Step 144 uid: 77-1 pos: (10,24) energy: 34 target: (9, 33) path: [(11, 23), (11, 22), (12, 22), (13, 22), (13, 23), (14, 23), (14, 24), (14, 25), (13, 25), (13, 26), (13, 27), (12, 27), (12, 28), (11, 28), (11, 29), (10, 29), (10, 30), (9, 30), (9, 31), (9, 32), (9, 33)]
+DEBUG_MINER: Step 144 uid: 92-1 pos: (5,22) energy: 249 target: (8, 25) path: [(6, 22), (7, 22), (7, 23), (7, 24), (8, 24), (9, 24), (9, 25)] action: None
+DEBUG_FACTORY: Step 144 pos: (18,24) target: (16, 34) path: [(18, 25), (18, 26), (17, 26), (16, 26), (16, 27), (16, 28), (16, 29), (16, 30), (16, 31), (16, 32), (16, 34)] jump_cd: 17 action: None
+DEBUG_SCOUT: Step 144 uid: 118- pos: (13,18) energy: 25 target: (12, 18) path: []
+DEBUG_SCOUT: Step 144 uid: 131- pos: (15,21) energy: 38 target: (11, 26) path: [(14, 21), (14, 22), (13, 22), (12, 22), (12, 23), (12, 24), (11, 24), (11, 25), (11, 26)]
+DEBUG_FACTORY: Step 145 pos: (3,23) target: (3, 30) path: [(3, 24), (3, 26), (3, 27), (3, 28), (3, 29), (3, 30)] jump_cd: 0 action: None
+DEBUG_SCOUT: Step 145 uid: 61-1 pos: (11,23) energy: 2 target: (9, 34) path: [(11, 22), (12, 22), (13, 22), (13, 23), (14, 23), (14, 24), (14, 25), (13, 25), (13, 26), (13, 27), (12, 27), (12, 28), (11, 28), (11, 29), (10, 29), (10, 30), (9, 30), (9, 31), (9, 32), (9, 33), (9, 34)]
+DEBUG_SCOUT: Step 145 uid: 77-1 pos: (11,24) energy: 33 target: (9, 33) path: [(11, 23), (11, 22), (12, 22), (13, 22), (13, 23), (14, 23), (14, 24), (14, 25), (13, 25), (13, 26), (13, 27), (12, 27), (12, 28), (11, 28), (11, 29), (10, 29), (10, 30), (9, 30), (9, 31), (9, 32), (9, 33)]
+DEBUG_MINER: Step 145 uid: 92-1 pos: (5,22) energy: 248 target: (8, 25) path: [(6, 22), (7, 22), (7, 23), (7, 24), (8, 24), (9, 24), (9, 25)] action: None
+DEBUG_FACTORY: Step 145 pos: (18,24) target: (16, 34) path: [(18, 25), (18, 26), (17, 26), (16, 26), (16, 27), (16, 28), (16, 29), (16, 30), (16, 31), (16, 32), (16, 34)] jump_cd: 16 action: None
+DEBUG_SCOUT: Step 145 uid: 118- pos: (12,18) energy: 38 target: (12, 18) path: []
+DEBUG_SCOUT: Step 145 uid: 131- pos: (15,21) energy: 37 target: (11, 26) path: [(14, 22), (13, 22), (12, 22), (12, 23), (12, 24), (11, 24), (11, 25), (11, 26)]
+DEBUG_FACTORY: Step 146 pos: (3,23) target: (3, 30) path: [(3, 24), (3, 26), (3, 27), (3, 28), (3, 29), (3, 30)] jump_cd: 0 action: None
+DEBUG_SCOUT: Step 146 uid: 61-1 pos: (11,23) energy: 1 target: (9, 34) path: [(12, 22), (13, 22), (13, 23), (14, 23), (14, 24), (14, 25), (13, 25), (13, 26), (13, 27), (12, 27), (12, 28), (11, 28), (11, 29), (10, 29), (10, 30), (9, 30), (9, 31), (9, 32), (9, 33), (9, 34)]
+DEBUG_SCOUT: Step 146 uid: 77-1 pos: (11,24) energy: 32 target: (9, 33) path: [(11, 22), (12, 22), (13, 22), (13, 23), (14, 23), (14, 24), (14, 25), (13, 25), (13, 26), (13, 27), (12, 27), (12, 28), (11, 28), (11, 29), (10, 29), (10, 30), (9, 30), (9, 31), (9, 32), (9, 33)]
+DEBUG_MINER: Step 146 uid: 92-1 pos: (5,22) energy: 247 target: (8, 25) path: [(7, 22), (7, 23), (7, 24), (8, 24), (9, 24), (9, 25)] action: EAST
+DEBUG_FACTORY: Step 146 pos: (18,24) target: (16, 34) path: [(18, 26), (17, 26), (16, 26), (16, 27), (16, 28), (16, 29), (16, 30), (16, 31), (16, 32), (16, 34)] jump_cd: 15 action: NORTH
+DEBUG_SCOUT: Step 146 uid: 118- pos: (12,18) energy: 37 target: (10, 18) path: [(11, 19), (10, 19), (10, 18)]
+DEBUG_SCOUT: Step 146 uid: 131- pos: (14,21) energy: 36 target: (11, 26) path: [(14, 22), (13, 22), (12, 22), (12, 23), (12, 24), (11, 24), (11, 25), (11, 26)]
+DEBUG_FACTORY: Step 147 pos: (3,23) target: (3, 30) path: [(3, 26), (3, 27), (3, 28), (3, 29), (3, 30)] jump_cd: 0 action: NORTH
+DEBUG_MINER: Step 147 uid: 92-1 pos: (6,22) energy: 246 target: (8, 25) path: [(7, 22), (7, 23), (7, 24), (8, 24), (9, 24), (9, 25)] action: None
+DEBUG_FACTORY: Step 147 pos: (18,25) target: (16, 34) path: [(18, 26), (17, 26), (16, 26), (16, 27), (16, 28), (16, 29), (16, 30), (16, 31), (16, 32), (16, 34)] jump_cd: 14 action: None
+DEBUG_SCOUT: Step 147 uid: 118- pos: (12,19) energy: 36 target: (10, 18) path: [(11, 19), (10, 19), (10, 18)]
+DEBUG_SCOUT: Step 147 uid: 131- pos: (14,21) energy: 35 target: (11, 26) path: [(13, 22), (12, 22), (12, 23), (12, 24), (11, 24), (11, 25), (11, 26)]
+DEBUG_FACTORY: Step 148 pos: (3,24) target: (3, 30) path: [(3, 26), (3, 27), (3, 28), (3, 29), (3, 30)] jump_cd: 0 action: None
+DEBUG_MINER: Step 148 uid: 92-1 pos: (6,22) energy: 245 target: (8, 25) path: [(7, 22), (7, 23), (7, 24), (8, 24), (9, 24), (9, 25)] action: None
+DEBUG_FACTORY: Step 148 pos: (18,25) target: (16, 34) path: [(18, 26), (17, 26), (16, 26), (16, 27), (16, 28), (16, 29), (16, 30), (16, 31), (16, 32), (16, 34)] jump_cd: 13 action: None
+DEBUG_SCOUT: Step 148 uid: 118- pos: (12,19) energy: 35 target: (10, 18) path: [(10, 19), (10, 18)]
+DEBUG_SCOUT: Step 148 uid: 131- pos: (14,22) energy: 34 target: (11, 26) path: [(13, 22), (12, 22), (12, 23), (12, 24), (11, 24), (11, 25), (11, 26)]
+DEBUG_FACTORY: Step 149 pos: (3,24) target: (3, 30) path: [(3, 26), (3, 27), (3, 28), (3, 29), (3, 30)] jump_cd: 0 action: None
+DEBUG_MINER: Step 149 uid: 92-1 pos: (6,22) energy: 244 target: (8, 25) path: [(7, 23), (7, 24), (8, 24), (9, 24), (9, 25)] action: EAST
+DEBUG_FACTORY: Step 149 pos: (18,25) target: (16, 34) path: [(17, 26), (16, 26), (16, 27), (16, 28), (16, 29), (16, 30), (16, 31), (16, 32), (16, 34)] jump_cd: 12 action: NORTH
+DEBUG_SCOUT: Step 149 uid: 118- pos: (11,19) energy: 34 target: (10, 18) path: [(10, 19), (10, 18)]
+DEBUG_SCOUT: Step 149 uid: 131- pos: (14,22) energy: 33 target: (11, 26) path: [(12, 22), (12, 23), (12, 24), (11, 24), (11, 25), (11, 26)]
+DEBUG_FACTORY: Step 150 pos: (3,24) target: (3, 30) path: [(3, 27), (3, 28), (3, 29), (3, 30)] jump_cd: 0 action: JUMP_NORTH
+DEBUG_MINER: Step 150 uid: 92-1 pos: (7,22) energy: 243 target: (8, 25) path: [(7, 23), (7, 24), (8, 24), (9, 24), (9, 25)] action: None
+DEBUG_FACTORY: Step 150 pos: (18,26) target: (16, 34) path: [(17, 26), (16, 26), (16, 27), (16, 28), (16, 29), (16, 30), (16, 31), (16, 32), (16, 34)] jump_cd: 11 action: None
+DEBUG_SCOUT: Step 150 uid: 118- pos: (11,19) energy: 33 target: (10, 18) path: [(10, 18)]
+DEBUG_SCOUT: Step 150 uid: 131- pos: (13,22) energy: 32 target: (11, 26) path: [(12, 22), (12, 23), (12, 24), (11, 24), (11, 25), (11, 26)]
+DEBUG_FACTORY: Step 151 pos: (3,26) target: (3, 30) path: [(3, 27), (3, 28), (3, 29), (3, 30)] jump_cd: 20 action: None
+DEBUG_MINER: Step 151 uid: 92-1 pos: (7,22) energy: 242 target: (8, 25) path: [(7, 23), (7, 24), (8, 24), (9, 24), (9, 25)] action: None
+DEBUG_FACTORY: Step 151 pos: (18,26) target: (16, 34) path: [(17, 26), (16, 26), (16, 27), (16, 28), (16, 29), (16, 30), (16, 31), (16, 32), (16, 34)] jump_cd: 10 action: None
+DEBUG_SCOUT: Step 151 uid: 118- pos: (10,19) energy: 32 target: (10, 18) path: [(10, 18)]
+DEBUG_SCOUT: Step 151 uid: 131- pos: (13,22) energy: 31 target: (11, 26) path: [(12, 23), (12, 24), (11, 24), (11, 25), (11, 26)]
+DEBUG_FACTORY: Step 152 pos: (3,26) target: (3, 30) path: [(3, 27), (3, 28), (3, 29), (3, 30)] jump_cd: 19 action: None
+DEBUG_MINER: Step 152 uid: 92-1 pos: (7,22) energy: 241 target: (8, 25) path: [(7, 24), (8, 24), (9, 24), (9, 25)] action: NORTH
+DEBUG_FACTORY: Step 152 pos: (18,26) target: (16, 34) path: [(16, 26), (16, 27), (16, 28), (16, 29), (16, 30), (16, 31), (16, 32), (16, 34)] jump_cd: 9 action: WEST
+DEBUG_SCOUT: Step 152 uid: 118- pos: (10,19) energy: 31 target: (10, 18) path: []
+DEBUG_SCOUT: Step 152 uid: 131- pos: (12,22) energy: 30 target: (11, 26) path: [(12, 23), (12, 24), (11, 24), (11, 25), (11, 26)]
+DEBUG_FACTORY: Step 153 pos: (3,26) target: (0, 33) path: [(2, 25), (2, 26), (2, 25), (2, 26), (2, 25), (2, 26), (1, 26), (0, 26), (0, 28), (0, 29), (0, 30), (0, 31), (0, 32), (0, 33)] jump_cd: 18 action: WEST
+DEBUG_MINER: Step 153 uid: 92-1 pos: (7,23) energy: 240 target: (8, 25) path: [(7, 24), (8, 24), (9, 24), (9, 25)] action: None
+DEBUG_FACTORY: Step 153 pos: (17,26) target: (16, 34) path: [(16, 26), (16, 27), (16, 28), (16, 29), (16, 30), (16, 31), (16, 32), (16, 34)] jump_cd: 8 action: None
+DEBUG_SCOUT: Step 153 uid: 118- pos: (10,18) energy: 40 target: (10, 18) path: []
+DEBUG_SCOUT: Step 153 uid: 131- pos: (12,22) energy: 29 target: (11, 26) path: [(12, 24), (11, 24), (11, 25), (11, 26)]
+DEBUG_FACTORY: Step 154 pos: (2,26) target: (0, 33) path: [(2, 25), (2, 26), (2, 25), (2, 26), (2, 25), (2, 26), (1, 26), (0, 26), (0, 28), (0, 29), (0, 30), (0, 31), (0, 32), (0, 33)] jump_cd: 17 action: None
+DEBUG_MINER: Step 154 uid: 92-1 pos: (7,23) energy: 239 target: (8, 25) path: [(7, 24), (8, 24), (9, 24), (9, 25)] action: None
+DEBUG_FACTORY: Step 154 pos: (17,26) target: (16, 34) path: [(16, 26), (16, 27), (16, 28), (16, 29), (16, 30), (16, 31), (16, 32), (16, 34)] jump_cd: 7 action: None
+DEBUG_SCOUT: Step 154 uid: 118- pos: (10,18) energy: 39 target: (10, 25) path: [(11, 19), (12, 19), (12, 18), (13, 18), (13, 19), (13, 20), (13, 21), (13, 22), (12, 22), (12, 23), (12, 24), (11, 24), (10, 24), (10, 25)]
+DEBUG_SCOUT: Step 154 uid: 131- pos: (12,23) energy: 28 target: (11, 26) path: [(12, 24), (11, 24), (11, 25), (11, 26)]
+DEBUG_FACTORY: Step 155 pos: (2,26) target: (0, 33) path: [(2, 25), (2, 26), (2, 25), (2, 26), (2, 25), (2, 26), (1, 26), (0, 26), (0, 28), (0, 29), (0, 30), (0, 31), (0, 32), (0, 33)] jump_cd: 16 action: None
+DEBUG_MINER: Step 155 uid: 92-1 pos: (7,23) energy: 238 target: (8, 25) path: [(8, 24), (9, 24), (9, 25)] action: NORTH
+DEBUG_FACTORY: Step 155 pos: (17,26) target: (16, 34) path: [(16, 27), (16, 28), (16, 29), (16, 30), (16, 31), (16, 32), (16, 34)] jump_cd: 6 action: WEST
+DEBUG_SCOUT: Step 155 uid: 118- pos: (10,19) energy: 38 target: (10, 25) path: [(11, 19), (12, 19), (12, 18), (13, 18), (13, 19), (13, 20), (13, 21), (13, 22), (12, 22), (12, 23), (12, 24), (11, 24), (10, 24), (10, 25)]
+DEBUG_SCOUT: Step 155 uid: 131- pos: (12,23) energy: 27 target: (11, 26) path: [(11, 24), (11, 25), (11, 26)]
+DEBUG_FACTORY: Step 156 pos: (2,26) target: (0, 33) path: [(2, 26), (2, 25), (2, 26), (2, 25), (2, 26), (1, 26), (0, 26), (0, 28), (0, 29), (0, 30), (0, 31), (0, 32), (0, 33)] jump_cd: 15 action: SOUTH
+DEBUG_MINER: Step 156 uid: 92-1 pos: (7,24) energy: 237 target: (8, 25) path: [(8, 24), (9, 24), (9, 25)] action: None
+DEBUG_FACTORY: Step 156 pos: (16,26) target: (16, 34) path: [(16, 27), (16, 28), (16, 29), (16, 30), (16, 31), (16, 32), (16, 34)] jump_cd: 5 action: None
+DEBUG_SCOUT: Step 156 uid: 118- pos: (10,19) energy: 37 target: (10, 25) path: [(12, 19), (12, 18), (13, 18), (13, 19), (13, 20), (13, 21), (13, 22), (12, 22), (12, 23), (12, 24), (11, 24), (10, 24), (10, 25)]
+DEBUG_SCOUT: Step 156 uid: 131- pos: (12,24) energy: 26 target: (11, 26) path: [(11, 24), (11, 25), (11, 26)]
+DEBUG_FACTORY: Step 157 pos: (2,25) target: (0, 33) path: [(2, 26), (2, 25), (2, 26), (2, 25), (2, 26), (1, 26), (0, 26), (0, 28), (0, 29), (0, 30), (0, 31), (0, 32), (0, 33)] jump_cd: 14 action: None
+DEBUG_MINER: Step 157 uid: 92-1 pos: (7,24) energy: 236 target: (8, 25) path: [(8, 24), (9, 24), (9, 25)] action: None
+DEBUG_FACTORY: Step 157 pos: (16,26) target: (16, 34) path: [(16, 27), (16, 28), (16, 29), (16, 30), (16, 31), (16, 32), (16, 34)] jump_cd: 4 action: None
+DEBUG_SCOUT: Step 157 uid: 118- pos: (11,19) energy: 36 target: (10, 25) path: [(12, 19), (12, 18), (13, 18), (13, 19), (13, 20), (13, 21), (13, 22), (12, 22), (12, 23), (12, 24), (11, 24), (10, 24), (10, 25)]
+DEBUG_SCOUT: Step 157 uid: 131- pos: (12,24) energy: 25 target: (11, 26) path: [(11, 25), (11, 26)]
+DEBUG_FACTORY: Step 158 pos: (2,25) target: (0, 33) path: [(2, 26), (2, 25), (2, 26), (2, 25), (2, 26), (1, 26), (0, 26), (0, 28), (0, 29), (0, 30), (0, 31), (0, 32), (0, 33)] jump_cd: 13 action: None
+DEBUG_MINER: Step 158 uid: 92-1 pos: (7,24) energy: 235 target: (8, 25) path: [(9, 24), (9, 25)] action: EAST
+DEBUG_FACTORY: Step 158 pos: (16,26) target: (11, 29) path: [(17, 25), (17, 26), (15, 26), (15, 27), (14, 27), (14, 28), (14, 29), (13, 29), (12, 29), (11, 29)] jump_cd: 3 action: EAST
+DEBUG_SCOUT: Step 158 uid: 118- pos: (11,19) energy: 35 target: (10, 25) path: [(12, 18), (13, 18), (13, 19), (13, 20), (13, 21), (13, 22), (12, 22), (12, 23), (12, 24), (11, 24), (10, 24), (10, 25)]
+DEBUG_SCOUT: Step 158 uid: 131- pos: (11,24) energy: 24 target: (11, 26) path: [(11, 25), (11, 26)]
+DEBUG_FACTORY: Step 159 pos: (2,25) target: (0, 33) path: [(2, 25), (2, 26), (2, 25), (2, 26), (1, 26), (0, 26), (0, 28), (0, 29), (0, 30), (0, 31), (0, 32), (0, 33)] jump_cd: 12 action: NORTH
+DEBUG_MINER: Step 159 uid: 92-1 pos: (8,24) energy: 234 target: (8, 25) path: [(9, 24), (9, 25)] action: None
+DEBUG_FACTORY: Step 159 pos: (17,26) target: (11, 29) path: [(17, 25), (17, 26), (15, 26), (15, 27), (14, 27), (14, 28), (14, 29), (13, 29), (12, 29), (11, 29)] jump_cd: 2 action: None
+DEBUG_SCOUT: Step 159 uid: 118- pos: (12,19) energy: 34 target: (10, 25) path: [(12, 18), (13, 18), (13, 19), (13, 20), (13, 21), (13, 22), (12, 22), (12, 23), (12, 24), (11, 24), (10, 24), (10, 25)]
+DEBUG_SCOUT: Step 159 uid: 131- pos: (11,24) energy: 23 target: (11, 26) path: [(11, 26)]
+DEBUG_FACTORY: Step 160 pos: (2,26) target: (0, 33) path: [(2, 25), (2, 26), (2, 25), (2, 26), (1, 26), (0, 26), (0, 28), (0, 29), (0, 30), (0, 31), (0, 32), (0, 33)] jump_cd: 11 action: None
+DEBUG_MINER: Step 160 uid: 92-1 pos: (8,24) energy: 233 target: (8, 25) path: [(9, 24), (9, 25)] action: None
+DEBUG_FACTORY: Step 160 pos: (17,26) target: (11, 29) path: [(17, 25), (17, 26), (15, 26), (15, 27), (14, 27), (14, 28), (14, 29), (13, 29), (12, 29), (11, 29)] jump_cd: 1 action: None
+DEBUG_SCOUT: Step 160 uid: 118- pos: (12,19) energy: 33 target: (10, 25) path: [(13, 18), (13, 19), (13, 20), (13, 21), (13, 22), (12, 22), (12, 23), (12, 24), (11, 24), (10, 24), (10, 25)]
+DEBUG_SCOUT: Step 160 uid: 131- pos: (11,25) energy: 22 target: (11, 26) path: [(11, 26)]
+DEBUG_FACTORY: Step 161 pos: (2,26) target: (0, 33) path: [(2, 25), (2, 26), (2, 25), (2, 26), (1, 26), (0, 26), (0, 28), (0, 29), (0, 30), (0, 31), (0, 32), (0, 33)] jump_cd: 10 action: None
+DEBUG_MINER: Step 161 uid: 92-1 pos: (8,24) energy: 232 target: (8, 25) path: [(9, 25)] action: EAST
+DEBUG_FACTORY: Step 161 pos: (17,26) target: (11, 29) path: [(17, 26), (15, 26), (15, 27), (14, 27), (14, 28), (14, 29), (13, 29), (12, 29), (11, 29)] jump_cd: 0 action: JUMP_NORTH
+DEBUG_SCOUT: Step 161 uid: 118- pos: (12,18) energy: 32 target: (10, 25) path: [(13, 18), (13, 19), (13, 20), (13, 21), (13, 22), (12, 22), (12, 23), (12, 24), (11, 24), (10, 24), (10, 25)]
+DEBUG_SCOUT: Step 161 uid: 131- pos: (11,25) energy: 21 target: (10, 26) path: [(10, 24), (10, 25), (10, 26)]
+DEBUG_FACTORY: Step 162 pos: (2,26) target: (0, 33) path: [(2, 26), (2, 25), (2, 26), (1, 26), (0, 26), (0, 28), (0, 29), (0, 30), (0, 31), (0, 32), (0, 33)] jump_cd: 9 action: SOUTH
+DEBUG_MINER: Step 162 uid: 92-1 pos: (9,24) energy: 231 target: (8, 25) path: [(9, 25)] action: None
+DEBUG_FACTORY: Step 162 pos: (17,28) target: (11, 29) path: [(17, 26), (15, 26), (15, 27), (14, 27), (14, 28), (14, 29), (13, 29), (12, 29), (11, 29)] jump_cd: 20 action: None
+DEBUG_SCOUT: Step 162 uid: 118- pos: (12,18) energy: 31 target: (10, 25) path: [(13, 19), (13, 20), (13, 21), (13, 22), (12, 22), (12, 23), (12, 24), (11, 24), (10, 24), (10, 25)]
+DEBUG_SCOUT: Step 162 uid: 131- pos: (11,24) energy: 20 target: (10, 26) path: [(10, 24), (10, 25), (10, 26)]
+DEBUG_FACTORY: Step 163 pos: (2,25) target: (0, 33) path: [(2, 26), (2, 25), (2, 26), (1, 26), (0, 26), (0, 28), (0, 29), (0, 30), (0, 31), (0, 32), (0, 33)] jump_cd: 8 action: None
+DEBUG_MINER: Step 163 uid: 92-1 pos: (9,24) energy: 230 target: (8, 25) path: [(9, 25)] action: None
+DEBUG_FACTORY: Step 163 pos: (17,28) target: (11, 29) path: [(17, 26), (15, 26), (15, 27), (14, 27), (14, 28), (14, 29), (13, 29), (12, 29), (11, 29)] jump_cd: 19 action: None
+DEBUG_SCOUT: Step 163 uid: 131- pos: (11,24) energy: 19 target: (10, 26) path: [(10, 25), (10, 26)]
+DEBUG_FACTORY: Step 164 pos: (2,25) target: (0, 33) path: [(2, 26), (2, 25), (2, 26), (1, 26), (0, 26), (0, 28), (0, 29), (0, 30), (0, 31), (0, 32), (0, 33)] jump_cd: 7 action: None
+DEBUG_MINER: Step 164 uid: 92-1 pos: (9,24) energy: 229 target: (8, 25) path: [] action: NORTH
+DEBUG_FACTORY: Step 164 pos: (17,28) target: (11, 29) path: [(17, 26), (15, 26), (15, 27), (14, 27), (14, 28), (14, 29), (13, 29), (12, 29), (11, 29)] jump_cd: 18 action: BUILD_SCOUT_WEST
+DEBUG_SCOUT: Step 164 uid: 131- pos: (10,24) energy: 18 target: (10, 26) path: [(10, 25), (10, 26)]
+DEBUG_FACTORY: Step 165 pos: (2,25) target: (0, 33) path: [(2, 25), (2, 26), (1, 26), (0, 26), (0, 28), (0, 29), (0, 30), (0, 31), (0, 32), (0, 33)] jump_cd: 6 action: NORTH
+DEBUG_MINER: Step 165 uid: 92-1 pos: (9,25) energy: 228 target: (8, 25) path: [] action: None
+DEBUG_FACTORY: Step 165 pos: (17,28) target: (11, 29) path: [(15, 26), (15, 27), (14, 27), (14, 28), (14, 29), (13, 29), (12, 29), (11, 29)] jump_cd: 17 action: JUMP_SOUTH
+DEBUG_SCOUT: Step 165 uid: 131- pos: (10,24) energy: 17 target: (10, 26) path: [(10, 26)]
+DEBUG_SCOUT: Step 165 uid: 164- pos: (16,28) energy: 50 target: None path: None
+DEBUG_FACTORY: Step 166 pos: (2,26) target: (0, 33) path: [(2, 25), (2, 26), (1, 26), (0, 26), (0, 28), (0, 29), (0, 30), (0, 31), (0, 32), (0, 33)] jump_cd: 5 action: None
+DEBUG_MINER: Step 166 uid: 92-1 pos: (9,25) energy: 227 target: (8, 25) path: [] action: None
+DEBUG_FACTORY: Step 166 pos: (17,28) target: (14, 31) path: [(17, 28), (17, 27), (16, 27), (15, 27), (14, 27), (14, 28), (14, 29), (14, 31)] jump_cd: 16 action: SOUTH
+DEBUG_SCOUT: Step 166 uid: 131- pos: (10,25) energy: 16 target: (10, 26) path: [(10, 26)]
+DEBUG_SCOUT: Step 166 uid: 164- pos: (16,28) energy: 49 target: (11, 29) path: [(15, 27), (14, 27), (14, 28), (13, 28), (12, 28), (11, 28), (11, 29)]
+DEBUG_FACTORY: Step 167 pos: (2,26) target: (0, 33) path: [(2, 25), (2, 26), (1, 26), (0, 26), (0, 28), (0, 29), (0, 30), (0, 31), (0, 32), (0, 33)] jump_cd: 4 action: None
+DEBUG_MINER: Step 167 uid: 92-1 pos: (9,25) energy: 226 target: (8, 25) path: [] action: TRANSFORM
+DEBUG_FACTORY: Step 167 pos: (17,27) target: (14, 31) path: [(17, 28), (17, 27), (16, 27), (15, 27), (14, 27), (14, 28), (14, 29), (14, 31)] jump_cd: 15 action: None
+DEBUG_SCOUT: Step 167 uid: 131- pos: (10,25) energy: 15 target: (10, 26) path: []
+DEBUG_SCOUT: Step 167 uid: 164- pos: (16,27) energy: 48 target: (11, 29) path: [(15, 27), (14, 27), (14, 28), (13, 28), (12, 28), (11, 28), (11, 29)]
+DEBUG_FACTORY: Step 168 pos: (2,26) target: (0, 33) path: [(2, 26), (1, 26), (0, 26), (0, 28), (0, 29), (0, 30), (0, 31), (0, 32), (0, 33)] jump_cd: 3 action: SOUTH
+DEBUG_FACTORY: Step 168 pos: (17,27) target: (14, 31) path: [(17, 28), (17, 27), (16, 27), (15, 27), (14, 27), (14, 28), (14, 29), (14, 31)] jump_cd: 14 action: None
+DEBUG_SCOUT: Step 168 uid: 131- pos: (10,26) energy: 14 target: (10, 26) path: []
+DEBUG_SCOUT: Step 168 uid: 164- pos: (16,27) energy: 47 target: (11, 29) path: [(14, 27), (14, 28), (13, 28), (12, 28), (11, 28), (11, 29)]
+DEBUG_FACTORY: Step 169 pos: (2,25) target: (0, 33) path: [(2, 26), (1, 26), (0, 26), (0, 28), (0, 29), (0, 30), (0, 31), (0, 32), (0, 33)] jump_cd: 2 action: None
+DEBUG_FACTORY: Step 169 pos: (17,27) target: (14, 31) path: [(17, 27), (16, 27), (15, 27), (14, 27), (14, 28), (14, 29), (14, 31)] jump_cd: 13 action: NORTH
+DEBUG_SCOUT: Step 169 uid: 131- pos: (10,26) energy: 13 target: (4, 27) path: [(9, 25), (9, 24), (8, 24), (8, 23), (8, 22), (7, 22), (6, 22), (5, 22), (5, 23), (4, 23), (4, 24), (4, 25), (4, 26), (4, 27)]
+DEBUG_SCOUT: Step 169 uid: 164- pos: (15,27) energy: 46 target: (11, 29) path: [(14, 27), (14, 28), (13, 28), (12, 28), (11, 28), (11, 29)]
+DEBUG_FACTORY: Step 170 pos: (2,25) target: (0, 33) path: [(2, 26), (1, 26), (0, 26), (0, 28), (0, 29), (0, 30), (0, 31), (0, 32), (0, 33)] jump_cd: 1 action: None
+DEBUG_FACTORY: Step 170 pos: (17,28) target: (14, 31) path: [(17, 27), (16, 27), (15, 27), (14, 27), (14, 28), (14, 29), (14, 31)] jump_cd: 12 action: None
+DEBUG_SCOUT: Step 170 uid: 131- pos: (10,25) energy: 12 target: (4, 27) path: [(9, 25), (9, 24), (8, 24), (8, 23), (8, 22), (7, 22), (6, 22), (5, 22), (5, 23), (4, 23), (4, 24), (4, 25), (4, 26), (4, 27)]
+DEBUG_SCOUT: Step 170 uid: 164- pos: (15,27) energy: 45 target: (11, 29) path: [(14, 28), (13, 28), (12, 28), (11, 28), (11, 29)]
+DEBUG_FACTORY: Step 171 pos: (2,25) target: (0, 33) path: [(1, 26), (0, 26), (0, 28), (0, 29), (0, 30), (0, 31), (0, 32), (0, 33)] jump_cd: 0 action: NORTH
+DEBUG_FACTORY: Step 171 pos: (17,28) target: (14, 31) path: [(17, 27), (16, 27), (15, 27), (14, 27), (14, 28), (14, 29), (14, 31)] jump_cd: 11 action: None
+DEBUG_SCOUT: Step 171 uid: 131- pos: (10,25) energy: 11 target: (4, 27) path: [(9, 24), (8, 24), (8, 23), (8, 22), (7, 22), (6, 22), (5, 22), (5, 23), (4, 23), (4, 24), (4, 25), (4, 26), (4, 27)]
+DEBUG_SCOUT: Step 171 uid: 164- pos: (14,27) energy: 44 target: (11, 29) path: [(14, 28), (13, 28), (12, 28), (11, 28), (11, 29)]
+DEBUG_FACTORY: Step 172 pos: (2,26) target: (0, 33) path: [(1, 26), (0, 26), (0, 28), (0, 29), (0, 30), (0, 31), (0, 32), (0, 33)] jump_cd: 0 action: None
+DEBUG_FACTORY: Step 172 pos: (17,28) target: (14, 31) path: [(16, 27), (15, 27), (14, 27), (14, 28), (14, 29), (14, 31)] jump_cd: 10 action: SOUTH
+DEBUG_SCOUT: Step 172 uid: 131- pos: (9,25) energy: 10 target: (4, 27) path: [(9, 24), (8, 24), (8, 23), (8, 22), (7, 22), (6, 22), (5, 22), (5, 23), (4, 23), (4, 24), (4, 25), (4, 26), (4, 27)]
+DEBUG_SCOUT: Step 172 uid: 164- pos: (14,27) energy: 43 target: (11, 29) path: [(13, 28), (12, 28), (11, 28), (11, 29)]
+DEBUG_FACTORY: Step 173 pos: (2,26) target: (0, 33) path: [(1, 26), (0, 26), (0, 28), (0, 29), (0, 30), (0, 31), (0, 32), (0, 33)] jump_cd: 0 action: None
+DEBUG_FACTORY: Step 173 pos: (17,27) target: (14, 31) path: [(16, 27), (15, 27), (14, 27), (14, 28), (14, 29), (14, 31)] jump_cd: 9 action: None
+DEBUG_SCOUT: Step 173 uid: 131- pos: (9,25) energy: 9 target: (4, 27) path: [(8, 24), (8, 23), (8, 22), (7, 22), (6, 22), (5, 22), (5, 23), (4, 23), (4, 24), (4, 25), (4, 26), (4, 27)]
+DEBUG_SCOUT: Step 173 uid: 164- pos: (14,28) energy: 42 target: (11, 29) path: [(13, 28), (12, 28), (11, 28), (11, 29)]
+DEBUG_FACTORY: Step 174 pos: (2,26) target: (0, 33) path: [(0, 26), (0, 28), (0, 29), (0, 30), (0, 31), (0, 32), (0, 33)] jump_cd: 0 action: WEST
+DEBUG_FACTORY: Step 174 pos: (17,27) target: (14, 31) path: [(16, 27), (15, 27), (14, 27), (14, 28), (14, 29), (14, 31)] jump_cd: 8 action: None
+DEBUG_SCOUT: Step 174 uid: 131- pos: (9,24) energy: 8 target: (4, 27) path: [(8, 24), (8, 23), (8, 22), (7, 22), (6, 22), (5, 22), (5, 23), (4, 23), (4, 24), (4, 25), (4, 26), (4, 27)]
+DEBUG_SCOUT: Step 174 uid: 164- pos: (14,28) energy: 41 target: (11, 29) path: [(12, 28), (11, 28), (11, 29)]
+DEBUG_FACTORY: Step 175 pos: (1,26) target: (0, 33) path: [(0, 26), (0, 28), (0, 29), (0, 30), (0, 31), (0, 32), (0, 33)] jump_cd: 0 action: None
+DEBUG_FACTORY: Step 175 pos: (17,27) target: (14, 31) path: [(15, 27), (14, 27), (14, 28), (14, 29), (14, 31)] jump_cd: 7 action: WEST
+DEBUG_SCOUT: Step 175 uid: 131- pos: (9,24) energy: 7 target: (4, 27) path: [(8, 23), (8, 22), (7, 22), (6, 22), (5, 22), (5, 23), (4, 23), (4, 24), (4, 25), (4, 26), (4, 27)]
+DEBUG_SCOUT: Step 175 uid: 164- pos: (13,28) energy: 40 target: (11, 29) path: [(12, 28), (11, 28), (11, 29)]
+DEBUG_FACTORY: Step 176 pos: (1,26) target: (0, 33) path: [(0, 26), (0, 28), (0, 29), (0, 30), (0, 31), (0, 32), (0, 33)] jump_cd: 0 action: None
+DEBUG_FACTORY: Step 176 pos: (16,27) target: (14, 31) path: [(15, 27), (14, 27), (14, 28), (14, 29), (14, 31)] jump_cd: 6 action: None
+DEBUG_SCOUT: Step 176 uid: 131- pos: (8,24) energy: 6 target: (4, 27) path: [(8, 23), (8, 22), (7, 22), (6, 22), (5, 22), (5, 23), (4, 23), (4, 24), (4, 25), (4, 26), (4, 27)]
+DEBUG_SCOUT: Step 176 uid: 164- pos: (13,28) energy: 39 target: (11, 29) path: [(11, 28), (11, 29)]
+DEBUG_FACTORY: Step 177 pos: (1,26) target: (0, 33) path: [(0, 28), (0, 29), (0, 30), (0, 31), (0, 32), (0, 33)] jump_cd: 0 action: WEST
+DEBUG_FACTORY: Step 177 pos: (16,27) target: (14, 31) path: [(15, 27), (14, 27), (14, 28), (14, 29), (14, 31)] jump_cd: 5 action: None
+DEBUG_SCOUT: Step 177 uid: 131- pos: (8,24) energy: 5 target: (4, 27) path: [(8, 22), (7, 22), (6, 22), (5, 22), (5, 23), (4, 23), (4, 24), (4, 25), (4, 26), (4, 27)]
+DEBUG_SCOUT: Step 177 uid: 164- pos: (12,28) energy: 38 target: (11, 29) path: [(11, 28), (11, 29)]
+DEBUG_FACTORY: Step 178 pos: (0,26) target: (0, 33) path: [(0, 28), (0, 29), (0, 30), (0, 31), (0, 32), (0, 33)] jump_cd: 0 action: None
+DEBUG_FACTORY: Step 178 pos: (16,27) target: (14, 31) path: [(14, 27), (14, 28), (14, 29), (14, 31)] jump_cd: 4 action: WEST
+DEBUG_SCOUT: Step 178 uid: 131- pos: (8,23) energy: 4 target: (4, 27) path: [(8, 22), (7, 22), (6, 22), (5, 22), (5, 23), (4, 23), (4, 24), (4, 25), (4, 26), (4, 27)]
+DEBUG_SCOUT: Step 178 uid: 164- pos: (12,28) energy: 37 target: (11, 29) path: [(11, 29)]
+DEBUG_FACTORY: Step 179 pos: (0,26) target: (0, 33) path: [(0, 28), (0, 29), (0, 30), (0, 31), (0, 32), (0, 33)] jump_cd: 0 action: None
+DEBUG_FACTORY: Step 179 pos: (15,27) target: (14, 31) path: [(14, 27), (14, 28), (14, 29), (14, 31)] jump_cd: 3 action: None
+DEBUG_SCOUT: Step 179 uid: 131- pos: (8,23) energy: 3 target: (4, 27) path: [(7, 22), (6, 22), (5, 22), (5, 23), (4, 23), (4, 24), (4, 25), (4, 26), (4, 27)]
+DEBUG_SCOUT: Step 179 uid: 164- pos: (11,28) energy: 36 target: (11, 29) path: [(11, 29)]
+DEBUG_FACTORY: Step 180 pos: (0,26) target: (0, 33) path: [(0, 29), (0, 30), (0, 31), (0, 32), (0, 33)] jump_cd: 0 action: JUMP_NORTH
+DEBUG_FACTORY: Step 180 pos: (15,27) target: (14, 31) path: [(14, 27), (14, 28), (14, 29), (14, 31)] jump_cd: 2 action: None
+DEBUG_SCOUT: Step 180 uid: 131- pos: (8,22) energy: 2 target: (4, 27) path: [(7, 22), (6, 22), (5, 22), (5, 23), (4, 23), (4, 24), (4, 25), (4, 26), (4, 27)]
+DEBUG_SCOUT: Step 180 uid: 164- pos: (11,28) energy: 35 target: (11, 29) path: []
+DEBUG_FACTORY: Step 181 pos: (0,28) target: (0, 33) path: [(0, 29), (0, 30), (0, 31), (0, 32), (0, 33)] jump_cd: 20 action: None
+DEBUG_FACTORY: Step 181 pos: (15,27) target: (14, 31) path: [(14, 28), (14, 29), (14, 31)] jump_cd: 1 action: WEST
+DEBUG_SCOUT: Step 181 uid: 131- pos: (8,22) energy: 1 target: (4, 27) path: [(6, 22), (5, 22), (5, 23), (4, 23), (4, 24), (4, 25), (4, 26), (4, 27)]
+DEBUG_SCOUT: Step 181 uid: 164- pos: (11,29) energy: 61 target: (11, 29) path: []
+DEBUG_FACTORY: Step 182 pos: (0,28) target: (0, 33) path: [(0, 29), (0, 30), (0, 31), (0, 32), (0, 33)] jump_cd: 19 action: None
+DEBUG_FACTORY: Step 182 pos: (14,27) target: (14, 31) path: [(14, 28), (14, 29), (14, 31)] jump_cd: 0 action: None
+DEBUG_SCOUT: Step 182 uid: 131- pos: (8,22) energy: 0 target: (4, 27) path: [(6, 22), (5, 22), (5, 23), (4, 23), (4, 24), (4, 25), (4, 26), (4, 27)]
+DEBUG_SCOUT: Step 182 uid: 164- pos: (11,29) energy: 60 target: (10, 29) path: []
+DEBUG_FACTORY: Step 183 pos: (0,28) target: (1, 33) path: [(0, 28), (0, 27), (0, 28), (0, 27), (0, 28), (0, 27), (0, 28), (0, 27), (0, 28), (0, 30), (0, 31), (1, 31), (1, 32), (1, 33)] jump_cd: 18 action: SOUTH
+DEBUG_FACTORY: Step 183 pos: (14,27) target: (14, 31) path: [(14, 28), (14, 29), (14, 31)] jump_cd: 0 action: None
+DEBUG_SCOUT: Step 183 uid: 131- pos: (8,22) energy: 0 target: (4, 27) path: [(6, 22), (5, 22), (5, 23), (4, 23), (4, 24), (4, 25), (4, 26), (4, 27)]
+DEBUG_SCOUT: Step 183 uid: 164- pos: (10,29) energy: 71 target: (10, 29) path: []
+DEBUG_FACTORY: Step 184 pos: (0,27) target: (1, 33) path: [(0, 28), (0, 27), (0, 28), (0, 27), (0, 28), (0, 27), (0, 28), (0, 27), (0, 28), (0, 30), (0, 31), (1, 31), (1, 32), (1, 33)] jump_cd: 17 action: None
+DEBUG_FACTORY: Step 184 pos: (14,27) target: (14, 31) path: [(14, 29), (14, 31)] jump_cd: 0 action: NORTH
+DEBUG_SCOUT: Step 184 uid: 131- pos: (8,22) energy: 0 target: (4, 27) path: [(6, 22), (5, 22), (5, 23), (4, 23), (4, 24), (4, 25), (4, 26), (4, 27)]
+DEBUG_SCOUT: Step 184 uid: 164- pos: (10,29) energy: 70 target: (9, 29) path: []
+DEBUG_FACTORY: Step 185 pos: (0,27) target: (1, 33) path: [(0, 28), (0, 27), (0, 28), (0, 27), (0, 28), (0, 27), (0, 28), (0, 27), (0, 28), (0, 30), (0, 31), (1, 31), (1, 32), (1, 33)] jump_cd: 16 action: None
+DEBUG_FACTORY: Step 185 pos: (14,28) target: (14, 31) path: [(14, 29), (14, 31)] jump_cd: 0 action: None
+DEBUG_SCOUT: Step 185 uid: 131- pos: (8,22) energy: 0 target: (4, 27) path: [(6, 22), (5, 22), (5, 23), (4, 23), (4, 24), (4, 25), (4, 26), (4, 27)]
+DEBUG_SCOUT: Step 185 uid: 164- pos: (9,29) energy: 81 target: (9, 29) path: []
+DEBUG_FACTORY: Step 186 pos: (0,27) target: (1, 33) path: [(0, 27), (0, 28), (0, 27), (0, 28), (0, 27), (0, 28), (0, 27), (0, 28), (0, 30), (0, 31), (1, 31), (1, 32), (1, 33)] jump_cd: 15 action: NORTH
+DEBUG_FACTORY: Step 186 pos: (14,28) target: (14, 31) path: [(14, 29), (14, 31)] jump_cd: 0 action: None
+DEBUG_SCOUT: Step 186 uid: 131- pos: (8,22) energy: 0 target: (4, 27) path: [(6, 22), (5, 22), (5, 23), (4, 23), (4, 24), (4, 25), (4, 26), (4, 27)]
+DEBUG_SCOUT: Step 186 uid: 164- pos: (9,29) energy: 80 target: (8, 29) path: []
+DEBUG_FACTORY: Step 187 pos: (0,28) target: (1, 33) path: [(0, 27), (0, 28), (0, 27), (0, 28), (0, 27), (0, 28), (0, 27), (0, 28), (0, 30), (0, 31), (1, 31), (1, 32), (1, 33)] jump_cd: 14 action: None
+DEBUG_FACTORY: Step 187 pos: (14,28) target: (14, 31) path: [(14, 31)] jump_cd: 0 action: NORTH
+DEBUG_SCOUT: Step 187 uid: 131- pos: (8,22) energy: 0 target: (4, 27) path: [(6, 22), (5, 22), (5, 23), (4, 23), (4, 24), (4, 25), (4, 26), (4, 27)]
+DEBUG_SCOUT: Step 187 uid: 164- pos: (8,29) energy: 100 target: (8, 29) path: []
+DEBUG_FACTORY: Step 188 pos: (0,28) target: (1, 33) path: [(0, 27), (0, 28), (0, 27), (0, 28), (0, 27), (0, 28), (0, 27), (0, 28), (0, 30), (0, 31), (1, 31), (1, 32), (1, 33)] jump_cd: 13 action: None
+DEBUG_FACTORY: Step 188 pos: (14,29) target: (14, 31) path: [(14, 31)] jump_cd: 0 action: None
+DEBUG_SCOUT: Step 188 uid: 131- pos: (8,22) energy: 0 target: (4, 27) path: [(6, 22), (5, 22), (5, 23), (4, 23), (4, 24), (4, 25), (4, 26), (4, 27)]
+DEBUG_SCOUT: Step 188 uid: 164- pos: (8,29) energy: 99 target: (7, 31) path: [(8, 31), (7, 31)]
+DEBUG_FACTORY: Step 189 pos: (0,28) target: (1, 33) path: [(0, 28), (0, 27), (0, 28), (0, 27), (0, 28), (0, 27), (0, 28), (0, 30), (0, 31), (1, 31), (1, 32), (1, 33)] jump_cd: 12 action: SOUTH
+DEBUG_FACTORY: Step 189 pos: (14,29) target: (14, 31) path: [(14, 31)] jump_cd: 0 action: None
+DEBUG_SCOUT: Step 189 uid: 131- pos: (8,22) energy: 0 target: (4, 27) path: [(6, 22), (5, 22), (5, 23), (4, 23), (4, 24), (4, 25), (4, 26), (4, 27)]
+DEBUG_SCOUT: Step 189 uid: 164- pos: (8,30) energy: 98 target: (7, 31) path: [(8, 31), (7, 31)]
+DEBUG_FACTORY: Step 190 pos: (0,27) target: (1, 33) path: [(0, 28), (0, 27), (0, 28), (0, 27), (0, 28), (0, 27), (0, 28), (0, 30), (0, 31), (1, 31), (1, 32), (1, 33)] jump_cd: 11 action: None
+DEBUG_FACTORY: Step 190 pos: (14,29) target: (14, 31) path: [] jump_cd: 0 action: JUMP_NORTH
+DEBUG_SCOUT: Step 190 uid: 131- pos: (8,22) energy: 0 target: (4, 27) path: [(6, 22), (5, 22), (5, 23), (4, 23), (4, 24), (4, 25), (4, 26), (4, 27)]
+DEBUG_SCOUT: Step 190 uid: 164- pos: (8,30) energy: 97 target: (7, 31) path: [(7, 31)]
+DEBUG_FACTORY: Step 191 pos: (0,27) target: (1, 33) path: [(0, 28), (0, 27), (0, 28), (0, 27), (0, 28), (0, 27), (0, 28), (0, 30), (0, 31), (1, 31), (1, 32), (1, 33)] jump_cd: 10 action: None
+DEBUG_FACTORY: Step 191 pos: (14,31) target: (14, 31) path: [] jump_cd: 20 action: None
+DEBUG_SCOUT: Step 191 uid: 164- pos: (8,31) energy: 96 target: (7, 31) path: [(7, 31)]
+DEBUG_FACTORY: Step 192 pos: (0,27) target: (1, 33) path: [(0, 27), (0, 28), (0, 27), (0, 28), (0, 27), (0, 28), (0, 30), (0, 31), (1, 31), (1, 32), (1, 33)] jump_cd: 9 action: NORTH
+DEBUG_FACTORY: Step 192 pos: (14,31) target: (14, 31) path: [] jump_cd: 19 action: None
+DEBUG_SCOUT: Step 192 uid: 164- pos: (8,31) energy: 95 target: (7, 31) path: []
+DEBUG_FACTORY: Step 193 pos: (0,28) target: (1, 33) path: [(0, 27), (0, 28), (0, 27), (0, 28), (0, 27), (0, 28), (0, 30), (0, 31), (1, 31), (1, 32), (1, 33)] jump_cd: 8 action: None
+DEBUG_FACTORY: Step 193 pos: (14,31) target: (14, 31) path: [] jump_cd: 18 action: BUILD_SCOUT_EAST
+DEBUG_SCOUT: Step 193 uid: 164- pos: (7,31) energy: 100 target: (7, 31) path: []
+DEBUG_FACTORY: Step 194 pos: (0,28) target: (1, 33) path: [(0, 27), (0, 28), (0, 27), (0, 28), (0, 27), (0, 28), (0, 30), (0, 31), (1, 31), (1, 32), (1, 33)] jump_cd: 7 action: None
+DEBUG_FACTORY: Step 194 pos: (14,31) target: (14, 31) path: None jump_cd: 17 action: IDLE
+DEBUG_SCOUT: Step 194 uid: 164- pos: (7,31) energy: 99 target: (12, 31) path: [(8, 30), (8, 29), (9, 29), (10, 29), (11, 29), (11, 30), (11, 31), (12, 31)]
+DEBUG_SCOUT: Step 194 uid: 193- pos: (15,31) energy: 50 target: None path: None
+DEBUG_FACTORY: Step 195 pos: (0,28) target: (1, 33) path: [(0, 28), (0, 27), (0, 28), (0, 27), (0, 28), (0, 30), (0, 31), (1, 31), (1, 32), (1, 33)] jump_cd: 6 action: SOUTH
+DEBUG_FACTORY: Step 195 pos: (14,31) target: (14, 31) path: None jump_cd: 16 action: IDLE
+DEBUG_SCOUT: Step 195 uid: 164- pos: (8,31) energy: 98 target: (12, 31) path: [(8, 30), (8, 29), (9, 29), (10, 29), (11, 29), (11, 30), (11, 31), (12, 31)]
+DEBUG_SCOUT: Step 195 uid: 193- pos: (15,31) energy: 49 target: (16, 31) path: []
+DEBUG_FACTORY: Step 196 pos: (0,27) target: (1, 33) path: [(0, 28), (0, 27), (0, 28), (0, 27), (0, 28), (0, 30), (0, 31), (1, 31), (1, 32), (1, 33)] jump_cd: 5 action: None
+DEBUG_FACTORY: Step 196 pos: (14,31) target: (14, 34) path: [(15, 32), (15, 33), (14, 33), (14, 34)] jump_cd: 15 action: EAST
+DEBUG_SCOUT: Step 196 uid: 164- pos: (8,31) energy: 97 target: (12, 31) path: [(8, 29), (9, 29), (10, 29), (11, 29), (11, 30), (11, 31), (12, 31)]
+DEBUG_SCOUT: Step 196 uid: 193- pos: (16,31) energy: 95 target: (16, 31) path: []
+DEBUG_FACTORY: Step 197 pos: (0,27) target: (1, 33) path: [(0, 28), (0, 27), (0, 28), (0, 27), (0, 28), (0, 30), (0, 31), (1, 31), (1, 32), (1, 33)] jump_cd: 4 action: None
+DEBUG_FACTORY: Step 197 pos: (15,31) target: (14, 34) path: [(15, 32), (15, 33), (14, 33), (14, 34)] jump_cd: 14 action: None
+DEBUG_SCOUT: Step 197 uid: 164- pos: (8,30) energy: 96 target: (12, 31) path: [(8, 29), (9, 29), (10, 29), (11, 29), (11, 30), (11, 31), (12, 31)]
+DEBUG_SCOUT: Step 197 uid: 193- pos: (16,31) energy: 94 target: (16, 32) path: []
+DEBUG_FACTORY: Step 198 pos: (0,27) target: (1, 33) path: [(0, 27), (0, 28), (0, 27), (0, 28), (0, 30), (0, 31), (1, 31), (1, 32), (1, 33)] jump_cd: 3 action: NORTH
+DEBUG_FACTORY: Step 198 pos: (15,31) target: (14, 34) path: [(15, 32), (15, 33), (14, 33), (14, 34)] jump_cd: 13 action: None
+DEBUG_SCOUT: Step 198 uid: 164- pos: (8,30) energy: 95 target: (12, 31) path: [(9, 29), (10, 29), (11, 29), (11, 30), (11, 31), (12, 31)]
+DEBUG_SCOUT: Step 198 uid: 193- pos: (16,32) energy: 93 target: (16, 32) path: []
+DEBUG_FACTORY: Step 199 pos: (0,28) target: (1, 33) path: [(0, 27), (0, 28), (0, 27), (0, 28), (0, 30), (0, 31), (1, 31), (1, 32), (1, 33)] jump_cd: 2 action: None
+DEBUG_FACTORY: Step 199 pos: (15,31) target: (14, 34) path: [(15, 33), (14, 33), (14, 34)] jump_cd: 12 action: NORTH
+DEBUG_SCOUT: Step 199 uid: 164- pos: (8,29) energy: 94 target: (12, 31) path: [(9, 29), (10, 29), (11, 29), (11, 30), (11, 31), (12, 31)]
+DEBUG_SCOUT: Step 199 uid: 193- pos: (16,32) energy: 92 target: (14, 34) path: [(15, 31), (15, 32), (15, 33), (14, 33), (14, 34)]
+DEBUG_FACTORY: Step 200 pos: (0,28) target: (1, 33) path: [(0, 27), (0, 28), (0, 27), (0, 28), (0, 30), (0, 31), (1, 31), (1, 32), (1, 33)] jump_cd: 1 action: None
+DEBUG_FACTORY: Step 200 pos: (15,32) target: (14, 34) path: [(15, 33), (14, 33), (14, 34)] jump_cd: 11 action: None
+DEBUG_SCOUT: Step 200 uid: 164- pos: (8,29) energy: 93 target: (12, 31) path: [(10, 29), (11, 29), (11, 30), (11, 31), (12, 31)]
+DEBUG_SCOUT: Step 200 uid: 193- pos: (16,31) energy: 91 target: (14, 34) path: [(15, 31), (15, 32), (15, 33), (14, 33), (14, 34)]
+DEBUG_FACTORY: Step 201 pos: (0,28) target: (1, 33) path: [(0, 28), (0, 27), (0, 28), (0, 30), (0, 31), (1, 31), (1, 32), (1, 33)] jump_cd: 0 action: JUMP_NORTH
+DEBUG_FACTORY: Step 201 pos: (15,32) target: (14, 34) path: [(15, 33), (14, 33), (14, 34)] jump_cd: 10 action: None
+DEBUG_SCOUT: Step 201 uid: 164- pos: (9,29) energy: 92 target: (12, 31) path: [(10, 29), (11, 29), (11, 30), (11, 31), (12, 31)]
+DEBUG_SCOUT: Step 201 uid: 193- pos: (16,31) energy: 90 target: (14, 34) path: [(15, 32), (15, 33), (14, 33), (14, 34)]
+DEBUG_FACTORY: Step 202 pos: (0,30) target: (1, 33) path: [(0, 28), (0, 27), (0, 28), (0, 30), (0, 31), (1, 31), (1, 32), (1, 33)] jump_cd: 20 action: None
+DEBUG_FACTORY: Step 202 pos: (15,32) target: (14, 34) path: [(14, 33), (14, 34)] jump_cd: 9 action: NORTH
+DEBUG_SCOUT: Step 202 uid: 164- pos: (9,29) energy: 91 target: (12, 31) path: [(11, 29), (11, 30), (11, 31), (12, 31)]
+DEBUG_SCOUT: Step 202 uid: 193- pos: (15,31) energy: 89 target: (14, 34) path: [(15, 32), (15, 33), (14, 33), (14, 34)]
+DEBUG_FACTORY: Step 203 pos: (0,30) target: (1, 33) path: [(0, 28), (0, 27), (0, 28), (0, 30), (0, 31), (1, 31), (1, 32), (1, 33)] jump_cd: 19 action: None
+DEBUG_FACTORY: Step 203 pos: (15,33) target: (14, 34) path: [(14, 33), (14, 34)] jump_cd: 8 action: None
+DEBUG_SCOUT: Step 203 uid: 164- pos: (10,29) energy: 90 target: (12, 31) path: [(11, 29), (11, 30), (11, 31), (12, 31)]
+DEBUG_SCOUT: Step 203 uid: 193- pos: (15,31) energy: 88 target: (14, 34) path: [(15, 33), (14, 33), (14, 34)]
+DEBUG_FACTORY: Step 204 pos: (0,30) target: (1, 33) path: [(0, 27), (0, 28), (0, 30), (0, 31), (1, 31), (1, 32), (1, 33)] jump_cd: 18 action: JUMP_SOUTH
+DEBUG_FACTORY: Step 204 pos: (15,33) target: (14, 34) path: [(14, 33), (14, 34)] jump_cd: 7 action: None
+DEBUG_SCOUT: Step 204 uid: 164- pos: (10,29) energy: 89 target: (12, 31) path: [(11, 30), (11, 31), (12, 31)]
+DEBUG_SCOUT: Step 204 uid: 193- pos: (15,32) energy: 87 target: (14, 34) path: [(15, 33), (14, 33), (14, 34)]
+DEBUG_FACTORY: Step 205 pos: (0,30) target: (0, 33) path: [(1, 31), (1, 32), (1, 33), (0, 33)] jump_cd: 17 action: NORTH
+DEBUG_FACTORY: Step 205 pos: (15,33) target: (14, 34) path: [(14, 34)] jump_cd: 6 action: WEST
+DEBUG_SCOUT: Step 205 uid: 164- pos: (11,29) energy: 88 target: (12, 31) path: [(11, 30), (11, 31), (12, 31)]
+DEBUG_SCOUT: Step 205 uid: 193- pos: (15,32) energy: 86 target: (14, 34) path: [(14, 33), (14, 34)]
+DEBUG_FACTORY: Step 206 pos: (0,31) target: (0, 33) path: [(1, 31), (1, 32), (1, 33), (0, 33)] jump_cd: 16 action: None
+DEBUG_FACTORY: Step 206 pos: (14,33) target: (14, 34) path: [(14, 34)] jump_cd: 5 action: None
+DEBUG_SCOUT: Step 206 uid: 164- pos: (11,29) energy: 87 target: (12, 31) path: [(11, 31), (12, 31)]
+DEBUG_SCOUT: Step 206 uid: 193- pos: (15,33) energy: 85 target: (14, 34) path: [(14, 33), (14, 34)]
+DEBUG_FACTORY: Step 207 pos: (0,31) target: (0, 33) path: [(1, 31), (1, 32), (1, 33), (0, 33)] jump_cd: 15 action: None
+DEBUG_FACTORY: Step 207 pos: (14,33) target: (14, 34) path: [(14, 34)] jump_cd: 4 action: None
+DEBUG_SCOUT: Step 207 uid: 164- pos: (11,30) energy: 86 target: (12, 31) path: [(11, 31), (12, 31)]
+DEBUG_SCOUT: Step 207 uid: 193- pos: (15,33) energy: 84 target: (14, 34) path: None
+DEBUG_FACTORY: Step 208 pos: (0,31) target: (0, 33) path: [(1, 32), (1, 33), (0, 33)] jump_cd: 14 action: EAST
+DEBUG_FACTORY: Step 208 pos: (14,33) target: (14, 34) path: [] jump_cd: 3 action: NORTH
+DEBUG_SCOUT: Step 208 uid: 164- pos: (11,30) energy: 85 target: (12, 31) path: [(12, 31)]
+DEBUG_SCOUT: Step 208 uid: 193- pos: (15,33) energy: 83 target: (14, 34) path: [(14, 34)]
+DEBUG_FACTORY: Step 209 pos: (1,31) target: (0, 33) path: [(1, 32), (1, 33), (0, 33)] jump_cd: 13 action: None
+DEBUG_FACTORY: Step 209 pos: (14,34) target: (14, 34) path: [] jump_cd: 2 action: None
+DEBUG_SCOUT: Step 209 uid: 164- pos: (11,31) energy: 84 target: (12, 31) path: [(12, 31)]
+DEBUG_SCOUT: Step 209 uid: 193- pos: (14,33) energy: 82 target: (14, 34) path: [(14, 34)]
+DEBUG_FACTORY: Step 210 pos: (1,31) target: (0, 33) path: [(1, 32), (1, 33), (0, 33)] jump_cd: 12 action: None
+DEBUG_FACTORY: Step 210 pos: (14,34) target: (14, 34) path: [] jump_cd: 1 action: None
+DEBUG_SCOUT: Step 210 uid: 164- pos: (11,31) energy: 83 target: (12, 31) path: []
+DEBUG_SCOUT: Step 210 uid: 193- pos: (14,33) energy: 81 target: (14, 34) path: None
+DEBUG_FACTORY: Step 211 pos: (1,31) target: (0, 33) path: [(1, 33), (0, 33)] jump_cd: 11 action: NORTH
+DEBUG_FACTORY: Step 211 pos: (14,34) target: (14, 45) path: [(14, 37), (14, 38), (14, 39), (14, 40), (14, 41), (14, 42), (14, 43), (14, 44), (14, 45)] jump_cd: 0 action: JUMP_NORTH
+DEBUG_SCOUT: Step 211 uid: 164- pos: (12,31) energy: 100 target: (12, 31) path: []
+DEBUG_SCOUT: Step 211 uid: 193- pos: (14,33) energy: 80 target: (19, 33) path: [(15, 34), (16, 34), (17, 34), (17, 35), (18, 35), (19, 35), (19, 34), (19, 33)]
+DEBUG_FACTORY: Step 212 pos: (1,32) target: (0, 33) path: [(1, 33), (0, 33)] jump_cd: 10 action: None
+DEBUG_FACTORY: Step 212 pos: (14,36) target: (14, 45) path: [(14, 37), (14, 38), (14, 39), (14, 40), (14, 41), (14, 42), (14, 43), (14, 44), (14, 45)] jump_cd: 20 action: None
+DEBUG_SCOUT: Step 212 uid: 164- pos: (12,31) energy: 99 target: (10, 44) path: [(11, 32), (11, 33), (10, 33), (10, 34), (10, 35), (10, 36), (10, 37), (10, 38), (10, 39), (10, 40), (10, 41), (10, 42), (10, 43), (10, 44)]
+DEBUG_SCOUT: Step 212 uid: 193- pos: (14,34) energy: 79 target: (19, 33) path: [(15, 34), (16, 34), (17, 34), (17, 35), (18, 35), (19, 35), (19, 34), (19, 33)]
+DEBUG_FACTORY: Step 213 pos: (1,32) target: (0, 33) path: [(1, 33), (0, 33)] jump_cd: 9 action: None
+DEBUG_FACTORY: Step 213 pos: (14,36) target: (14, 45) path: [(14, 37), (14, 38), (14, 39), (14, 40), (14, 41), (14, 42), (14, 43), (14, 44), (14, 45)] jump_cd: 19 action: None
+DEBUG_SCOUT: Step 213 uid: 164- pos: (11,31) energy: 98 target: (10, 44) path: [(11, 32), (11, 33), (10, 33), (10, 34), (10, 35), (10, 36), (10, 37), (10, 38), (10, 39), (10, 40), (10, 41), (10, 42), (10, 43), (10, 44)]
+DEBUG_SCOUT: Step 213 uid: 193- pos: (14,34) energy: 78 target: (19, 33) path: [(16, 34), (17, 34), (17, 35), (18, 35), (19, 35), (19, 34), (19, 33)]
+DEBUG_FACTORY: Step 214 pos: (1,32) target: (0, 33) path: [(0, 33)] jump_cd: 8 action: NORTH
+DEBUG_FACTORY: Step 214 pos: (14,36) target: (14, 45) path: [(14, 38), (14, 39), (14, 40), (14, 41), (14, 42), (14, 43), (14, 44), (14, 45)] jump_cd: 18 action: NORTH
+DEBUG_SCOUT: Step 214 uid: 164- pos: (11,31) energy: 97 target: (10, 44) path: [(11, 33), (10, 33), (10, 34), (10, 35), (10, 36), (10, 37), (10, 38), (10, 39), (10, 40), (10, 41), (10, 42), (10, 43), (10, 44)]
+DEBUG_SCOUT: Step 214 uid: 193- pos: (15,34) energy: 77 target: (19, 33) path: [(16, 34), (17, 34), (17, 35), (18, 35), (19, 35), (19, 34), (19, 33)]
+DEBUG_FACTORY: Step 215 pos: (1,33) target: (0, 33) path: [(0, 33)] jump_cd: 7 action: None
+DEBUG_FACTORY: Step 215 pos: (14,37) target: (14, 45) path: [(14, 38), (14, 39), (14, 40), (14, 41), (14, 42), (14, 43), (14, 44), (14, 45)] jump_cd: 17 action: None
+DEBUG_SCOUT: Step 215 uid: 164- pos: (11,32) energy: 96 target: (10, 44) path: [(11, 33), (10, 33), (10, 34), (10, 35), (10, 36), (10, 37), (10, 38), (10, 39), (10, 40), (10, 41), (10, 42), (10, 43), (10, 44)]
+DEBUG_SCOUT: Step 215 uid: 193- pos: (15,34) energy: 76 target: (19, 33) path: [(17, 34), (17, 35), (18, 35), (19, 35), (19, 34), (19, 33)]
+DEBUG_FACTORY: Step 216 pos: (1,33) target: (0, 33) path: [(0, 33)] jump_cd: 6 action: None
+DEBUG_FACTORY: Step 216 pos: (14,37) target: (14, 45) path: [(14, 38), (14, 39), (14, 40), (14, 41), (14, 42), (14, 43), (14, 44), (14, 45)] jump_cd: 16 action: None
+DEBUG_SCOUT: Step 216 uid: 164- pos: (11,32) energy: 95 target: (10, 44) path: [(10, 33), (10, 34), (10, 35), (10, 36), (10, 37), (10, 38), (10, 39), (10, 40), (10, 41), (10, 42), (10, 43), (10, 44)]
+DEBUG_SCOUT: Step 216 uid: 193- pos: (16,34) energy: 75 target: (19, 33) path: [(17, 34), (17, 35), (18, 35), (19, 35), (19, 34), (19, 33)]
+DEBUG_FACTORY: Step 217 pos: (1,33) target: (0, 33) path: [] jump_cd: 5 action: WEST
+DEBUG_FACTORY: Step 217 pos: (14,37) target: (14, 45) path: [(14, 39), (14, 40), (14, 41), (14, 42), (14, 43), (14, 44), (14, 45)] jump_cd: 15 action: NORTH
+DEBUG_SCOUT: Step 217 uid: 164- pos: (11,33) energy: 94 target: (10, 44) path: [(10, 33), (10, 34), (10, 35), (10, 36), (10, 37), (10, 38), (10, 39), (10, 40), (10, 41), (10, 42), (10, 43), (10, 44)]
+DEBUG_SCOUT: Step 217 uid: 193- pos: (16,34) energy: 74 target: (19, 33) path: [(17, 35), (18, 35), (19, 35), (19, 34), (19, 33)]
+DEBUG_FACTORY: Step 218 pos: (0,33) target: (0, 33) path: [] jump_cd: 4 action: None
+DEBUG_FACTORY: Step 218 pos: (14,38) target: (14, 45) path: [(14, 39), (14, 40), (14, 41), (14, 42), (14, 43), (14, 44), (14, 45)] jump_cd: 14 action: None
+DEBUG_SCOUT: Step 218 uid: 164- pos: (11,33) energy: 93 target: (10, 44) path: [(10, 34), (10, 35), (10, 36), (10, 37), (10, 38), (10, 39), (10, 40), (10, 41), (10, 42), (10, 43), (10, 44)]
+DEBUG_SCOUT: Step 218 uid: 193- pos: (17,34) energy: 73 target: (19, 33) path: [(17, 35), (18, 35), (19, 35), (19, 34), (19, 33)]
+DEBUG_FACTORY: Step 219 pos: (0,33) target: (0, 33) path: [] jump_cd: 3 action: None
+DEBUG_FACTORY: Step 219 pos: (14,38) target: (14, 45) path: [(14, 39), (14, 40), (14, 41), (14, 42), (14, 43), (14, 44), (14, 45)] jump_cd: 13 action: None
+DEBUG_SCOUT: Step 219 uid: 164- pos: (10,33) energy: 92 target: (10, 44) path: [(10, 34), (10, 35), (10, 36), (10, 37), (10, 38), (10, 39), (10, 40), (10, 41), (10, 42), (10, 43), (10, 44)]
+DEBUG_SCOUT: Step 219 uid: 193- pos: (17,34) energy: 72 target: (19, 33) path: [(18, 35), (19, 35), (19, 34), (19, 33)]
+DEBUG_FACTORY: Step 220 pos: (0,33) target: (0, 37) path: [(0, 35), (0, 37)] jump_cd: 2 action: NORTH
+DEBUG_FACTORY: Step 220 pos: (14,38) target: (14, 45) path: [(14, 40), (14, 41), (14, 42), (14, 43), (14, 44), (14, 45)] jump_cd: 12 action: NORTH
+DEBUG_SCOUT: Step 220 uid: 164- pos: (10,33) energy: 91 target: (10, 44) path: [(10, 35), (10, 36), (10, 37), (10, 38), (10, 39), (10, 40), (10, 41), (10, 42), (10, 43), (10, 44)]
+DEBUG_SCOUT: Step 220 uid: 193- pos: (17,35) energy: 71 target: (19, 33) path: [(18, 35), (19, 35), (19, 34), (19, 33)]
+DEBUG_FACTORY: Step 221 pos: (0,34) target: (0, 37) path: [(0, 35), (0, 37)] jump_cd: 1 action: None
+DEBUG_FACTORY: Step 221 pos: (14,39) target: (14, 45) path: [(14, 40), (14, 41), (14, 42), (14, 43), (14, 44), (14, 45)] jump_cd: 11 action: None
+DEBUG_SCOUT: Step 221 uid: 164- pos: (10,34) energy: 90 target: (10, 44) path: [(10, 35), (10, 36), (10, 37), (10, 38), (10, 39), (10, 40), (10, 41), (10, 42), (10, 43), (10, 44)]
+DEBUG_SCOUT: Step 221 uid: 193- pos: (17,35) energy: 70 target: (19, 33) path: [(19, 35), (19, 34), (19, 33)]
+DEBUG_FACTORY: Step 222 pos: (0,34) target: (0, 37) path: [(0, 35), (0, 37)] jump_cd: 0 action: None
+DEBUG_FACTORY: Step 222 pos: (14,39) target: (14, 45) path: [(14, 40), (14, 41), (14, 42), (14, 43), (14, 44), (14, 45)] jump_cd: 10 action: None
+DEBUG_SCOUT: Step 222 uid: 164- pos: (10,34) energy: 89 target: (10, 44) path: [(10, 36), (10, 37), (10, 38), (10, 39), (10, 40), (10, 41), (10, 42), (10, 43), (10, 44)]
+DEBUG_SCOUT: Step 222 uid: 193- pos: (18,35) energy: 69 target: (19, 33) path: [(19, 35), (19, 34), (19, 33)]
+DEBUG_FACTORY: Step 223 pos: (0,34) target: (0, 37) path: [(0, 37)] jump_cd: 0 action: NORTH
+DEBUG_FACTORY: Step 223 pos: (14,39) target: (14, 45) path: [(14, 41), (14, 42), (14, 43), (14, 44), (14, 45)] jump_cd: 9 action: NORTH
+DEBUG_SCOUT: Step 223 uid: 164- pos: (10,35) energy: 88 target: (10, 44) path: [(10, 36), (10, 37), (10, 38), (10, 39), (10, 40), (10, 41), (10, 42), (10, 43), (10, 44)]
+DEBUG_SCOUT: Step 223 uid: 193- pos: (18,35) energy: 68 target: (19, 33) path: [(19, 34), (19, 33)]
+DEBUG_FACTORY: Step 224 pos: (0,35) target: (0, 37) path: [(0, 37)] jump_cd: 0 action: None
+DEBUG_FACTORY: Step 224 pos: (14,40) target: (14, 45) path: [(14, 41), (14, 42), (14, 43), (14, 44), (14, 45)] jump_cd: 8 action: None
+DEBUG_SCOUT: Step 224 uid: 164- pos: (10,35) energy: 87 target: (10, 44) path: [(10, 37), (10, 38), (10, 39), (10, 40), (10, 41), (10, 42), (10, 43), (10, 44)]
+DEBUG_SCOUT: Step 224 uid: 193- pos: (19,35) energy: 67 target: (19, 33) path: [(19, 34), (19, 33)]
+DEBUG_FACTORY: Step 225 pos: (0,35) target: (0, 37) path: [(0, 37)] jump_cd: 0 action: None
+DEBUG_FACTORY: Step 225 pos: (14,40) target: (14, 45) path: [(14, 41), (14, 42), (14, 43), (14, 44), (14, 45)] jump_cd: 7 action: None
+DEBUG_SCOUT: Step 225 uid: 164- pos: (10,36) energy: 86 target: (10, 44) path: [(10, 37), (10, 38), (10, 39), (10, 40), (10, 41), (10, 42), (10, 43), (10, 44)]
+DEBUG_SCOUT: Step 225 uid: 193- pos: (19,35) energy: 66 target: (19, 33) path: [(19, 33)]
+DEBUG_FACTORY: Step 226 pos: (0,35) target: (0, 37) path: [] jump_cd: 0 action: JUMP_NORTH
+DEBUG_FACTORY: Step 226 pos: (14,40) target: (14, 45) path: [(14, 42), (14, 43), (14, 44), (14, 45)] jump_cd: 6 action: NORTH
+DEBUG_SCOUT: Step 226 uid: 164- pos: (10,36) energy: 85 target: (10, 44) path: [(10, 38), (10, 39), (10, 40), (10, 41), (10, 42), (10, 43), (10, 44)]
+DEBUG_SCOUT: Step 226 uid: 193- pos: (19,34) energy: 65 target: (19, 33) path: [(19, 33)]
+DEBUG_FACTORY: Step 227 pos: (0,37) target: (0, 37) path: [] jump_cd: 20 action: None
+DEBUG_FACTORY: Step 227 pos: (14,41) target: (14, 45) path: [(14, 42), (14, 43), (14, 44), (14, 45)] jump_cd: 5 action: None
+DEBUG_SCOUT: Step 227 uid: 164- pos: (10,37) energy: 84 target: (10, 44) path: [(10, 38), (10, 39), (10, 40), (10, 41), (10, 42), (10, 43), (10, 44)]
+DEBUG_SCOUT: Step 227 uid: 193- pos: (19,34) energy: 64 target: (19, 33) path: []
+DEBUG_FACTORY: Step 228 pos: (0,37) target: (0, 37) path: [] jump_cd: 19 action: None
+DEBUG_FACTORY: Step 228 pos: (14,41) target: (14, 45) path: [(14, 42), (14, 43), (14, 44), (14, 45)] jump_cd: 4 action: None
+DEBUG_SCOUT: Step 228 uid: 164- pos: (10,37) energy: 83 target: (10, 44) path: None
+DEBUG_SCOUT: Step 228 uid: 193- pos: (19,33) energy: 100 target: (19, 33) path: []
+DEBUG_FACTORY: Step 229 pos: (0,37) target: (1, 44) path: [(0, 37), (0, 36), (0, 37), (0, 36), (0, 37), (0, 36), (0, 37), (1, 37), (1, 39), (1, 40), (1, 41), (1, 42), (1, 43), (1, 44)] jump_cd: 18 action: SOUTH
+DEBUG_FACTORY: Step 229 pos: (14,41) target: (14, 45) path: [(14, 43), (14, 44), (14, 45)] jump_cd: 3 action: NORTH
+DEBUG_SCOUT: Step 229 uid: 164- pos: (10,37) energy: 82 target: (10, 44) path: None
+DEBUG_SCOUT: Step 229 uid: 193- pos: (19,33) energy: 99 target: (14, 41) path: [(19, 35), (18, 35), (18, 34), (17, 34), (16, 34), (15, 34), (15, 35), (14, 35), (14, 36), (14, 37), (14, 38), (14, 39), (14, 40), (14, 41)]
+DEBUG_FACTORY: Step 230 pos: (0,36) target: (1, 44) path: [(0, 37), (0, 36), (0, 37), (0, 36), (0, 37), (0, 36), (0, 37), (1, 37), (1, 39), (1, 40), (1, 41), (1, 42), (1, 43), (1, 44)] jump_cd: 17 action: None
+DEBUG_FACTORY: Step 230 pos: (14,42) target: (14, 45) path: [(14, 43), (14, 44), (14, 45)] jump_cd: 2 action: None
+DEBUG_SCOUT: Step 230 uid: 164- pos: (10,37) energy: 81 target: (10, 44) path: None
+DEBUG_SCOUT: Step 230 uid: 193- pos: (19,34) energy: 98 target: (14, 41) path: [(19, 35), (18, 35), (18, 34), (17, 34), (16, 34), (15, 34), (15, 35), (14, 35), (14, 36), (14, 37), (14, 38), (14, 39), (14, 40), (14, 41)]
+DEBUG_FACTORY: Step 231 pos: (0,36) target: (1, 44) path: [(0, 37), (0, 36), (0, 37), (0, 36), (0, 37), (0, 36), (0, 37), (1, 37), (1, 39), (1, 40), (1, 41), (1, 42), (1, 43), (1, 44)] jump_cd: 16 action: None
+DEBUG_FACTORY: Step 231 pos: (14,42) target: (14, 45) path: [(14, 43), (14, 44), (14, 45)] jump_cd: 1 action: None
+DEBUG_SCOUT: Step 231 uid: 164- pos: (10,37) energy: 80 target: (10, 44) path: None
+DEBUG_SCOUT: Step 231 uid: 193- pos: (19,34) energy: 97 target: (14, 41) path: [(18, 35), (18, 34), (17, 34), (16, 34), (15, 34), (15, 35), (14, 35), (14, 36), (14, 37), (14, 38), (14, 39), (14, 40), (14, 41)]
+DEBUG_FACTORY: Step 232 pos: (0,36) target: (1, 44) path: [(0, 36), (0, 37), (0, 36), (0, 37), (0, 36), (0, 37), (1, 37), (1, 39), (1, 40), (1, 41), (1, 42), (1, 43), (1, 44)] jump_cd: 15 action: NORTH
+DEBUG_FACTORY: Step 232 pos: (14,42) target: (13, 43) path: [(13, 43)] jump_cd: 0 action: WEST
+DEBUG_SCOUT: Step 232 uid: 164- pos: (10,37) energy: 79 target: (10, 44) path: None
+DEBUG_SCOUT: Step 232 uid: 193- pos: (19,35) energy: 96 target: (14, 41) path: [(18, 35), (18, 34), (17, 34), (16, 34), (15, 34), (15, 35), (14, 35), (14, 36), (14, 37), (14, 38), (14, 39), (14, 40), (14, 41)]
+DEBUG_FACTORY: Step 233 pos: (0,37) target: (1, 44) path: [(0, 36), (0, 37), (0, 36), (0, 37), (0, 36), (0, 37), (1, 37), (1, 39), (1, 40), (1, 41), (1, 42), (1, 43), (1, 44)] jump_cd: 14 action: None
+DEBUG_FACTORY: Step 233 pos: (13,42) target: (13, 43) path: [(13, 43)] jump_cd: 0 action: None
+DEBUG_SCOUT: Step 233 uid: 164- pos: (10,37) energy: 78 target: (10, 44) path: None
+DEBUG_SCOUT: Step 233 uid: 193- pos: (19,35) energy: 95 target: (14, 41) path: [(18, 34), (17, 34), (16, 34), (15, 34), (15, 35), (14, 35), (14, 36), (14, 37), (14, 38), (14, 39), (14, 40), (14, 41)]
+DEBUG_FACTORY: Step 234 pos: (0,37) target: (1, 44) path: [(0, 36), (0, 37), (0, 36), (0, 37), (0, 36), (0, 37), (1, 37), (1, 39), (1, 40), (1, 41), (1, 42), (1, 43), (1, 44)] jump_cd: 13 action: None
+DEBUG_FACTORY: Step 234 pos: (13,42) target: (13, 43) path: [(13, 43)] jump_cd: 0 action: None
+DEBUG_SCOUT: Step 234 uid: 164- pos: (10,37) energy: 77 target: (10, 44) path: None
+DEBUG_SCOUT: Step 234 uid: 193- pos: (18,35) energy: 94 target: (14, 41) path: [(18, 34), (17, 34), (16, 34), (15, 34), (15, 35), (14, 35), (14, 36), (14, 37), (14, 38), (14, 39), (14, 40), (14, 41)]
+DEBUG_FACTORY: Step 235 pos: (0,37) target: (1, 44) path: [(0, 37), (0, 36), (0, 37), (0, 36), (0, 37), (1, 37), (1, 39), (1, 40), (1, 41), (1, 42), (1, 43), (1, 44)] jump_cd: 12 action: SOUTH
+DEBUG_FACTORY: Step 235 pos: (13,42) target: (13, 43) path: [] jump_cd: 0 action: NORTH
+DEBUG_SCOUT: Step 235 uid: 164- pos: (10,37) energy: 76 target: (10, 44) path: None
+DEBUG_SCOUT: Step 235 uid: 193- pos: (18,35) energy: 93 target: (14, 41) path: [(17, 34), (16, 34), (15, 34), (15, 35), (14, 35), (14, 36), (14, 37), (14, 38), (14, 39), (14, 40), (14, 41)]
+DEBUG_FACTORY: Step 236 pos: (0,36) target: (1, 44) path: [(0, 37), (0, 36), (0, 37), (0, 36), (0, 37), (1, 37), (1, 39), (1, 40), (1, 41), (1, 42), (1, 43), (1, 44)] jump_cd: 11 action: None
+DEBUG_FACTORY: Step 236 pos: (13,43) target: (13, 43) path: [] jump_cd: 0 action: None
+DEBUG_SCOUT: Step 236 uid: 164- pos: (10,37) energy: 75 target: (10, 44) path: None
+DEBUG_SCOUT: Step 236 uid: 193- pos: (18,34) energy: 92 target: (14, 41) path: [(17, 34), (16, 34), (15, 34), (15, 35), (14, 35), (14, 36), (14, 37), (14, 38), (14, 39), (14, 40), (14, 41)]
+DEBUG_FACTORY: Step 237 pos: (0,36) target: (1, 44) path: [(0, 37), (0, 36), (0, 37), (0, 36), (0, 37), (1, 37), (1, 39), (1, 40), (1, 41), (1, 42), (1, 43), (1, 44)] jump_cd: 10 action: None
+DEBUG_FACTORY: Step 237 pos: (13,43) target: (13, 43) path: [] jump_cd: 0 action: None
+DEBUG_SCOUT: Step 237 uid: 164- pos: (10,37) energy: 74 target: (10, 44) path: None
+DEBUG_SCOUT: Step 237 uid: 193- pos: (18,34) energy: 91 target: (14, 41) path: [(16, 34), (15, 34), (15, 35), (14, 35), (14, 36), (14, 37), (14, 38), (14, 39), (14, 40), (14, 41)]
+DEBUG_FACTORY: Step 238 pos: (0,36) target: (1, 44) path: [(0, 36), (0, 37), (0, 36), (0, 37), (1, 37), (1, 39), (1, 40), (1, 41), (1, 42), (1, 43), (1, 44)] jump_cd: 9 action: NORTH
+DEBUG_FACTORY: Step 238 pos: (13,43) target: (13, 49) path: [(13, 46), (13, 47), (12, 47), (12, 48), (12, 49), (13, 49)] jump_cd: 0 action: JUMP_NORTH
+DEBUG_SCOUT: Step 238 uid: 164- pos: (10,37) energy: 73 target: (10, 44) path: None
+DEBUG_SCOUT: Step 238 uid: 193- pos: (17,34) energy: 90 target: (14, 41) path: [(16, 34), (15, 34), (15, 35), (14, 35), (14, 36), (14, 37), (14, 38), (14, 39), (14, 40), (14, 41)]
+DEBUG_FACTORY: Step 239 pos: (0,37) target: (1, 44) path: [(0, 36), (0, 37), (0, 36), (0, 37), (1, 37), (1, 39), (1, 40), (1, 41), (1, 42), (1, 43), (1, 44)] jump_cd: 8 action: None
+DEBUG_FACTORY: Step 239 pos: (13,45) target: (13, 49) path: [(13, 46), (13, 47), (12, 47), (12, 48), (12, 49), (13, 49)] jump_cd: 20 action: None
+DEBUG_SCOUT: Step 239 uid: 164- pos: (10,37) energy: 72 target: (10, 44) path: None
+DEBUG_SCOUT: Step 239 uid: 193- pos: (17,34) energy: 89 target: (14, 41) path: [(15, 34), (15, 35), (14, 35), (14, 36), (14, 37), (14, 38), (14, 39), (14, 40), (14, 41)]
+DEBUG_FACTORY: Step 240 pos: (0,37) target: (1, 44) path: [(0, 36), (0, 37), (0, 36), (0, 37), (1, 37), (1, 39), (1, 40), (1, 41), (1, 42), (1, 43), (1, 44)] jump_cd: 7 action: None
+DEBUG_FACTORY: Step 240 pos: (13,45) target: (13, 49) path: [(13, 46), (13, 47), (12, 47), (12, 48), (12, 49), (13, 49)] jump_cd: 19 action: None
+DEBUG_SCOUT: Step 240 uid: 164- pos: (10,37) energy: 71 target: (10, 44) path: None
+DEBUG_SCOUT: Step 240 uid: 193- pos: (16,34) energy: 88 target: (14, 41) path: [(15, 34), (15, 35), (14, 35), (14, 36), (14, 37), (14, 38), (14, 39), (14, 40), (14, 41)]
+DEBUG_FACTORY: Step 241 pos: (0,37) target: (1, 44) path: [(0, 37), (0, 36), (0, 37), (1, 37), (1, 39), (1, 40), (1, 41), (1, 42), (1, 43), (1, 44)] jump_cd: 6 action: SOUTH
+DEBUG_FACTORY: Step 241 pos: (13,45) target: (13, 49) path: [(13, 47), (12, 47), (12, 48), (12, 49), (13, 49)] jump_cd: 18 action: NORTH
+DEBUG_SCOUT: Step 241 uid: 164- pos: (10,37) energy: 70 target: (10, 44) path: None
+DEBUG_SCOUT: Step 241 uid: 193- pos: (16,34) energy: 87 target: (14, 41) path: [(15, 35), (14, 35), (14, 36), (14, 37), (14, 38), (14, 39), (14, 40), (14, 41)]
+DEBUG_FACTORY: Step 242 pos: (0,36) target: (1, 44) path: [(0, 37), (0, 36), (0, 37), (1, 37), (1, 39), (1, 40), (1, 41), (1, 42), (1, 43), (1, 44)] jump_cd: 5 action: None
+DEBUG_FACTORY: Step 242 pos: (13,46) target: (13, 49) path: [(13, 47), (12, 47), (12, 48), (12, 49), (13, 49)] jump_cd: 17 action: None
+DEBUG_SCOUT: Step 242 uid: 164- pos: (10,37) energy: 69 target: (10, 44) path: None
+DEBUG_SCOUT: Step 242 uid: 193- pos: (15,34) energy: 86 target: (14, 41) path: [(15, 35), (14, 35), (14, 36), (14, 37), (14, 38), (14, 39), (14, 40), (14, 41)]
+DEBUG_FACTORY: Step 243 pos: (0,36) target: (1, 44) path: [(0, 37), (0, 36), (0, 37), (1, 37), (1, 39), (1, 40), (1, 41), (1, 42), (1, 43), (1, 44)] jump_cd: 4 action: None
+DEBUG_FACTORY: Step 243 pos: (13,46) target: (13, 49) path: [(13, 47), (12, 47), (12, 48), (12, 49), (13, 49)] jump_cd: 16 action: None
+DEBUG_SCOUT: Step 243 uid: 164- pos: (10,37) energy: 68 target: (10, 44) path: None
+DEBUG_SCOUT: Step 243 uid: 193- pos: (15,34) energy: 85 target: (14, 41) path: [(14, 35), (14, 36), (14, 37), (14, 38), (14, 39), (14, 40), (14, 41)]
+DEBUG_FACTORY: Step 244 pos: (0,36) target: (1, 44) path: [(0, 36), (0, 37), (1, 37), (1, 39), (1, 40), (1, 41), (1, 42), (1, 43), (1, 44)] jump_cd: 3 action: NORTH
+DEBUG_FACTORY: Step 244 pos: (13,46) target: (13, 49) path: [(12, 47), (12, 48), (12, 49), (13, 49)] jump_cd: 15 action: NORTH
+DEBUG_SCOUT: Step 244 uid: 164- pos: (10,37) energy: 67 target: (10, 44) path: None
+DEBUG_SCOUT: Step 244 uid: 193- pos: (15,35) energy: 84 target: (14, 41) path: [(14, 35), (14, 36), (14, 37), (14, 38), (14, 39), (14, 40), (14, 41)]
+DEBUG_FACTORY: Step 245 pos: (0,37) target: (1, 44) path: [(0, 36), (0, 37), (1, 37), (1, 39), (1, 40), (1, 41), (1, 42), (1, 43), (1, 44)] jump_cd: 2 action: None
+DEBUG_FACTORY: Step 245 pos: (13,47) target: (13, 49) path: [(12, 47), (12, 48), (12, 49), (13, 49)] jump_cd: 14 action: None
+DEBUG_SCOUT: Step 245 uid: 164- pos: (10,37) energy: 66 target: (10, 44) path: None
+DEBUG_SCOUT: Step 245 uid: 193- pos: (15,35) energy: 83 target: (14, 41) path: [(14, 36), (14, 37), (14, 38), (14, 39), (14, 40), (14, 41)]
+DEBUG_FACTORY: Step 246 pos: (0,37) target: (1, 44) path: [(0, 36), (0, 37), (1, 37), (1, 39), (1, 40), (1, 41), (1, 42), (1, 43), (1, 44)] jump_cd: 1 action: None
+DEBUG_FACTORY: Step 246 pos: (13,47) target: (13, 49) path: [(12, 47), (12, 48), (12, 49), (13, 49)] jump_cd: 13 action: None
+DEBUG_SCOUT: Step 246 uid: 164- pos: (10,37) energy: 65 target: (10, 44) path: None
+DEBUG_SCOUT: Step 246 uid: 193- pos: (14,35) energy: 82 target: (14, 41) path: [(14, 36), (14, 37), (14, 38), (14, 39), (14, 40), (14, 41)]
+DEBUG_FACTORY: Step 247 pos: (0,37) target: (1, 44) path: [(0, 37), (1, 37), (1, 39), (1, 40), (1, 41), (1, 42), (1, 43), (1, 44)] jump_cd: 0 action: JUMP_NORTH
+DEBUG_FACTORY: Step 247 pos: (13,47) target: (13, 49) path: [(12, 48), (12, 49), (13, 49)] jump_cd: 12 action: WEST
+DEBUG_SCOUT: Step 247 uid: 164- pos: (10,37) energy: 64 target: (10, 44) path: None
+DEBUG_SCOUT: Step 247 uid: 193- pos: (14,35) energy: 81 target: (14, 41) path: [(14, 37), (14, 38), (14, 39), (14, 40), (14, 41)]
+DEBUG_FACTORY: Step 248 pos: (0,39) target: (1, 44) path: [(0, 37), (1, 37), (1, 39), (1, 40), (1, 41), (1, 42), (1, 43), (1, 44)] jump_cd: 20 action: None
+DEBUG_FACTORY: Step 248 pos: (12,47) target: (13, 49) path: [(12, 48), (12, 49), (13, 49)] jump_cd: 11 action: None
+DEBUG_SCOUT: Step 248 uid: 164- pos: (10,37) energy: 63 target: (10, 44) path: None
+DEBUG_SCOUT: Step 248 uid: 193- pos: (14,36) energy: 80 target: (14, 41) path: [(14, 37), (14, 38), (14, 39), (14, 40), (14, 41)]
+DEBUG_FACTORY: Step 249 pos: (0,39) target: (1, 44) path: [(0, 37), (1, 37), (1, 39), (1, 40), (1, 41), (1, 42), (1, 43), (1, 44)] jump_cd: 19 action: None
+DEBUG_FACTORY: Step 249 pos: (12,47) target: (13, 49) path: [(12, 48), (12, 49), (13, 49)] jump_cd: 10 action: None
+DEBUG_SCOUT: Step 249 uid: 164- pos: (10,37) energy: 62 target: (10, 44) path: None
+DEBUG_SCOUT: Step 249 uid: 193- pos: (14,36) energy: 79 target: (14, 41) path: [(14, 38), (14, 39), (14, 40), (14, 41)]
+DEBUG_FACTORY: Step 250 pos: (0,39) target: (1, 44) path: [(1, 37), (1, 39), (1, 40), (1, 41), (1, 42), (1, 43), (1, 44)] jump_cd: 18 action: JUMP_SOUTH
+DEBUG_FACTORY: Step 250 pos: (12,47) target: (11, 48) path: [(13, 46), (13, 47), (13, 46), (13, 47), (11, 47), (11, 48)] jump_cd: 9 action: EAST
+DEBUG_SCOUT: Step 250 uid: 164- pos: (10,37) energy: 61 target: (10, 44) path: None
+DEBUG_SCOUT: Step 250 uid: 193- pos: (14,37) energy: 78 target: (14, 41) path: [(14, 38), (14, 39), (14, 40), (14, 41)]
+DEBUG_FACTORY: Step 251 pos: (0,39) target: (0, 51) path: [(1, 40), (0, 40), (0, 41), (0, 42), (1, 42), (1, 43), (1, 44), (1, 45), (1, 46), (1, 47), (1, 48), (1, 49), (0, 49), (0, 51)] jump_cd: 17 action: EAST
+DEBUG_FACTORY: Step 251 pos: (13,47) target: (11, 48) path: [(13, 46), (13, 47), (13, 46), (13, 47), (11, 47), (11, 48)] jump_cd: 8 action: None
+DEBUG_SCOUT: Step 251 uid: 164- pos: (10,37) energy: 60 target: (10, 44) path: None
+DEBUG_SCOUT: Step 251 uid: 193- pos: (14,37) energy: 77 target: (14, 41) path: [(14, 39), (14, 40), (14, 41)]
+DEBUG_FACTORY: Step 252 pos: (1,39) target: (0, 51) path: [(1, 40), (0, 40), (0, 41), (0, 42), (1, 42), (1, 43), (1, 44), (1, 45), (1, 46), (1, 47), (1, 48), (1, 49), (0, 49), (0, 51)] jump_cd: 16 action: None
+DEBUG_FACTORY: Step 252 pos: (13,47) target: (11, 48) path: [(13, 46), (13, 47), (13, 46), (13, 47), (11, 47), (11, 48)] jump_cd: 7 action: None
+DEBUG_SCOUT: Step 252 uid: 164- pos: (10,37) energy: 59 target: (10, 44) path: None
+DEBUG_SCOUT: Step 252 uid: 193- pos: (14,38) energy: 76 target: (14, 41) path: [(14, 39), (14, 40), (14, 41)]
+DEBUG_FACTORY: Step 253 pos: (1,39) target: (0, 51) path: [(1, 40), (0, 40), (0, 41), (0, 42), (1, 42), (1, 43), (1, 44), (1, 45), (1, 46), (1, 47), (1, 48), (1, 49), (0, 49), (0, 51)] jump_cd: 15 action: None
+DEBUG_FACTORY: Step 253 pos: (13,47) target: (11, 48) path: [(13, 47), (13, 46), (13, 47), (11, 47), (11, 48)] jump_cd: 6 action: SOUTH
+DEBUG_SCOUT: Step 253 uid: 164- pos: (10,37) energy: 58 target: (10, 44) path: None
+DEBUG_SCOUT: Step 253 uid: 193- pos: (14,38) energy: 75 target: (14, 41) path: [(14, 40), (14, 41)]
+DEBUG_FACTORY: Step 254 pos: (1,39) target: (0, 51) path: [(0, 40), (0, 41), (0, 42), (1, 42), (1, 43), (1, 44), (1, 45), (1, 46), (1, 47), (1, 48), (1, 49), (0, 49), (0, 51)] jump_cd: 14 action: NORTH
+DEBUG_FACTORY: Step 254 pos: (13,46) target: (11, 48) path: [(13, 47), (13, 46), (13, 47), (11, 47), (11, 48)] jump_cd: 5 action: None
+DEBUG_SCOUT: Step 254 uid: 164- pos: (10,37) energy: 57 target: (10, 44) path: None
+DEBUG_SCOUT: Step 254 uid: 193- pos: (14,39) energy: 74 target: (14, 41) path: [(14, 40), (14, 41)]
+DEBUG_FACTORY: Step 255 pos: (1,40) target: (0, 51) path: [(0, 40), (0, 41), (0, 42), (1, 42), (1, 43), (1, 44), (1, 45), (1, 46), (1, 47), (1, 48), (1, 49), (0, 49), (0, 51)] jump_cd: 13 action: None
+DEBUG_FACTORY: Step 255 pos: (13,46) target: (11, 48) path: [(13, 47), (13, 46), (13, 47), (11, 47), (11, 48)] jump_cd: 4 action: None
+DEBUG_SCOUT: Step 255 uid: 164- pos: (10,37) energy: 56 target: (10, 44) path: None
+DEBUG_SCOUT: Step 255 uid: 193- pos: (14,39) energy: 73 target: (14, 41) path: [(14, 41)]
+DEBUG_FACTORY: Step 256 pos: (1,40) target: (0, 51) path: [(0, 40), (0, 41), (0, 42), (1, 42), (1, 43), (1, 44), (1, 45), (1, 46), (1, 47), (1, 48), (1, 49), (0, 49), (0, 51)] jump_cd: 12 action: None
+DEBUG_FACTORY: Step 256 pos: (13,46) target: (11, 48) path: [(13, 46), (13, 47), (11, 47), (11, 48)] jump_cd: 3 action: NORTH
+DEBUG_SCOUT: Step 256 uid: 164- pos: (10,37) energy: 55 target: (10, 44) path: None
+DEBUG_SCOUT: Step 256 uid: 193- pos: (14,40) energy: 72 target: (14, 41) path: [(14, 41)]
+DEBUG_FACTORY: Step 257 pos: (1,40) target: (0, 51) path: [(0, 41), (0, 42), (1, 42), (1, 43), (1, 44), (1, 45), (1, 46), (1, 47), (1, 48), (1, 49), (0, 49), (0, 51)] jump_cd: 11 action: WEST
+DEBUG_FACTORY: Step 257 pos: (13,47) target: (11, 48) path: [(13, 46), (13, 47), (11, 47), (11, 48)] jump_cd: 2 action: None
+DEBUG_SCOUT: Step 257 uid: 164- pos: (10,37) energy: 54 target: (10, 44) path: None
+DEBUG_SCOUT: Step 257 uid: 193- pos: (14,40) energy: 71 target: (14, 41) path: []
+DEBUG_FACTORY: Step 258 pos: (0,40) target: (0, 51) path: [(0, 41), (0, 42), (1, 42), (1, 43), (1, 44), (1, 45), (1, 46), (1, 47), (1, 48), (1, 49), (0, 49), (0, 51)] jump_cd: 10 action: None
+DEBUG_FACTORY: Step 258 pos: (13,47) target: (11, 48) path: [(13, 46), (13, 47), (11, 47), (11, 48)] jump_cd: 1 action: None
+DEBUG_SCOUT: Step 258 uid: 164- pos: (10,37) energy: 53 target: (10, 44) path: None
+DEBUG_SCOUT: Step 258 uid: 193- pos: (14,41) energy: 70 target: (14, 41) path: []
+DEBUG_FACTORY: Step 259 pos: (0,40) target: (0, 51) path: [(0, 41), (0, 42), (1, 42), (1, 43), (1, 44), (1, 45), (1, 46), (1, 47), (1, 48), (1, 49), (0, 49), (0, 51)] jump_cd: 9 action: None
+DEBUG_FACTORY: Step 259 pos: (13,47) target: (11, 48) path: [(13, 47), (11, 47), (11, 48)] jump_cd: 0 action: JUMP_NORTH
+DEBUG_SCOUT: Step 259 uid: 164- pos: (10,37) energy: 52 target: (10, 44) path: None
+DEBUG_SCOUT: Step 259 uid: 193- pos: (14,41) energy: 69 target: (11, 40) path: [(14, 39), (14, 38), (13, 38), (13, 39), (12, 39), (12, 40), (11, 40)]
+DEBUG_FACTORY: Step 260 pos: (0,40) target: (0, 51) path: [(0, 42), (1, 42), (1, 43), (1, 44), (1, 45), (1, 46), (1, 47), (1, 48), (1, 49), (0, 49), (0, 51)] jump_cd: 8 action: NORTH
+DEBUG_FACTORY: Step 260 pos: (13,49) target: (11, 48) path: [(13, 47), (11, 47), (11, 48)] jump_cd: 20 action: None
+DEBUG_SCOUT: Step 260 uid: 164- pos: (10,37) energy: 51 target: (10, 44) path: None
+DEBUG_SCOUT: Step 260 uid: 193- pos: (14,40) energy: 68 target: (11, 40) path: [(14, 39), (14, 38), (13, 38), (13, 39), (12, 39), (12, 40), (11, 40)]
+DEBUG_FACTORY: Step 261 pos: (0,41) target: (0, 51) path: [(0, 42), (1, 42), (1, 43), (1, 44), (1, 45), (1, 46), (1, 47), (1, 48), (1, 49), (0, 49), (0, 51)] jump_cd: 7 action: None
+DEBUG_FACTORY: Step 261 pos: (13,49) target: (11, 48) path: [(13, 47), (11, 47), (11, 48)] jump_cd: 19 action: None
+DEBUG_SCOUT: Step 261 uid: 164- pos: (10,37) energy: 50 target: (10, 44) path: None
+DEBUG_SCOUT: Step 261 uid: 193- pos: (14,40) energy: 67 target: (11, 40) path: [(14, 38), (13, 38), (13, 39), (12, 39), (12, 40), (11, 40)]
+DEBUG_FACTORY: Step 262 pos: (0,41) target: (0, 51) path: [(0, 42), (1, 42), (1, 43), (1, 44), (1, 45), (1, 46), (1, 47), (1, 48), (1, 49), (0, 49), (0, 51)] jump_cd: 6 action: None
+DEBUG_FACTORY: Step 262 pos: (13,49) target: (11, 48) path: [(11, 47), (11, 48)] jump_cd: 18 action: JUMP_SOUTH
+DEBUG_SCOUT: Step 262 uid: 164- pos: (10,37) energy: 49 target: (10, 44) path: None
+DEBUG_SCOUT: Step 262 uid: 193- pos: (14,39) energy: 66 target: (11, 40) path: [(14, 38), (13, 38), (13, 39), (12, 39), (12, 40), (11, 40)]
+DEBUG_FACTORY: Step 263 pos: (0,41) target: (0, 51) path: [(1, 42), (1, 43), (1, 44), (1, 45), (1, 46), (1, 47), (1, 48), (1, 49), (0, 49), (0, 51)] jump_cd: 5 action: NORTH
+DEBUG_FACTORY: Step 263 pos: (13,49) target: (16, 50) path: [(13, 49), (13, 48), (13, 49), (13, 48), (14, 48), (14, 47), (15, 47), (15, 48), (15, 50), (16, 50)] jump_cd: 17 action: SOUTH
+DEBUG_SCOUT: Step 263 uid: 164- pos: (10,37) energy: 48 target: (10, 44) path: None
+DEBUG_SCOUT: Step 263 uid: 193- pos: (14,39) energy: 65 target: (11, 40) path: [(13, 38), (13, 39), (12, 39), (12, 40), (11, 40)]
+DEBUG_FACTORY: Step 264 pos: (0,42) target: (0, 51) path: [(1, 42), (1, 43), (1, 44), (1, 45), (1, 46), (1, 47), (1, 48), (1, 49), (0, 49), (0, 51)] jump_cd: 4 action: None
+DEBUG_FACTORY: Step 264 pos: (13,48) target: (16, 50) path: [(13, 49), (13, 48), (13, 49), (13, 48), (14, 48), (14, 47), (15, 47), (15, 48), (15, 50), (16, 50)] jump_cd: 16 action: None
+DEBUG_SCOUT: Step 264 uid: 164- pos: (10,37) energy: 47 target: (10, 44) path: None
+DEBUG_SCOUT: Step 264 uid: 193- pos: (14,38) energy: 64 target: (11, 40) path: [(13, 38), (13, 39), (12, 39), (12, 40), (11, 40)]
+DEBUG_FACTORY: Step 265 pos: (0,42) target: (0, 51) path: [(1, 42), (1, 43), (1, 44), (1, 45), (1, 46), (1, 47), (1, 48), (1, 49), (0, 49), (0, 51)] jump_cd: 3 action: None
+DEBUG_FACTORY: Step 265 pos: (13,48) target: (16, 50) path: [(13, 49), (13, 48), (13, 49), (13, 48), (14, 48), (14, 47), (15, 47), (15, 48), (15, 50), (16, 50)] jump_cd: 15 action: None
+DEBUG_SCOUT: Step 265 uid: 164- pos: (10,37) energy: 46 target: (10, 44) path: None
+DEBUG_SCOUT: Step 265 uid: 193- pos: (14,38) energy: 63 target: (11, 40) path: [(13, 39), (12, 39), (12, 40), (11, 40)]
+DEBUG_FACTORY: Step 266 pos: (0,42) target: (0, 51) path: [(1, 43), (1, 44), (1, 45), (1, 46), (1, 47), (1, 48), (1, 49), (0, 49), (0, 51)] jump_cd: 2 action: EAST
+DEBUG_FACTORY: Step 266 pos: (13,48) target: (16, 50) path: [(13, 48), (13, 49), (13, 48), (14, 48), (14, 47), (15, 47), (15, 48), (15, 50), (16, 50)] jump_cd: 14 action: NORTH
+DEBUG_SCOUT: Step 266 uid: 164- pos: (10,37) energy: 45 target: (10, 44) path: None
+DEBUG_SCOUT: Step 266 uid: 193- pos: (13,38) energy: 62 target: (11, 40) path: [(13, 39), (12, 39), (12, 40), (11, 40)]
+DEBUG_FACTORY: Step 267 pos: (1,42) target: (0, 51) path: [(1, 43), (1, 44), (1, 45), (1, 46), (1, 47), (1, 48), (1, 49), (0, 49), (0, 51)] jump_cd: 1 action: None
+DEBUG_FACTORY: Step 267 pos: (13,49) target: (16, 50) path: [(13, 48), (13, 49), (13, 48), (14, 48), (14, 47), (15, 47), (15, 48), (15, 50), (16, 50)] jump_cd: 13 action: None
+DEBUG_SCOUT: Step 267 uid: 164- pos: (10,37) energy: 44 target: (10, 44) path: None
+DEBUG_SCOUT: Step 267 uid: 193- pos: (13,38) energy: 61 target: (11, 40) path: [(12, 39), (12, 40), (11, 40)]
+DEBUG_FACTORY: Step 268 pos: (1,42) target: (0, 51) path: [(1, 43), (1, 44), (1, 45), (1, 46), (1, 47), (1, 48), (1, 49), (0, 49), (0, 51)] jump_cd: 0 action: None
+DEBUG_FACTORY: Step 268 pos: (13,49) target: (16, 50) path: [(13, 48), (13, 49), (13, 48), (14, 48), (14, 47), (15, 47), (15, 48), (15, 50), (16, 50)] jump_cd: 12 action: None
+DEBUG_SCOUT: Step 268 uid: 164- pos: (10,37) energy: 43 target: (10, 44) path: None
+DEBUG_SCOUT: Step 268 uid: 193- pos: (13,39) energy: 60 target: (11, 40) path: [(12, 39), (12, 40), (11, 40)]
+DEBUG_FACTORY: Step 269 pos: (1,42) target: (0, 51) path: [(1, 44), (1, 45), (1, 46), (1, 47), (1, 48), (1, 49), (0, 49), (0, 51)] jump_cd: 0 action: NORTH
+DEBUG_FACTORY: Step 269 pos: (13,49) target: (16, 50) path: [(13, 49), (13, 48), (14, 48), (14, 47), (15, 47), (15, 48), (15, 50), (16, 50)] jump_cd: 11 action: SOUTH
+DEBUG_SCOUT: Step 269 uid: 164- pos: (10,37) energy: 42 target: (10, 44) path: None
+DEBUG_SCOUT: Step 269 uid: 193- pos: (13,39) energy: 59 target: (11, 40) path: [(12, 40), (11, 40)]
+DEBUG_FACTORY: Step 270 pos: (1,43) target: (0, 51) path: [(1, 44), (1, 45), (1, 46), (1, 47), (1, 48), (1, 49), (0, 49), (0, 51)] jump_cd: 0 action: None
+DEBUG_FACTORY: Step 270 pos: (13,48) target: (16, 50) path: [(13, 49), (13, 48), (14, 48), (14, 47), (15, 47), (15, 48), (15, 50), (16, 50)] jump_cd: 10 action: None
+DEBUG_SCOUT: Step 270 uid: 164- pos: (10,37) energy: 41 target: (10, 44) path: None
+DEBUG_SCOUT: Step 270 uid: 193- pos: (12,39) energy: 58 target: (11, 40) path: [(12, 40), (11, 40)]
+DEBUG_FACTORY: Step 271 pos: (1,43) target: (0, 51) path: [(1, 44), (1, 45), (1, 46), (1, 47), (1, 48), (1, 49), (0, 49), (0, 51)] jump_cd: 0 action: None
+DEBUG_FACTORY: Step 271 pos: (13,48) target: (16, 50) path: [(13, 49), (13, 48), (14, 48), (14, 47), (15, 47), (15, 48), (15, 50), (16, 50)] jump_cd: 9 action: None
+DEBUG_SCOUT: Step 271 uid: 164- pos: (10,37) energy: 40 target: (10, 44) path: None
+DEBUG_SCOUT: Step 271 uid: 193- pos: (12,39) energy: 57 target: (11, 40) path: [(11, 40)]
+DEBUG_FACTORY: Step 272 pos: (1,43) target: (0, 51) path: [(1, 45), (1, 46), (1, 47), (1, 48), (1, 49), (0, 49), (0, 51)] jump_cd: 0 action: NORTH
+DEBUG_FACTORY: Step 272 pos: (13,48) target: (16, 50) path: [(13, 48), (14, 48), (14, 47), (15, 47), (15, 48), (15, 50), (16, 50)] jump_cd: 8 action: NORTH
+DEBUG_SCOUT: Step 272 uid: 164- pos: (10,37) energy: 39 target: (10, 44) path: None
+DEBUG_SCOUT: Step 272 uid: 193- pos: (12,40) energy: 56 target: (11, 40) path: [(11, 40)]
+DEBUG_FACTORY: Step 273 pos: (1,44) target: (0, 51) path: [(1, 45), (1, 46), (1, 47), (1, 48), (1, 49), (0, 49), (0, 51)] jump_cd: 0 action: None
+DEBUG_FACTORY: Step 273 pos: (13,49) target: (16, 50) path: [(13, 48), (14, 48), (14, 47), (15, 47), (15, 48), (15, 50), (16, 50)] jump_cd: 7 action: None
+DEBUG_SCOUT: Step 273 uid: 164- pos: (10,37) energy: 38 target: (10, 44) path: None
+DEBUG_SCOUT: Step 273 uid: 193- pos: (12,40) energy: 55 target: (11, 40) path: []
+DEBUG_FACTORY: Step 274 pos: (1,44) target: (0, 51) path: [(1, 45), (1, 46), (1, 47), (1, 48), (1, 49), (0, 49), (0, 51)] jump_cd: 0 action: None
+DEBUG_FACTORY: Step 274 pos: (13,49) target: (16, 50) path: [(13, 48), (14, 48), (14, 47), (15, 47), (15, 48), (15, 50), (16, 50)] jump_cd: 6 action: None
+DEBUG_SCOUT: Step 274 uid: 164- pos: (10,37) energy: 37 target: (10, 44) path: None
+DEBUG_SCOUT: Step 274 uid: 193- pos: (11,40) energy: 96 target: (11, 40) path: []
+DEBUG_FACTORY: Step 275 pos: (1,44) target: (1, 56) path: [(0, 45), (0, 46), (0, 47), (1, 47), (1, 48), (1, 50), (1, 51), (1, 52), (1, 53), (1, 54), (1, 55), (1, 56)] jump_cd: 0 action: WEST
+DEBUG_FACTORY: Step 275 pos: (13,49) target: (16, 50) path: [(14, 48), (14, 47), (15, 47), (15, 48), (15, 50), (16, 50)] jump_cd: 5 action: SOUTH
+DEBUG_SCOUT: Step 275 uid: 164- pos: (10,37) energy: 36 target: (10, 44) path: None
+DEBUG_SCOUT: Step 275 uid: 193- pos: (11,40) energy: 95 target: (13, 43) path: [(12, 39), (13, 39), (13, 38), (14, 38), (14, 39), (14, 40), (14, 41), (14, 42), (13, 42), (13, 43)]
+DEBUG_FACTORY: Step 276 pos: (0,44) target: (1, 56) path: [(0, 45), (0, 46), (0, 47), (1, 47), (1, 48), (1, 50), (1, 51), (1, 52), (1, 53), (1, 54), (1, 55), (1, 56)] jump_cd: 0 action: None
+DEBUG_FACTORY: Step 276 pos: (13,48) target: (16, 50) path: [(14, 48), (14, 47), (15, 47), (15, 48), (15, 50), (16, 50)] jump_cd: 4 action: None
+DEBUG_SCOUT: Step 276 uid: 164- pos: (10,37) energy: 35 target: (10, 44) path: None
+DEBUG_SCOUT: Step 276 uid: 193- pos: (12,40) energy: 94 target: (13, 43) path: [(12, 39), (13, 39), (13, 38), (14, 38), (14, 39), (14, 40), (14, 41), (14, 42), (13, 42), (13, 43)]
+DEBUG_FACTORY: Step 277 pos: (0,44) target: (1, 56) path: [(0, 45), (0, 46), (0, 47), (1, 47), (1, 48), (1, 50), (1, 51), (1, 52), (1, 53), (1, 54), (1, 55), (1, 56)] jump_cd: 0 action: None
+DEBUG_FACTORY: Step 277 pos: (13,48) target: (16, 50) path: [(14, 48), (14, 47), (15, 47), (15, 48), (15, 50), (16, 50)] jump_cd: 3 action: None
+DEBUG_SCOUT: Step 277 uid: 164- pos: (10,37) energy: 34 target: (10, 44) path: None
+DEBUG_SCOUT: Step 277 uid: 193- pos: (12,40) energy: 93 target: (13, 43) path: [(13, 39), (13, 38), (14, 38), (14, 39), (14, 40), (14, 41), (14, 42), (13, 42), (13, 43)]
+DEBUG_FACTORY: Step 278 pos: (0,44) target: (1, 56) path: [(0, 46), (0, 47), (1, 47), (1, 48), (1, 50), (1, 51), (1, 52), (1, 53), (1, 54), (1, 55), (1, 56)] jump_cd: 0 action: NORTH
+DEBUG_FACTORY: Step 278 pos: (13,48) target: (16, 50) path: [(14, 48), (14, 47), (15, 47), (15, 48), (15, 50), (16, 50)] jump_cd: 2 action: BUILD_SCOUT_NORTH
+DEBUG_SCOUT: Step 278 uid: 193- pos: (12,39) energy: 92 target: (13, 43) path: [(13, 39), (13, 38), (14, 38), (14, 39), (14, 40), (14, 41), (14, 42), (13, 42), (13, 43)]
+DEBUG_FACTORY: Step 279 pos: (0,45) target: (1, 56) path: [(0, 46), (0, 47), (1, 47), (1, 48), (1, 50), (1, 51), (1, 52), (1, 53), (1, 54), (1, 55), (1, 56)] jump_cd: 0 action: None
+DEBUG_FACTORY: Step 279 pos: (13,48) target: (16, 50) path: [(14, 47), (15, 47), (15, 48), (15, 50), (16, 50)] jump_cd: 1 action: EAST
+DEBUG_SCOUT: Step 279 uid: 193- pos: (12,39) energy: 91 target: (13, 43) path: [(13, 38), (14, 38), (14, 39), (14, 40), (14, 41), (14, 42), (13, 42), (13, 43)]
+DEBUG_SCOUT: Step 279 uid: 278- pos: (13,49) energy: 50 target: None path: None
+DEBUG_FACTORY: Step 280 pos: (0,45) target: (1, 56) path: [(0, 46), (0, 47), (1, 47), (1, 48), (1, 50), (1, 51), (1, 52), (1, 53), (1, 54), (1, 55), (1, 56)] jump_cd: 0 action: None
+DEBUG_FACTORY: Step 280 pos: (14,48) target: (16, 50) path: [(14, 47), (15, 47), (15, 48), (15, 50), (16, 50)] jump_cd: 0 action: None
+DEBUG_SCOUT: Step 280 uid: 193- pos: (13,39) energy: 90 target: (13, 43) path: [(13, 38), (14, 38), (14, 39), (14, 40), (14, 41), (14, 42), (13, 42), (13, 43)]
+DEBUG_SCOUT: Step 280 uid: 278- pos: (13,49) energy: 49 target: None path: None
+DEBUG_FACTORY: Step 281 pos: (0,45) target: (1, 56) path: [(0, 47), (1, 47), (1, 48), (1, 50), (1, 51), (1, 52), (1, 53), (1, 54), (1, 55), (1, 56)] jump_cd: 0 action: NORTH
+DEBUG_FACTORY: Step 281 pos: (14,48) target: (16, 50) path: [(14, 47), (15, 47), (15, 48), (15, 50), (16, 50)] jump_cd: 0 action: None
+DEBUG_SCOUT: Step 281 uid: 193- pos: (13,39) energy: 89 target: (13, 43) path: [(14, 38), (14, 39), (14, 40), (14, 41), (14, 42), (13, 42), (13, 43)]
+DEBUG_SCOUT: Step 281 uid: 278- pos: (13,49) energy: 48 target: None path: None
+DEBUG_FACTORY: Step 282 pos: (0,46) target: (1, 56) path: [(0, 47), (1, 47), (1, 48), (1, 50), (1, 51), (1, 52), (1, 53), (1, 54), (1, 55), (1, 56)] jump_cd: 0 action: None
+DEBUG_FACTORY: Step 282 pos: (14,48) target: (16, 50) path: [(15, 47), (15, 48), (15, 50), (16, 50)] jump_cd: 0 action: JUMP_NORTH
+DEBUG_SCOUT: Step 282 uid: 193- pos: (13,38) energy: 88 target: (13, 43) path: [(14, 38), (14, 39), (14, 40), (14, 41), (14, 42), (13, 42), (13, 43)]
+DEBUG_SCOUT: Step 282 uid: 278- pos: (13,49) energy: 47 target: None path: None
+DEBUG_FACTORY: Step 283 pos: (0,46) target: (1, 56) path: [(0, 47), (1, 47), (1, 48), (1, 50), (1, 51), (1, 52), (1, 53), (1, 54), (1, 55), (1, 56)] jump_cd: 0 action: None
+DEBUG_FACTORY: Step 283 pos: (14,50) target: (16, 50) path: [(15, 47), (15, 48), (15, 50), (16, 50)] jump_cd: 20 action: None
+DEBUG_SCOUT: Step 283 uid: 278- pos: (13,49) energy: 46 target: None path: None
+DEBUG_FACTORY: Step 284 pos: (0,46) target: (1, 56) path: [(1, 47), (1, 48), (1, 50), (1, 51), (1, 52), (1, 53), (1, 54), (1, 55), (1, 56)] jump_cd: 0 action: NORTH
+DEBUG_FACTORY: Step 284 pos: (14,50) target: (16, 50) path: [(15, 47), (15, 48), (15, 50), (16, 50)] jump_cd: 19 action: None
+DEBUG_SCOUT: Step 284 uid: 278- pos: (13,49) energy: 45 target: None path: None
+DEBUG_FACTORY: Step 285 pos: (0,47) target: (1, 56) path: [(1, 47), (1, 48), (1, 50), (1, 51), (1, 52), (1, 53), (1, 54), (1, 55), (1, 56)] jump_cd: 0 action: None
+DEBUG_FACTORY: Step 285 pos: (14,50) target: (14, 53) path: [(14, 52), (14, 53)] jump_cd: 18 action: NORTH
+DEBUG_SCOUT: Step 285 uid: 278- pos: (13,49) energy: 44 target: None path: None
+DEBUG_FACTORY: Step 286 pos: (0,47) target: (1, 56) path: [(1, 47), (1, 48), (1, 50), (1, 51), (1, 52), (1, 53), (1, 54), (1, 55), (1, 56)] jump_cd: 0 action: None
+DEBUG_FACTORY: Step 286 pos: (14,51) target: (14, 53) path: [(14, 52), (14, 53)] jump_cd: 17 action: None
+DEBUG_SCOUT: Step 286 uid: 278- pos: (13,49) energy: 43 target: None path: None
+DEBUG_FACTORY: Step 287 pos: (0,47) target: (1, 56) path: [(1, 48), (1, 50), (1, 51), (1, 52), (1, 53), (1, 54), (1, 55), (1, 56)] jump_cd: 0 action: EAST
+DEBUG_FACTORY: Step 287 pos: (14,51) target: (14, 53) path: [(14, 52), (14, 53)] jump_cd: 16 action: None
+DEBUG_SCOUT: Step 287 uid: 278- pos: (13,49) energy: 42 target: None path: None
+DEBUG_FACTORY: Step 288 pos: (1,47) target: (1, 56) path: [(1, 48), (1, 50), (1, 51), (1, 52), (1, 53), (1, 54), (1, 55), (1, 56)] jump_cd: 0 action: None
+DEBUG_FACTORY: Step 288 pos: (14,51) target: (14, 53) path: [(14, 53)] jump_cd: 15 action: NORTH
+DEBUG_SCOUT: Step 288 uid: 278- pos: (13,49) energy: 41 target: None path: None
+DEBUG_FACTORY: Step 289 pos: (1,47) target: (1, 56) path: [(1, 48), (1, 50), (1, 51), (1, 52), (1, 53), (1, 54), (1, 55), (1, 56)] jump_cd: 0 action: None
+DEBUG_FACTORY: Step 289 pos: (14,52) target: (14, 53) path: [(14, 53)] jump_cd: 14 action: None
+DEBUG_SCOUT: Step 289 uid: 278- pos: (13,49) energy: 40 target: None path: None
+DEBUG_FACTORY: Step 290 pos: (1,47) target: (1, 56) path: [(1, 50), (1, 51), (1, 52), (1, 53), (1, 54), (1, 55), (1, 56)] jump_cd: 0 action: NORTH
+DEBUG_FACTORY: Step 290 pos: (14,52) target: (14, 53) path: [(14, 53)] jump_cd: 13 action: None
+DEBUG_SCOUT: Step 290 uid: 278- pos: (13,49) energy: 39 target: None path: None
+DEBUG_FACTORY: Step 291 pos: (1,48) target: (1, 56) path: [(1, 50), (1, 51), (1, 52), (1, 53), (1, 54), (1, 55), (1, 56)] jump_cd: 0 action: None
+DEBUG_FACTORY: Step 291 pos: (14,52) target: (14, 53) path: [] jump_cd: 12 action: NORTH
+DEBUG_SCOUT: Step 291 uid: 278- pos: (13,49) energy: 38 target: None path: None
+DEBUG_FACTORY: Step 292 pos: (1,48) target: (1, 56) path: [(1, 50), (1, 51), (1, 52), (1, 53), (1, 54), (1, 55), (1, 56)] jump_cd: 0 action: None
+DEBUG_FACTORY: Step 292 pos: (14,53) target: (14, 53) path: [] jump_cd: 11 action: None
+DEBUG_SCOUT: Step 292 uid: 278- pos: (13,49) energy: 37 target: None path: None
+DEBUG_FACTORY: Step 293 pos: (1,48) target: (1, 56) path: [(1, 51), (1, 52), (1, 53), (1, 54), (1, 55), (1, 56)] jump_cd: 0 action: JUMP_NORTH
+DEBUG_FACTORY: Step 293 pos: (14,53) target: (14, 53) path: [] jump_cd: 10 action: None
+DEBUG_SCOUT: Step 293 uid: 278- pos: (13,49) energy: 36 target: None path: None
+DEBUG_FACTORY: Step 294 pos: (1,50) target: (1, 56) path: [(1, 51), (1, 52), (1, 53), (1, 54), (1, 55), (1, 56)] jump_cd: 20 action: None
+DEBUG_FACTORY: Step 294 pos: (14,53) target: (17, 54) path: [(15, 54), (16, 54), (17, 54)] jump_cd: 9 action: EAST
+DEBUG_SCOUT: Step 294 uid: 278- pos: (13,49) energy: 35 target: None path: None
+DEBUG_FACTORY: Step 295 pos: (1,50) target: (1, 56) path: [(1, 51), (1, 52), (1, 53), (1, 54), (1, 55), (1, 56)] jump_cd: 19 action: None
+DEBUG_FACTORY: Step 295 pos: (15,53) target: (17, 54) path: [(15, 54), (16, 54), (17, 54)] jump_cd: 8 action: None
+DEBUG_SCOUT: Step 295 uid: 278- pos: (13,49) energy: 34 target: None path: None
+DEBUG_FACTORY: Step 296 pos: (1,50) target: (1, 56) path: [(1, 52), (1, 53), (1, 54), (1, 55), (1, 56)] jump_cd: 18 action: NORTH
+DEBUG_FACTORY: Step 296 pos: (15,53) target: (17, 54) path: [(15, 54), (16, 54), (17, 54)] jump_cd: 7 action: None
+DEBUG_SCOUT: Step 296 uid: 278- pos: (13,49) energy: 33 target: None path: None
+DEBUG_FACTORY: Step 297 pos: (1,51) target: (1, 56) path: [(1, 52), (1, 53), (1, 54), (1, 55), (1, 56)] jump_cd: 17 action: None
+DEBUG_FACTORY: Step 297 pos: (15,53) target: (17, 54) path: [(16, 54), (17, 54)] jump_cd: 6 action: NORTH
+DEBUG_SCOUT: Step 297 uid: 278- pos: (13,49) energy: 32 target: None path: None
+DEBUG_FACTORY: Step 298 pos: (1,51) target: (1, 56) path: [(1, 52), (1, 53), (1, 54), (1, 55), (1, 56)] jump_cd: 16 action: None
+DEBUG_FACTORY: Step 298 pos: (15,54) target: (17, 54) path: [(16, 54), (17, 54)] jump_cd: 5 action: None
+DEBUG_SCOUT: Step 298 uid: 278- pos: (13,49) energy: 31 target: None path: None
+DEBUG_FACTORY: Step 299 pos: (1,51) target: (2, 54) path: [(3, 51), (3, 52), (3, 53), (2, 53), (1, 53), (1, 52), (2, 52), (2, 54)] jump_cd: 15 action: EAST
+DEBUG_FACTORY: Step 299 pos: (15,54) target: (17, 54) path: [(16, 54), (17, 54)] jump_cd: 4 action: None
+DEBUG_SCOUT: Step 299 uid: 278- pos: (13,49) energy: 30 target: None path: None
+DEBUG_FACTORY: Step 300 pos: (2,51) target: (2, 54) path: [(3, 51), (3, 52), (3, 53), (2, 53), (1, 53), (1, 52), (2, 52), (2, 54)] jump_cd: 14 action: None
+DEBUG_FACTORY: Step 300 pos: (15,54) target: (17, 54) path: [(17, 54)] jump_cd: 3 action: EAST
+DEBUG_SCOUT: Step 300 uid: 278- pos: (13,49) energy: 29 target: None path: None
+DEBUG_FACTORY: Step 301 pos: (2,51) target: (2, 54) path: [(3, 51), (3, 52), (3, 53), (2, 53), (1, 53), (1, 52), (2, 52), (2, 54)] jump_cd: 13 action: None
+DEBUG_FACTORY: Step 301 pos: (16,54) target: (17, 54) path: [(17, 54)] jump_cd: 2 action: None
+DEBUG_SCOUT: Step 301 uid: 278- pos: (13,49) energy: 28 target: None path: None
+DEBUG_FACTORY: Step 302 pos: (2,51) target: (2, 54) path: [(3, 52), (3, 53), (2, 53), (1, 53), (1, 52), (2, 52), (2, 54)] jump_cd: 12 action: EAST
+DEBUG_FACTORY: Step 302 pos: (16,54) target: (17, 54) path: [(17, 54)] jump_cd: 1 action: None
+DEBUG_SCOUT: Step 302 uid: 278- pos: (13,49) energy: 27 target: None path: None
+DEBUG_FACTORY: Step 303 pos: (3,51) target: (2, 54) path: [(3, 52), (3, 53), (2, 53), (1, 53), (1, 52), (2, 52), (2, 54)] jump_cd: 11 action: None
+DEBUG_FACTORY: Step 303 pos: (16,54) target: (17, 54) path: [] jump_cd: 0 action: EAST
+DEBUG_SCOUT: Step 303 uid: 278- pos: (13,49) energy: 26 target: None path: None
+DEBUG_FACTORY: Step 304 pos: (3,51) target: (2, 54) path: [(3, 52), (3, 53), (2, 53), (1, 53), (1, 52), (2, 52), (2, 54)] jump_cd: 10 action: None
+DEBUG_FACTORY: Step 304 pos: (17,54) target: (17, 54) path: [] jump_cd: 0 action: None
+DEBUG_SCOUT: Step 304 uid: 278- pos: (13,49) energy: 25 target: None path: None
+DEBUG_FACTORY: Step 305 pos: (3,51) target: (2, 54) path: [(3, 53), (2, 53), (1, 53), (1, 52), (2, 52), (2, 54)] jump_cd: 9 action: NORTH
+DEBUG_FACTORY: Step 305 pos: (17,54) target: (17, 54) path: [] jump_cd: 0 action: None
+DEBUG_SCOUT: Step 305 uid: 278- pos: (13,49) energy: 24 target: None path: None
+DEBUG_FACTORY: Step 306 pos: (3,52) target: (2, 54) path: [(3, 53), (2, 53), (1, 53), (1, 52), (2, 52), (2, 54)] jump_cd: 8 action: None
+DEBUG_FACTORY: Step 306 pos: (17,54) target: (17, 54) path: [] jump_cd: 0 action: BUILD_SCOUT_NORTH
+DEBUG_SCOUT: Step 306 uid: 278- pos: (13,49) energy: 23 target: None path: None
+DEBUG_FACTORY: Step 307 pos: (3,52) target: (2, 54) path: [(3, 53), (2, 53), (1, 53), (1, 52), (2, 52), (2, 54)] jump_cd: 7 action: None
+DEBUG_FACTORY: Step 307 pos: (17,54) target: (17, 62) path: [(16, 56), (15, 56), (15, 57), (14, 57), (14, 58), (14, 59), (14, 60), (14, 61), (14, 62), (15, 62), (17, 62)] jump_cd: 0 action: JUMP_NORTH
+DEBUG_SCOUT: Step 307 uid: 278- pos: (13,49) energy: 22 target: None path: None
+DEBUG_SCOUT: Step 307 uid: 306- pos: (17,55) energy: 50 target: None path: None
+DEBUG_FACTORY: Step 308 pos: (3,52) target: (2, 54) path: [(2, 53), (1, 53), (1, 52), (2, 52), (2, 54)] jump_cd: 6 action: NORTH
+DEBUG_FACTORY: Step 308 pos: (17,56) target: (17, 62) path: [(16, 56), (15, 56), (15, 57), (14, 57), (14, 58), (14, 59), (14, 60), (14, 61), (14, 62), (15, 62), (17, 62)] jump_cd: 20 action: None
+DEBUG_SCOUT: Step 308 uid: 278- pos: (13,49) energy: 21 target: None path: None
+DEBUG_SCOUT: Step 308 uid: 306- pos: (17,55) energy: 49 target: (16, 50) path: [(16, 54), (15, 54), (15, 53), (14, 53), (14, 52), (14, 51), (14, 50), (15, 50), (16, 50)]
+DEBUG_FACTORY: Step 309 pos: (3,53) target: (2, 54) path: [(2, 53), (1, 53), (1, 52), (2, 52), (2, 54)] jump_cd: 5 action: None
+DEBUG_FACTORY: Step 309 pos: (17,56) target: (17, 62) path: [(16, 56), (15, 56), (15, 57), (14, 57), (14, 58), (14, 59), (14, 60), (14, 61), (14, 62), (15, 62), (17, 62)] jump_cd: 19 action: None
+DEBUG_SCOUT: Step 309 uid: 278- pos: (13,49) energy: 20 target: None path: None
+DEBUG_SCOUT: Step 309 uid: 306- pos: (17,54) energy: 48 target: (16, 50) path: [(16, 54), (15, 54), (15, 53), (14, 53), (14, 52), (14, 51), (14, 50), (15, 50), (16, 50)]
+DEBUG_FACTORY: Step 310 pos: (3,53) target: (2, 54) path: [(2, 53), (1, 53), (1, 52), (2, 52), (2, 54)] jump_cd: 4 action: None
+DEBUG_FACTORY: Step 310 pos: (17,56) target: (17, 62) path: [(15, 56), (15, 57), (14, 57), (14, 58), (14, 59), (14, 60), (14, 61), (14, 62), (15, 62), (17, 62)] jump_cd: 18 action: WEST
+DEBUG_SCOUT: Step 310 uid: 278- pos: (13,49) energy: 19 target: None path: None
+DEBUG_SCOUT: Step 310 uid: 306- pos: (17,54) energy: 47 target: (16, 50) path: [(15, 54), (15, 53), (14, 53), (14, 52), (14, 51), (14, 50), (15, 50), (16, 50)]
+DEBUG_FACTORY: Step 311 pos: (3,53) target: (2, 54) path: [(1, 53), (1, 52), (2, 52), (2, 54)] jump_cd: 3 action: WEST
+DEBUG_FACTORY: Step 311 pos: (16,56) target: (17, 62) path: [(15, 56), (15, 57), (14, 57), (14, 58), (14, 59), (14, 60), (14, 61), (14, 62), (15, 62), (17, 62)] jump_cd: 17 action: None
+DEBUG_SCOUT: Step 311 uid: 278- pos: (13,49) energy: 18 target: None path: None
+DEBUG_SCOUT: Step 311 uid: 306- pos: (16,54) energy: 46 target: (16, 50) path: [(15, 54), (15, 53), (14, 53), (14, 52), (14, 51), (14, 50), (15, 50), (16, 50)]
+DEBUG_FACTORY: Step 312 pos: (2,53) target: (2, 54) path: [(1, 53), (1, 52), (2, 52), (2, 54)] jump_cd: 2 action: None
+DEBUG_FACTORY: Step 312 pos: (16,56) target: (17, 62) path: [(15, 56), (15, 57), (14, 57), (14, 58), (14, 59), (14, 60), (14, 61), (14, 62), (15, 62), (17, 62)] jump_cd: 16 action: None
+DEBUG_SCOUT: Step 312 uid: 278- pos: (13,49) energy: 17 target: None path: None
+DEBUG_SCOUT: Step 312 uid: 306- pos: (16,54) energy: 45 target: (16, 50) path: [(15, 53), (14, 53), (14, 52), (14, 51), (14, 50), (15, 50), (16, 50)]
+DEBUG_FACTORY: Step 313 pos: (2,53) target: (2, 54) path: [(1, 53), (1, 52), (2, 52), (2, 54)] jump_cd: 1 action: None
+DEBUG_FACTORY: Step 313 pos: (16,56) target: (17, 62) path: [(15, 57), (14, 57), (14, 58), (14, 59), (14, 60), (14, 61), (14, 62), (15, 62), (17, 62)] jump_cd: 15 action: WEST
+DEBUG_SCOUT: Step 313 uid: 278- pos: (13,49) energy: 16 target: None path: None
+DEBUG_SCOUT: Step 313 uid: 306- pos: (15,54) energy: 44 target: (16, 50) path: [(15, 53), (14, 53), (14, 52), (14, 51), (14, 50), (15, 50), (16, 50)]
+DEBUG_FACTORY: Step 314 pos: (2,53) target: (2, 54) path: [(1, 52), (2, 52), (2, 54)] jump_cd: 0 action: WEST
+DEBUG_FACTORY: Step 314 pos: (15,56) target: (17, 62) path: [(15, 57), (14, 57), (14, 58), (14, 59), (14, 60), (14, 61), (14, 62), (15, 62), (17, 62)] jump_cd: 14 action: None
+DEBUG_SCOUT: Step 314 uid: 278- pos: (13,49) energy: 15 target: None path: None
+DEBUG_SCOUT: Step 314 uid: 306- pos: (15,54) energy: 43 target: (16, 50) path: [(14, 53), (14, 52), (14, 51), (14, 50), (15, 50), (16, 50)]
+DEBUG_FACTORY: Step 315 pos: (1,53) target: (2, 54) path: [(1, 52), (2, 52), (2, 54)] jump_cd: 0 action: None
+DEBUG_FACTORY: Step 315 pos: (15,56) target: (17, 62) path: [(15, 57), (14, 57), (14, 58), (14, 59), (14, 60), (14, 61), (14, 62), (15, 62), (17, 62)] jump_cd: 13 action: None
+DEBUG_SCOUT: Step 315 uid: 278- pos: (13,49) energy: 14 target: None path: None
+DEBUG_SCOUT: Step 315 uid: 306- pos: (15,53) energy: 42 target: (16, 50) path: [(14, 53), (14, 52), (14, 51), (14, 50), (15, 50), (16, 50)]
+DEBUG_FACTORY: Step 316 pos: (1,53) target: (2, 54) path: [(1, 52), (2, 52), (2, 54)] jump_cd: 0 action: None
+DEBUG_FACTORY: Step 316 pos: (15,56) target: (17, 62) path: [(14, 57), (14, 58), (14, 59), (14, 60), (14, 61), (14, 62), (15, 62), (17, 62)] jump_cd: 12 action: NORTH
+DEBUG_SCOUT: Step 316 uid: 278- pos: (13,49) energy: 13 target: None path: None
+DEBUG_SCOUT: Step 316 uid: 306- pos: (15,53) energy: 41 target: (16, 50) path: [(14, 52), (14, 51), (14, 50), (15, 50), (16, 50)]
+DEBUG_FACTORY: Step 317 pos: (1,53) target: (2, 54) path: [(2, 52), (2, 54)] jump_cd: 0 action: JUMP_NORTH
+DEBUG_FACTORY: Step 317 pos: (15,57) target: (17, 62) path: [(14, 57), (14, 58), (14, 59), (14, 60), (14, 61), (14, 62), (15, 62), (17, 62)] jump_cd: 11 action: None
+DEBUG_SCOUT: Step 317 uid: 278- pos: (13,49) energy: 12 target: None path: None
+DEBUG_SCOUT: Step 317 uid: 306- pos: (14,53) energy: 40 target: (16, 50) path: [(14, 52), (14, 51), (14, 50), (15, 50), (16, 50)]
+DEBUG_FACTORY: Step 318 pos: (1,55) target: (2, 54) path: [(2, 52), (2, 54)] jump_cd: 20 action: None
+DEBUG_FACTORY: Step 318 pos: (15,57) target: (17, 62) path: [(14, 57), (14, 58), (14, 59), (14, 60), (14, 61), (14, 62), (15, 62), (17, 62)] jump_cd: 10 action: None
+DEBUG_SCOUT: Step 318 uid: 278- pos: (13,49) energy: 11 target: None path: None
+DEBUG_SCOUT: Step 318 uid: 306- pos: (14,53) energy: 39 target: (16, 50) path: [(14, 51), (14, 50), (15, 50), (16, 50)]
+DEBUG_FACTORY: Step 319 pos: (1,55) target: (2, 54) path: [(2, 52), (2, 54)] jump_cd: 19 action: None
+DEBUG_FACTORY: Step 319 pos: (15,57) target: (17, 62) path: [(14, 58), (14, 59), (14, 60), (14, 61), (14, 62), (15, 62), (17, 62)] jump_cd: 9 action: WEST
+DEBUG_SCOUT: Step 319 uid: 278- pos: (13,49) energy: 10 target: None path: None
+DEBUG_SCOUT: Step 319 uid: 306- pos: (14,52) energy: 38 target: (16, 50) path: [(14, 51), (14, 50), (15, 50), (16, 50)]
+DEBUG_FACTORY: Step 320 pos: (1,55) target: (2, 54) path: [(2, 52), (2, 54)] jump_cd: 18 action: None
+DEBUG_FACTORY: Step 320 pos: (14,57) target: (17, 62) path: [(14, 58), (14, 59), (14, 60), (14, 61), (14, 62), (15, 62), (17, 62)] jump_cd: 8 action: None
+DEBUG_SCOUT: Step 320 uid: 278- pos: (13,49) energy: 9 target: None path: None
+DEBUG_SCOUT: Step 320 uid: 306- pos: (14,52) energy: 37 target: (16, 50) path: [(14, 50), (15, 50), (16, 50)]
+DEBUG_FACTORY: Step 321 pos: (1,55) target: (2, 54) path: [(2, 52), (2, 54)] jump_cd: 17 action: None
+DEBUG_FACTORY: Step 321 pos: (14,57) target: (17, 62) path: [(14, 58), (14, 59), (14, 60), (14, 61), (14, 62), (15, 62), (17, 62)] jump_cd: 7 action: None
+DEBUG_SCOUT: Step 321 uid: 278- pos: (13,49) energy: 8 target: None path: None
+DEBUG_SCOUT: Step 321 uid: 306- pos: (14,51) energy: 36 target: (16, 50) path: [(14, 50), (15, 50), (16, 50)]
+DEBUG_FACTORY: Step 322 pos: (1,55) target: (2, 54) path: [(2, 52), (2, 54)] jump_cd: 16 action: None
+DEBUG_FACTORY: Step 322 pos: (14,57) target: (17, 62) path: [(14, 59), (14, 60), (14, 61), (14, 62), (15, 62), (17, 62)] jump_cd: 6 action: NORTH
+DEBUG_SCOUT: Step 322 uid: 278- pos: (13,49) energy: 7 target: None path: None
+DEBUG_SCOUT: Step 322 uid: 306- pos: (14,51) energy: 35 target: (16, 50) path: [(15, 50), (16, 50)]
+DEBUG_FACTORY: Step 323 pos: (1,55) target: (2, 54) path: [(2, 52), (2, 54)] jump_cd: 15 action: None
+DEBUG_FACTORY: Step 323 pos: (14,58) target: (17, 62) path: [(14, 59), (14, 60), (14, 61), (14, 62), (15, 62), (17, 62)] jump_cd: 5 action: None
+DEBUG_SCOUT: Step 323 uid: 278- pos: (13,49) energy: 6 target: None path: None
+DEBUG_SCOUT: Step 323 uid: 306- pos: (14,50) energy: 34 target: (16, 50) path: [(15, 50), (16, 50)]
+DEBUG_FACTORY: Step 324 pos: (1,55) target: (2, 54) path: [(2, 52), (2, 54)] jump_cd: 14 action: None
+DEBUG_FACTORY: Step 324 pos: (14,58) target: (17, 62) path: [(14, 59), (14, 60), (14, 61), (14, 62), (15, 62), (17, 62)] jump_cd: 4 action: None
+DEBUG_SCOUT: Step 324 uid: 278- pos: (13,49) energy: 5 target: None path: None
+DEBUG_SCOUT: Step 324 uid: 306- pos: (14,50) energy: 33 target: (16, 50) path: [(16, 50)]
+DEBUG_FACTORY: Step 325 pos: (1,55) target: (2, 54) path: [(2, 52), (2, 54)] jump_cd: 13 action: None
+DEBUG_FACTORY: Step 325 pos: (14,58) target: (17, 62) path: [(14, 60), (14, 61), (14, 62), (15, 62), (17, 62)] jump_cd: 3 action: NORTH
+DEBUG_SCOUT: Step 325 uid: 278- pos: (13,49) energy: 4 target: None path: None
+DEBUG_SCOUT: Step 325 uid: 306- pos: (15,50) energy: 32 target: (16, 50) path: [(16, 50)]
+DEBUG_FACTORY: Step 326 pos: (1,55) target: (2, 54) path: [(2, 52), (2, 54)] jump_cd: 12 action: None
+DEBUG_FACTORY: Step 326 pos: (14,59) target: (17, 62) path: [(14, 60), (14, 61), (14, 62), (15, 62), (17, 62)] jump_cd: 2 action: None
+DEBUG_SCOUT: Step 326 uid: 278- pos: (13,49) energy: 3 target: None path: None
+DEBUG_SCOUT: Step 326 uid: 306- pos: (15,50) energy: 31 target: (16, 50) path: []
+DEBUG_FACTORY: Step 327 pos: (1,55) target: (2, 54) path: [(2, 52), (2, 54)] jump_cd: 11 action: None
+DEBUG_FACTORY: Step 327 pos: (14,59) target: (17, 62) path: [(14, 60), (14, 61), (14, 62), (15, 62), (17, 62)] jump_cd: 1 action: None
+DEBUG_SCOUT: Step 327 uid: 278- pos: (13,49) energy: 2 target: None path: None
+DEBUG_SCOUT: Step 327 uid: 306- pos: (16,50) energy: 56 target: (16, 50) path: []
+DEBUG_FACTORY: Step 328 pos: (1,55) target: (2, 54) path: [(2, 52), (2, 54)] jump_cd: 10 action: None
+DEBUG_FACTORY: Step 328 pos: (14,59) target: (15, 61) path: [(15, 61)] jump_cd: 0 action: JUMP_NORTH
+DEBUG_SCOUT: Step 328 uid: 278- pos: (13,49) energy: 1 target: None path: None
+DEBUG_SCOUT: Step 328 uid: 306- pos: (16,50) energy: 55 target: (11, 60) path: [(14, 50), (14, 51), (14, 52), (14, 53), (13, 53), (12, 53), (11, 53), (11, 54), (11, 55), (11, 56), (11, 57), (11, 58), (11, 59), (11, 60)]
+DEBUG_FACTORY: Step 329 pos: (1,55) target: (2, 54) path: [(2, 52), (2, 54)] jump_cd: 9 action: None
+DEBUG_FACTORY: Step 329 pos: (14,61) target: (15, 61) path: [(15, 61)] jump_cd: 20 action: None
+DEBUG_SCOUT: Step 329 uid: 278- pos: (13,49) energy: 0 target: None path: None
+DEBUG_SCOUT: Step 329 uid: 306- pos: (15,50) energy: 54 target: (11, 60) path: [(14, 50), (14, 51), (14, 52), (14, 53), (13, 53), (12, 53), (11, 53), (11, 54), (11, 55), (11, 56), (11, 57), (11, 58), (11, 59), (11, 60)]
+DEBUG_FACTORY: Step 330 pos: (1,55) target: (2, 54) path: [(2, 52), (2, 54)] jump_cd: 8 action: None
+DEBUG_FACTORY: Step 330 pos: (14,61) target: (15, 61) path: [(15, 61)] jump_cd: 19 action: None
+DEBUG_SCOUT: Step 330 uid: 278- pos: (13,49) energy: 0 target: None path: None
+DEBUG_SCOUT: Step 330 uid: 306- pos: (15,50) energy: 53 target: (11, 60) path: [(14, 51), (14, 52), (14, 53), (13, 53), (12, 53), (11, 53), (11, 54), (11, 55), (11, 56), (11, 57), (11, 58), (11, 59), (11, 60)]
+DEBUG_FACTORY: Step 331 pos: (1,55) target: (2, 54) path: [(2, 52), (2, 54)] jump_cd: 7 action: None
+DEBUG_FACTORY: Step 331 pos: (14,61) target: (15, 61) path: [] jump_cd: 18 action: EAST
+DEBUG_SCOUT: Step 331 uid: 278- pos: (13,49) energy: 0 target: None path: None
+DEBUG_SCOUT: Step 331 uid: 306- pos: (14,50) energy: 52 target: (11, 60) path: [(14, 51), (14, 52), (14, 53), (13, 53), (12, 53), (11, 53), (11, 54), (11, 55), (11, 56), (11, 57), (11, 58), (11, 59), (11, 60)]
+DEBUG_FACTORY: Step 332 pos: (1,55) target: (2, 54) path: [(2, 52), (2, 54)] jump_cd: 6 action: None
+DEBUG_FACTORY: Step 332 pos: (15,61) target: (15, 61) path: [] jump_cd: 17 action: None
+DEBUG_SCOUT: Step 332 uid: 278- pos: (13,49) energy: 0 target: None path: None
+DEBUG_SCOUT: Step 332 uid: 306- pos: (14,50) energy: 51 target: (11, 60) path: [(14, 52), (14, 53), (13, 53), (12, 53), (11, 53), (11, 54), (11, 55), (11, 56), (11, 57), (11, 58), (11, 59), (11, 60)]
+DEBUG_FACTORY: Step 333 pos: (1,55) target: (2, 54) path: [(2, 52), (2, 54)] jump_cd: 5 action: None
+DEBUG_FACTORY: Step 333 pos: (15,61) target: (15, 61) path: [] jump_cd: 16 action: None
+DEBUG_SCOUT: Step 333 uid: 306- pos: (14,51) energy: 50 target: (11, 60) path: [(14, 52), (14, 53), (13, 53), (12, 53), (11, 53), (11, 54), (11, 55), (11, 56), (11, 57), (11, 58), (11, 59), (11, 60)]
+DEBUG_FACTORY: Step 334 pos: (1,55) target: (2, 54) path: [(2, 52), (2, 54)] jump_cd: 4 action: None
+DEBUG_FACTORY: Step 334 pos: (15,61) target: (16, 64) path: [(16, 60), (16, 61), (16, 60), (16, 61), (16, 60), (16, 61), (15, 61), (15, 63), (15, 64), (16, 64)] jump_cd: 15 action: EAST
+DEBUG_SCOUT: Step 334 uid: 306- pos: (14,51) energy: 49 target: (11, 60) path: [(14, 53), (13, 53), (12, 53), (11, 53), (11, 54), (11, 55), (11, 56), (11, 57), (11, 58), (11, 59), (11, 60)]
+DEBUG_FACTORY: Step 335 pos: (1,55) target: (2, 54) path: [(2, 52), (2, 54)] jump_cd: 3 action: None
+DEBUG_FACTORY: Step 335 pos: (16,61) target: (16, 64) path: [(16, 60), (16, 61), (16, 60), (16, 61), (16, 60), (16, 61), (15, 61), (15, 63), (15, 64), (16, 64)] jump_cd: 14 action: None
+DEBUG_SCOUT: Step 335 uid: 306- pos: (14,52) energy: 48 target: (11, 60) path: [(14, 53), (13, 53), (12, 53), (11, 53), (11, 54), (11, 55), (11, 56), (11, 57), (11, 58), (11, 59), (11, 60)]
+DEBUG_FACTORY: Step 336 pos: (1,55) target: (2, 54) path: [(2, 52), (2, 54)] jump_cd: 2 action: None
+DEBUG_FACTORY: Step 336 pos: (16,61) target: (16, 64) path: [(16, 60), (16, 61), (16, 60), (16, 61), (16, 60), (16, 61), (15, 61), (15, 63), (15, 64), (16, 64)] jump_cd: 13 action: None
+DEBUG_SCOUT: Step 336 uid: 306- pos: (14,52) energy: 47 target: (11, 60) path: [(13, 53), (12, 53), (11, 53), (11, 54), (11, 55), (11, 56), (11, 57), (11, 58), (11, 59), (11, 60)]
+DEBUG_FACTORY: Step 337 pos: (1,55) target: (2, 54) path: [(2, 52), (2, 54)] jump_cd: 1 action: None
+DEBUG_FACTORY: Step 337 pos: (16,61) target: (16, 64) path: [(16, 61), (16, 60), (16, 61), (16, 60), (16, 61), (15, 61), (15, 63), (15, 64), (16, 64)] jump_cd: 12 action: SOUTH
+DEBUG_SCOUT: Step 337 uid: 306- pos: (14,53) energy: 46 target: (11, 60) path: [(13, 53), (12, 53), (11, 53), (11, 54), (11, 55), (11, 56), (11, 57), (11, 58), (11, 59), (11, 60)]
+DEBUG_FACTORY: Step 338 pos: (1,55) target: (2, 54) path: [(2, 52), (2, 54)] jump_cd: 0 action: None
+DEBUG_FACTORY: Step 338 pos: (16,60) target: (16, 64) path: [(16, 61), (16, 60), (16, 61), (16, 60), (16, 61), (15, 61), (15, 63), (15, 64), (16, 64)] jump_cd: 11 action: None
+DEBUG_SCOUT: Step 338 uid: 306- pos: (14,53) energy: 45 target: (11, 60) path: [(12, 53), (11, 53), (11, 54), (11, 55), (11, 56), (11, 57), (11, 58), (11, 59), (11, 60)]
+DEBUG_FACTORY: Step 339 pos: (1,55) target: (2, 54) path: [(2, 52), (2, 54)] jump_cd: 0 action: None
+DEBUG_FACTORY: Step 339 pos: (16,60) target: (16, 64) path: [(16, 61), (16, 60), (16, 61), (16, 60), (16, 61), (15, 61), (15, 63), (15, 64), (16, 64)] jump_cd: 10 action: None
+DEBUG_SCOUT: Step 339 uid: 306- pos: (13,53) energy: 44 target: (11, 60) path: [(12, 53), (11, 53), (11, 54), (11, 55), (11, 56), (11, 57), (11, 58), (11, 59), (11, 60)]
+DEBUG_FACTORY: Step 340 pos: (1,55) target: (2, 54) path: [(2, 52), (2, 54)] jump_cd: 0 action: None
+DEBUG_FACTORY: Step 340 pos: (16,60) target: (16, 64) path: [(16, 60), (16, 61), (16, 60), (16, 61), (15, 61), (15, 63), (15, 64), (16, 64)] jump_cd: 9 action: NORTH
+DEBUG_SCOUT: Step 340 uid: 306- pos: (13,53) energy: 43 target: (11, 60) path: [(11, 53), (11, 54), (11, 55), (11, 56), (11, 57), (11, 58), (11, 59), (11, 60)]
+DEBUG_FACTORY: Step 341 pos: (1,55) target: (2, 54) path: [(2, 52), (2, 54)] jump_cd: 0 action: None
+DEBUG_FACTORY: Step 341 pos: (16,61) target: (16, 64) path: [(16, 60), (16, 61), (16, 60), (16, 61), (15, 61), (15, 63), (15, 64), (16, 64)] jump_cd: 8 action: None
+DEBUG_SCOUT: Step 341 uid: 306- pos: (12,53) energy: 42 target: (11, 60) path: [(11, 53), (11, 54), (11, 55), (11, 56), (11, 57), (11, 58), (11, 59), (11, 60)]
+DEBUG_FACTORY: Step 342 pos: (1,55) target: (2, 54) path: [(2, 52), (2, 54)] jump_cd: 0 action: None
+DEBUG_FACTORY: Step 342 pos: (16,61) target: (16, 64) path: [(16, 60), (16, 61), (16, 60), (16, 61), (15, 61), (15, 63), (15, 64), (16, 64)] jump_cd: 7 action: None
+DEBUG_SCOUT: Step 342 uid: 306- pos: (12,53) energy: 41 target: (11, 60) path: [(11, 54), (11, 55), (11, 56), (11, 57), (11, 58), (11, 59), (11, 60)]
+DEBUG_FACTORY: Step 343 pos: (1,55) target: (2, 54) path: [(2, 52), (2, 54)] jump_cd: 0 action: None
+DEBUG_FACTORY: Step 343 pos: (16,61) target: (16, 64) path: [(16, 61), (16, 60), (16, 61), (15, 61), (15, 63), (15, 64), (16, 64)] jump_cd: 6 action: SOUTH
+DEBUG_SCOUT: Step 343 uid: 306- pos: (11,53) energy: 40 target: (11, 60) path: [(11, 54), (11, 55), (11, 56), (11, 57), (11, 58), (11, 59), (11, 60)]
+DEBUG_FACTORY: Step 344 pos: (1,55) target: (2, 54) path: [(2, 52), (2, 54)] jump_cd: 0 action: None
+DEBUG_FACTORY: Step 344 pos: (16,60) target: (16, 64) path: [(16, 61), (16, 60), (16, 61), (15, 61), (15, 63), (15, 64), (16, 64)] jump_cd: 5 action: None
+DEBUG_SCOUT: Step 344 uid: 306- pos: (11,53) energy: 39 target: (11, 60) path: [(11, 55), (11, 56), (11, 57), (11, 58), (11, 59), (11, 60)]
+DEBUG_FACTORY: Step 345 pos: (1,55) target: (2, 54) path: [(2, 52), (2, 54)] jump_cd: 0 action: None
+DEBUG_FACTORY: Step 345 pos: (16,60) target: (16, 64) path: [(16, 61), (16, 60), (16, 61), (15, 61), (15, 63), (15, 64), (16, 64)] jump_cd: 4 action: None
+DEBUG_SCOUT: Step 345 uid: 306- pos: (11,54) energy: 38 target: (11, 60) path: [(11, 55), (11, 56), (11, 57), (11, 58), (11, 59), (11, 60)]
+DEBUG_FACTORY: Step 346 pos: (1,55) target: (2, 54) path: [(2, 52), (2, 54)] jump_cd: 0 action: None
+DEBUG_FACTORY: Step 346 pos: (16,60) target: (16, 64) path: [(16, 60), (16, 61), (15, 61), (15, 63), (15, 64), (16, 64)] jump_cd: 3 action: NORTH
+DEBUG_SCOUT: Step 346 uid: 306- pos: (11,54) energy: 37 target: (11, 60) path: [(11, 56), (11, 57), (11, 58), (11, 59), (11, 60)]
+DEBUG_FACTORY: Step 347 pos: (1,55) target: (2, 54) path: [(2, 52), (2, 54)] jump_cd: 0 action: None
+DEBUG_FACTORY: Step 347 pos: (16,61) target: (16, 64) path: [(16, 60), (16, 61), (15, 61), (15, 63), (15, 64), (16, 64)] jump_cd: 2 action: None
+DEBUG_SCOUT: Step 347 uid: 306- pos: (11,55) energy: 36 target: (11, 60) path: [(11, 56), (11, 57), (11, 58), (11, 59), (11, 60)]
+DEBUG_FACTORY: Step 348 pos: (1,55) target: (2, 54) path: [(2, 52), (2, 54)] jump_cd: 0 action: None
+DEBUG_FACTORY: Step 348 pos: (16,61) target: (16, 64) path: [(16, 60), (16, 61), (15, 61), (15, 63), (15, 64), (16, 64)] jump_cd: 1 action: None
+DEBUG_SCOUT: Step 348 uid: 306- pos: (11,55) energy: 35 target: (11, 60) path: [(11, 57), (11, 58), (11, 59), (11, 60)]
+DEBUG_FACTORY: Step 349 pos: (1,55) target: (2, 54) path: [(2, 52), (2, 54)] jump_cd: 0 action: None
+DEBUG_FACTORY: Step 349 pos: (16,61) target: (16, 64) path: [(16, 61), (15, 61), (15, 63), (15, 64), (16, 64)] jump_cd: 0 action: JUMP_NORTH
+DEBUG_SCOUT: Step 349 uid: 306- pos: (11,56) energy: 34 target: (11, 60) path: [(11, 57), (11, 58), (11, 59), (11, 60)]
+DEBUG_FACTORY: Step 350 pos: (1,55) target: (2, 54) path: [(2, 52), (2, 54)] jump_cd: 0 action: None
+DEBUG_FACTORY: Step 350 pos: (16,63) target: (16, 64) path: [(16, 61), (15, 61), (15, 63), (15, 64), (16, 64)] jump_cd: 20 action: None
+DEBUG_SCOUT: Step 350 uid: 306- pos: (11,56) energy: 33 target: (11, 60) path: [(11, 58), (11, 59), (11, 60)]
+DEBUG_FACTORY: Step 351 pos: (1,55) target: (2, 54) path: [(2, 52), (2, 54)] jump_cd: 0 action: None
+DEBUG_FACTORY: Step 351 pos: (16,63) target: (16, 64) path: [(16, 61), (15, 61), (15, 63), (15, 64), (16, 64)] jump_cd: 19 action: None
+DEBUG_SCOUT: Step 351 uid: 306- pos: (11,57) energy: 32 target: (11, 60) path: [(11, 58), (11, 59), (11, 60)]
+DEBUG_FACTORY: Step 352 pos: (1,55) target: (2, 54) path: [(2, 52), (2, 54)] jump_cd: 0 action: None
+DEBUG_FACTORY: Step 352 pos: (16,63) target: (16, 64) path: [(15, 61), (15, 63), (15, 64), (16, 64)] jump_cd: 18 action: JUMP_SOUTH
+DEBUG_SCOUT: Step 352 uid: 306- pos: (11,57) energy: 31 target: (11, 60) path: [(11, 59), (11, 60)]
+DEBUG_FACTORY: Step 353 pos: (1,55) target: (2, 54) path: [(2, 52), (2, 54)] jump_cd: 0 action: None
+DEBUG_FACTORY: Step 353 pos: (16,63) target: (16, 64) path: [(15, 64), (16, 64)] jump_cd: 17 action: WEST
+DEBUG_SCOUT: Step 353 uid: 306- pos: (11,58) energy: 30 target: (11, 60) path: [(11, 59), (11, 60)]
+DEBUG_FACTORY: Step 354 pos: (1,55) target: (2, 54) path: [(2, 52), (2, 54)] jump_cd: 0 action: None
+DEBUG_FACTORY: Step 354 pos: (15,63) target: (16, 64) path: [(15, 64), (16, 64)] jump_cd: 16 action: None
+DEBUG_SCOUT: Step 354 uid: 306- pos: (11,58) energy: 29 target: (11, 60) path: [(11, 60)]
+DEBUG_FACTORY: Step 355 pos: (1,55) target: (2, 54) path: [(2, 52), (2, 54)] jump_cd: 0 action: None
+DEBUG_FACTORY: Step 355 pos: (15,63) target: (16, 64) path: [(15, 64), (16, 64)] jump_cd: 15 action: None
+DEBUG_SCOUT: Step 355 uid: 306- pos: (11,59) energy: 28 target: (11, 60) path: [(11, 60)]
+DEBUG_FACTORY: Step 356 pos: (1,55) target: (2, 54) path: [(2, 52), (2, 54)] jump_cd: 0 action: None
+DEBUG_FACTORY: Step 356 pos: (15,63) target: (16, 64) path: [(16, 64)] jump_cd: 14 action: NORTH
+DEBUG_SCOUT: Step 356 uid: 306- pos: (11,59) energy: 27 target: (11, 60) path: []
