@@ -206,3 +206,4 @@ env.render(mode="ipython", width=800, height=800)
 | `crystalDensity` | 0.06 | Crystal spawn probability per cell |
 | `miningNodeDensity` | 0.03 | Mining node spawn probability per cell |
 | `doorProbability` | 0.08 | Door probability between maze halves |
+ 
